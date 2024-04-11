@@ -1,0 +1,64 @@
+version: "3.8"
+services:
+  app:
+    image: horoscope-server:1.0.0-dev
+    container_name: horoscope-server-dev
+    build:
+      context: .
+      dockerfile: docker/nest/dev.dockerfile
+    working_dir: /home/node/workspace
+    command: npm run start:debug
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - .:/home/node/workspace
+      - /home/node/workspace/node_modules
+    networks:
+      - horoscope-network
+    env_file:
+      - .env.dev
+    ports:
+      - '8026:8000'
+
+  database:
+    container_name: horoscope-database
+    image: postgres:14.1
+    restart: unless-stopped
+    volumes:
+      - horoscope-database:/var/lib/postgres
+      - ./docker/postgres:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - 5443:5432
+    networks:
+      - horoscope-network
+
+  vector:
+    container_name: horoscope-vector
+    image: ankane/pgvector
+    ports:
+      - 5448:5433
+    volumes:
+      - horoscope-vector:/var/lib/postgres
+      #- ./docker/postgres:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 123456
+      PGPORT: 5433
+      POSTGRES_DB: postgres
+    networks:
+      - horoscope-network
+
+networks:
+  horoscope-network:
+    driver: bridge
+
+volumes:
+  horoscope-redis:
+    driver: local
+  horoscope-database:
+    driver: local
+  horoscope-vector:
+    driver: local
