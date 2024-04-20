@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lá số tử vi</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/client.js"></script>
+</head>
+
+<body>
+    <div class="laso border" id="laso">
+        <div class="grid">
+            <div class="col col-3">
+                <div class="container">
+                    <div class="grid diaCung border-bottom" cung-id="6" id="cungTy5">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[6].cungTen}}">{{thapNhiCung.[6].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[6].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[6].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[6].cungDaiHan}} - ({{#plus thapNhiCung.[6].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[6].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[6].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[6].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[6].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[6].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[6].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[6].cungTieuHan}}">{{thapNhiCung.[6].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[6].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[6].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[6].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[6].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[6].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung border-bottom" cung-id="5" id="cungThin">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[5].cungTen}}">{{thapNhiCung.[5].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[5].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[5].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[5].cungDaiHan}} - ({{#plus thapNhiCung.[5].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[5].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[5].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[5].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[5].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[5].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[5].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[5].cungTieuHan}}">{{thapNhiCung.[5].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[5].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[5].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[5].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[5].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[5].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung border-bottom inset-border" cung-id="4" id="cungMao">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[4].cungTen}}">{{thapNhiCung.[4].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[4].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[4].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[4].cungDaiHan}} - ({{#plus thapNhiCung.[4].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[4].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[4].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[4].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[4].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[4].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[4].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[4].cungTieuHan}}">{{thapNhiCung.[4].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[4].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[4].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[4].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[4].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[4].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung" cung-id="3" id="cungDan">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[3].cungTen}}">{{thapNhiCung.[3].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[3].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[3].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[3].cungDaiHan}} - ({{#plus thapNhiCung.[3].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[3].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[3].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[3].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[3].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[3].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[3].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[3].cungTieuHan}}">{{thapNhiCung.[3].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[3].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[3].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[3].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[3].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[3].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-6">
+                <div class="container">
+                    <div class="grid">
+                        <div class="col col-6 diaCung border-left" cung-id="7" id="cungNgo">
+                                                        <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[7].cungTen}}">{{thapNhiCung.[7].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[7].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[7].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[7].cungDaiHan}} - ({{#plus thapNhiCung.[7].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[7].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[7].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[7].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[7].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[7].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[7].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[7].cungTieuHan}}">{{thapNhiCung.[7].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[7].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[7].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[7].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[7].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[7].hanhCung}}
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="col col-6 diaCung border-left" cung-id="8" id="cungMui">
+                                                        <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[8].cungTen}}">{{thapNhiCung.[8].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[8].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[8].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[8].cungDaiHan}} - ({{#plus thapNhiCung.[8].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[8].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[8].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[8].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[8].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[8].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[8].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[8].cungTieuHan}}">{{thapNhiCung.[8].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[8].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[8].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[8].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[8].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[8].hanhCung}}
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="grid thienBan border-top border-left border-bottom border-right">
+                          <div class="noidung">
+                              <div class="header">Ngày xem: {{thienBan.today}}</div>
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Họ tên</div>
+                                  <div class="col col-9 cotPhai">{{thienBan.ten}}</div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Bát tự</div>
+                                  <div class="col col-9 cotPhai">
+                                    <div>Năm {{thienBan.namAm}} ({{thienBan.canNamTen}} {{thienBan.chiNamTen}})</div> 
+                                    <div>Tháng {{thienBan.thangAm}} ({{thienBan.canThangTen}} {{thienBan.chiThangTen}}) {{#ifCond thienBan.thangNhuan "==" 1}} (nhuận) {{/ifCond}}</div>
+                                    <div>Ngày {{thienBan.ngayAm}} ({{thienBan.canNgayTen}} {{thienBan.chiNgayTen}})</div>
+                                    <div>Giờ ({{thienBan.gioSinh}})</div>
+                                  </div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Tuổi</div>
+                                  <div class="col col-9 cotPhai">{{thienBan.amDuongNamSinh}} {{thienBan.namNu}} ({{thienBan.amDuongMenh}})</div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Ngày sinh</div>
+                                  <div class="col col-9 cotPhai">
+                                      <div>{{thienBan.ngayAm}}/{{thienBan.thangAm}}/{{thienBan.canNamTen}} {{thienBan.chiNamTen}} (Âm lịch)</div>
+                                      <div>{{thienBan.ngayDuong}}/{{thienBan.thangDuong}}/{{thienBan.namDuong}} (Dương lịch)</div>
+                                  </div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Bản mệnh</div>
+                                  <div class="col col-9 cotPhai">
+                                      {{thienBan.banMenh}}
+                                  </div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Cục</div>
+                                  <div class="col col-9 cotPhai">
+                                      {{thienBan.tenCuc}}
+                                  </div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Mệnh chủ</div>
+                                  <div class="col col-9 cotPhai">
+                                      {{thienBan.menhChu}}
+                                  </div>
+                              </div>
+
+                              <div class="grid">
+                                  <div class="col col-3 cotTrai">Thân chủ</div>
+                                  <div class="col col-9 cotPhai">
+                                      {{thienBan.thanChu}}
+                                  </div>
+                              </div>
+
+                              <div class="grid sinhkhac">
+                                  {{thienBan.sinhKhac}}
+                              </div>
+
+                              <div class="mausac">
+                                  <div class="grid">
+                                      <span class="col col-2">Màu sắc</span>
+                                      <span class="col col-2 hanhKim gioithieuhanh">Kim</span>
+                                      <span class="col col-2 hanhThuy gioithieuhanh">Thủy</span>
+                                      <span class="col col-2 hanhHoa gioithieuhanh">Hỏa</span>
+                                      <span class="col col-2 hanhTho gioithieuhanh">Thổ</span>
+                                      <span class="col col-2 hanhMoc gioithieuhanh">Mộc</span>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="grid">
+                        <div class="col col-6 diaCung border-left" cung-id="2" id="cungSuu">
+                                                          <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[2].cungTen}}">{{thapNhiCung.[2].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[2].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[2].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[2].cungDaiHan}} - ({{#plus thapNhiCung.[2].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[2].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[2].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[2].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[2].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[2].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[2].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[2].cungTieuHan}}">{{thapNhiCung.[2].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[2].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[2].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[2].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[2].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[2].hanhCung}}
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="col col-6 diaCung border-left" cung-id="1" id="cungTy1">
+                              <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[1].cungTen}}">{{thapNhiCung.[1].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[1].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[1].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[1].cungDaiHan}} - ({{#plus thapNhiCung.[1].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[1].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[1].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[1].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[1].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[1].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[1].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[1].cungTieuHan}}">{{thapNhiCung.[1].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[1].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[1].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[1].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[1].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[1].hanhCung}}
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="container">
+                    <div class="grid diaCung border-left border-bottom" cung-id="9" id="cungThan">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[9].cungTen}}">{{thapNhiCung.[9].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[9].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[9].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[9].cungDaiHan}} - ({{#plus thapNhiCung.[9].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[9].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[9].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[9].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[9].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[9].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[9].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[9].cungTieuHan}}">{{thapNhiCung.[9].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[9].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[9].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[9].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[9].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[9].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung border-bottom" cung-id="10" id="cungDau">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[10].cungTen}}">{{thapNhiCung.[10].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[10].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[10].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[10].cungDaiHan}} - ({{#plus thapNhiCung.[10].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[10].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[10].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[10].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[10].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[10].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[10].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[10].cungTieuHan}}">{{thapNhiCung.[10].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[10].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[10].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[10].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[10].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[10].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung border-bottom" cung-id="11" id="cungTuat">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[11].cungTen}}">{{thapNhiCung.[11].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[11].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[11].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[11].cungDaiHan}} - ({{#plus thapNhiCung.[11].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[11].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[11].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[11].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[11].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[11].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[11].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[11].cungTieuHan}}">{{thapNhiCung.[11].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[11].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[11].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[11].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[11].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[11].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                    <div class="grid diaCung border-left" cung-id="12" id="cungHoi">
+                                                    <div class="grid cung-top">
+                                  <div class="col col-2 tooltips" title="Địa chi cung {{thapNhiCung.[12].cungTen}}">{{thapNhiCung.[12].cungTen}}</div>
+                                  <div class="col col-8">
+                                      <span class="cungChu">
+                                        {{thapNhiCung.[12].cungChu}}
+                                      </span> {{#ifCond thapNhiCung.[12].cungThan "==" true}}
+                                      <span class="cungThan label">Thân</span> {{/ifCond}}
+                                  </div>
+                                  <div class="col col-2 tooltips" title="Đại hạn {{thapNhiCung.[12].cungDaiHan}} - ({{#plus thapNhiCung.[12].cungDaiHan 9}} {{/plus}})">{{thapNhiCung.[12].cungDaiHan}}</div>
+                              </div>
+                              <div class="grid cung-middle">
+                                <div class="chinhTinh">
+                                    {{#each thapNhiCung.[12].cungSao}}
+                                    {{#ifCond saoLoai "==" 1}}
+                                    <li class="{{cssSao}}">{{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                    </li>
+                                    {{/ifCond}} {{/each}}
+                                </div>
+
+                                <div class="phuTinh">
+                                  <div class="saotot">
+                                      {{#each thapNhiCung.[12].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}}{{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai
+                                      "<" 10}} 
+                                        <div class="grid">
+                                            <div class="col {{cssSao}}">
+                                                {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                            </div>
+                                        </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="saoxau">
+                                      {{#each thapNhiCung.[12].cungSao}}
+                                      {{#ifCond vongTrangSinh "===" 0}} {{#ifCond saoLoai "!==" 1}} {{#ifCond saoLoai ">" 10}}
+                                      <div class="grid">
+                                          <div class="{{cssSao}}">
+                                              {{saoTen}} {{#ifCond saoDacTinh "!==" null}} ({{saoDacTinh}}) {{/ifCond}}
+                                          </div>
+                                      </div>
+                                      {{/ifCond}}{{/ifCond}}{{/ifCond}} {{/each}}
+                                  </div>
+                                  <div class="tuanTriet">
+                                      {{#ifCond thapNhiCung.[12].trietLo "==" true}}
+                                      <span class="label label-triet">Triệt</span> {{/ifCond}} {{#ifCond thapNhiCung.[12].tuanTrung "==" true}}
+                                      <span class="label label-tuan">Tuần</span> {{/ifCond}}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="grid cung-bottom">
+                                  <div class="col col-3 tooltips" title="Tiểu hạn của năm {{thapNhiCung.[12].cungTieuHan}}">{{thapNhiCung.[12].cungTieuHan}}</div>
+                                  {{#each thapNhiCung.[12].cungSao}} {{#ifCond vongTrangSinh "==" 1}}
+                                  <div class="col col-6 {{cssSao}}">
+                                      {{saoTen}}
+                                  </div>
+                                  {{/ifCond}} {{/each}}
+                                  <div class="col col-3 tooltips" title="Cung ({{#ifCond thapNhiCung.[12].cungAmDuong '==' -1}}âm{{else}}dương{{/ifCond}}), ngũ hành {{thapNhiCung.[12].hanhCung}}">
+                                      {{#ifCond thapNhiCung.[12].cungAmDuong "==" -1}}-{{else}}+{{/ifCond}}{{thapNhiCung.[12].hanhCung}}
+                                  </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+</body>
+
+</html>

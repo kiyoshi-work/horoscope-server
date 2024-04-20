@@ -1,7 +1,7 @@
 import { Inject, Module, OnApplicationBootstrap } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { DatabaseModule } from '@/database';
-import { VectorStoreModule } from "@/vectorstore-db/vector-store.module";
+import { VectorStoreModule } from '@/vectorstore-db/vector-store.module';
 import { configAI } from './configs/ai';
 import { AiService } from './services/ai.service';
 import { TestTool } from './tools/test.tool';
@@ -38,7 +38,10 @@ export class AiModule implements OnApplicationBootstrap {
   ) { }
 
   async handleMockDataTopic(docs: any, keyTopicId: string) {
-    console.log("🚀 ~ VectorStoreModule ~ handleMockDataTopic ~ keyTopicId:", keyTopicId)
+    console.log(
+      '🚀 ~ VectorStoreModule ~ handleMockDataTopic ~ keyTopicId:',
+      keyTopicId,
+    );
     let data = [];
     try {
       data = await this.documentRepository.queryOrmVector('', 10, {
@@ -56,9 +59,7 @@ export class AiModule implements OnApplicationBootstrap {
     }
   }
 
-
   async onApplicationBootstrap() {
-
     // const loader = new PDFLoader(path.join(__dirname, '../../files/58_TU_VI_THUC_HANH.pdf'), {
     //   splitPages: false,
     // });
@@ -69,8 +70,6 @@ export class AiModule implements OnApplicationBootstrap {
     // });
     // const splitDocs = await textSplitter.splitDocuments(docs);
     // console.log("🚀 ~ splitDocs:", splitDocs[0], splitDocs[1], splitDocs[2])
-
-
     // const fileContent = fs.readFileSync(path.join(__dirname, '../../files/58_TU_VI_THUC_HANH.txt'), 'utf-8');
     // const richTexts = fileContent?.split('\n\n').map(rT => ({
     //   pageContent: rT.split('\n').filter((t) => t.length > 40).join(),
@@ -78,8 +77,8 @@ export class AiModule implements OnApplicationBootstrap {
     // })).filter((t) => t?.pageContent.length > 40)
     // console.log("🚀 ~ richText:", richTexts[0], richTexts.length)
     // await this.handleMockDataTopic(richTexts, 'TU_VI_THUC_HANH');
-    const question = 'Mệnh gặp được Thiên Cơ Miếu, Vượng thì sao';
-    await this.aiService.chatModel(question);
-
+    // c
+    // const question = 'Cung phu thê có thái dương vượng thì sao';
+    // await this.aiService.chatModel(question);
   }
 }

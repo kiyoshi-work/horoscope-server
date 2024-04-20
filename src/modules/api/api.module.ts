@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { DatabaseModule } from '@/database';
-import { AuthController } from '@/api/controllers';
+import { TuviController } from '@/api/controllers';
 import { ConfigModule } from '@nestjs/config';
 import { AuthService } from '@/api/services';
 
@@ -13,7 +13,7 @@ import { AuthService } from '@/api/services';
       load: [],
     }),
   ],
-  controllers: [AuthController],
+  controllers: [TuviController],
   providers: [AuthService],
 })
 export class ApiModule {}

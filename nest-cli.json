@@ -12,6 +12,14 @@
       {
         "include": "files/**/*",
         "watchAssets": true
+      },
+      {
+        "include": "static/**/*",
+        "watchAssets": true
+      },
+      {
+        "include": "views/**/*",
+        "watchAssets": true
       }
     ]
   }
