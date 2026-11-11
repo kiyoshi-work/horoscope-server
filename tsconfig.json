@@ -42,6 +42,9 @@
       "@/vectorstore-db/*": [
         "modules/vectorstore-db//*"
       ],
+      "@/tuvi/*": [
+        "tuvi/*"
+      ],
       "@/shared/*": [
         "shared/*"
       ],

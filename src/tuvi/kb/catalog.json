@@ -1,0 +1,1662 @@
+{
+ "stars": [
+  {
+   "id": "tu-vi",
+   "ten": "Tử Vi",
+   "hanh": "O",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "tu-phu-vu-tuong",
+    "de-tinh"
+   ],
+   "dau": "trung"
+  },
+  {
+   "id": "thien-co",
+   "ten": "Thiên Cơ",
+   "hanh": "M",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "co-nguyet-dong-luong"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "thai-duong",
+   "ten": "Thái Dương",
+   "hanh": "H",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "cu-nhat",
+    "nhat-nguyet"
+   ],
+   "dau": "trung"
+  },
+  {
+   "id": "vu-khuc",
+   "ten": "Vũ Khúc",
+   "hanh": "K",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "tu-phu-vu-tuong",
+    "tai-tinh"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "thien-dong",
+   "ten": "Thiên Đồng",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "co-nguyet-dong-luong",
+    "phuc-tinh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "liem-trinh",
+   "ten": "Liêm Trinh",
+   "hanh": "H",
+   "loai": "chinh",
+   "nhom": "trung",
+   "tags": [
+    "sat-pha-liem-tham"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "thien-phu",
+   "ten": "Thiên Phủ",
+   "hanh": "O",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "tu-phu-vu-tuong",
+    "tai-tinh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "thai-am",
+   "ten": "Thái Âm",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "co-nguyet-dong-luong",
+    "nhat-nguyet",
+    "tai-tinh"
+   ],
+   "dau": "trung"
+  },
+  {
+   "id": "tham-lang",
+   "ten": "Tham Lang",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "trung",
+   "tags": [
+    "sat-pha-liem-tham",
+    "dao-hoa-tinh"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "cu-mon",
+   "ten": "Cự Môn",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "trung",
+   "tags": [
+    "cu-nhat",
+    "am-tinh"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "thien-tuong",
+   "ten": "Thiên Tướng",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "tu-phu-vu-tuong"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "thien-luong",
+   "ten": "Thiên Lương",
+   "hanh": "O",
+   "loai": "chinh",
+   "nhom": "cat",
+   "tags": [
+    "co-nguyet-dong-luong",
+    "tho-tinh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "that-sat",
+   "ten": "Thất Sát",
+   "hanh": "K",
+   "loai": "chinh",
+   "nhom": "trung",
+   "tags": [
+    "sat-pha-liem-tham"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "pha-quan",
+   "ten": "Phá Quân",
+   "hanh": "T",
+   "loai": "chinh",
+   "nhom": "trung",
+   "tags": [
+    "sat-pha-liem-tham"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "van-xuong",
+   "ten": "Văn Xương",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "van-tinh-nhom",
+    "xuong-khuc"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "van-khuc",
+   "ten": "Văn Khúc",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "van-tinh-nhom",
+    "xuong-khuc"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "thien-khoi",
+   "ten": "Thiên Khôi",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "khoi-viet",
+    "quy-tinh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "thien-viet",
+   "ten": "Thiên Việt",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "khoi-viet",
+    "quy-tinh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "ta-phu",
+   "ten": "Tả Phù",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "ta-huu"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "huu-bat",
+   "ten": "Hữu Bật",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "luc-cat",
+    "ta-huu"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "loc-ton",
+   "ten": "Lộc Tồn",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "loc",
+    "tai-tinh"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "thien-ma",
+   "ten": "Thiên Mã",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "ma"
+   ]
+  },
+  {
+   "id": "hoa-loc",
+   "ten": "Hóa Lộc",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-hoa",
+    "tam-hoa",
+    "loc",
+    "tai-tinh"
+   ]
+  },
+  {
+   "id": "hoa-quyen",
+   "ten": "Hóa Quyền",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-hoa",
+    "tam-hoa"
+   ]
+  },
+  {
+   "id": "hoa-khoa",
+   "ten": "Hóa Khoa",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-hoa",
+    "tam-hoa",
+    "van-tinh-nhom"
+   ]
+  },
+  {
+   "id": "hoa-ky",
+   "ten": "Hóa Kỵ",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "tu-hoa",
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "kinh-duong",
+   "ten": "Kình Dương",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "tu-sat",
+    "sat-tinh",
+    "kinh-da"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "da-la",
+   "ten": "Đà La",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "tu-sat",
+    "sat-tinh",
+    "kinh-da"
+   ],
+   "dau": "bac"
+  },
+  {
+   "id": "dia-khong",
+   "ten": "Địa Không",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "sat-tinh",
+    "khong-kiep",
+    "tam-khong"
+   ]
+  },
+  {
+   "id": "dia-kiep",
+   "ten": "Địa Kiếp",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "sat-tinh",
+    "khong-kiep"
+   ]
+  },
+  {
+   "id": "hoa-tinh",
+   "ten": "Hỏa Tinh",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "tu-sat",
+    "sat-tinh",
+    "hoa-linh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "linh-tinh",
+   "ten": "Linh Tinh",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "luc-sat",
+    "tu-sat",
+    "sat-tinh",
+    "hoa-linh"
+   ],
+   "dau": "nam"
+  },
+  {
+   "id": "long-tri",
+   "ten": "Long Trì",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "long-phuong",
+    "tu-linh"
+   ]
+  },
+  {
+   "id": "phuong-cac",
+   "ten": "Phượng Các",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "long-phuong",
+    "tu-linh"
+   ]
+  },
+  {
+   "id": "giai-than",
+   "ten": "Giải Thần",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "giai-tinh"
+   ]
+  },
+  {
+   "id": "an-quang",
+   "ten": "Ân Quang",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "quang-quy",
+    "quy-tinh"
+   ]
+  },
+  {
+   "id": "thien-quy",
+   "ten": "Thiên Quý",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "quang-quy",
+    "quy-tinh"
+   ]
+  },
+  {
+   "id": "tam-thai",
+   "ten": "Tam Thai",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "thai-toa"
+   ]
+  },
+  {
+   "id": "bat-toa",
+   "ten": "Bát Tọa",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "thai-toa"
+   ]
+  },
+  {
+   "id": "thai-phu",
+   "ten": "Thai Phụ",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "thai-cao"
+   ]
+  },
+  {
+   "id": "phong-cao",
+   "ten": "Phong Cáo",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "thai-cao"
+   ]
+  },
+  {
+   "id": "dao-hoa",
+   "ten": "Đào Hoa",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "trung",
+   "tags": [
+    "dao-hoa-tinh",
+    "dao-hong"
+   ]
+  },
+  {
+   "id": "hong-loan",
+   "ten": "Hồng Loan",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "trung",
+   "tags": [
+    "dao-hoa-tinh",
+    "dao-hong"
+   ]
+  },
+  {
+   "id": "thien-hy",
+   "ten": "Thiên Hỷ",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "dao-hoa-tinh",
+    "hy-tinh"
+   ]
+  },
+  {
+   "id": "hoa-cai",
+   "ten": "Hoa Cái",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-linh"
+   ]
+  },
+  {
+   "id": "kiep-sat",
+   "ten": "Kiếp Sát",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "thien-quan",
+   "ten": "Thiên Quan",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "quan-phuc",
+    "quy-tinh"
+   ]
+  },
+  {
+   "id": "thien-phuc",
+   "ten": "Thiên Phúc",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "quan-phuc",
+    "quy-tinh"
+   ]
+  },
+  {
+   "id": "thien-duc",
+   "ten": "Thiên Đức",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-duc",
+    "giai-tinh"
+   ]
+  },
+  {
+   "id": "nguyet-duc",
+   "ten": "Nguyệt Đức",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tu-duc",
+    "giai-tinh"
+   ]
+  },
+  {
+   "id": "thien-tai",
+   "ten": "Thiên Tài",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "trung",
+   "tags": []
+  },
+  {
+   "id": "thien-tho",
+   "ten": "Thiên Thọ",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tho-tinh"
+   ]
+  },
+  {
+   "id": "thien-kho",
+   "ten": "Thiên Khố",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tai-tinh"
+   ]
+  },
+  {
+   "id": "thien-giai",
+   "ten": "Thiên Giải",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "giai-tinh"
+   ]
+  },
+  {
+   "id": "dia-giai",
+   "ten": "Địa Giải",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "giai-tinh"
+   ]
+  },
+  {
+   "id": "thien-khong",
+   "ten": "Thiên Không",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "tam-khong",
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "thien-hinh",
+   "ten": "Thiên Hình",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "hung-tinh",
+    "hinh-rieu"
+   ]
+  },
+  {
+   "id": "thien-rieu",
+   "ten": "Thiên Riêu",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "dao-hoa-tinh",
+    "hinh-rieu"
+   ]
+  },
+  {
+   "id": "thien-y",
+   "ten": "Thiên Y",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "thien-khoc",
+   "ten": "Thiên Khốc",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "khoc-hu",
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "thien-hu",
+   "ten": "Thiên Hư",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "khoc-hu",
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "co-than",
+   "ten": "Cô Thần",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "co-qua"
+   ]
+  },
+  {
+   "id": "qua-tu",
+   "ten": "Quả Tú",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "co-qua"
+   ]
+  },
+  {
+   "id": "dau-quan",
+   "ten": "Đẩu Quân",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "thien-thuong",
+   "ten": "Thiên Thương",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "thuong-su"
+   ]
+  },
+  {
+   "id": "thien-su",
+   "ten": "Thiên Sứ",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "thuong-su"
+   ]
+  },
+  {
+   "id": "pha-toai",
+   "ten": "Phá Toái",
+   "hanh": "K",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "luu-ha",
+   "ten": "Lưu Hà",
+   "hanh": "T",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "thien-tru",
+   "ten": "Thiên Trù",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "luu-tu",
+   "ten": "Lưu Tù",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "van-tinh",
+   "ten": "Văn Tinh",
+   "hanh": "H",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "van-tinh-nhom"
+   ]
+  },
+  {
+   "id": "quoc-an",
+   "ten": "Quốc Ấn",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": [
+    "tuong-an"
+   ]
+  },
+  {
+   "id": "duong-phu",
+   "ten": "Đường Phù",
+   "hanh": "M",
+   "loai": "phu",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "thien-la",
+   "ten": "Thiên La",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "la-vong"
+   ]
+  },
+  {
+   "id": "dia-vong",
+   "ten": "Địa Võng",
+   "hanh": "O",
+   "loai": "phu",
+   "nhom": "hung",
+   "tags": [
+    "la-vong"
+   ]
+  },
+  {
+   "id": "thai-tue",
+   "ten": "Thái Tuế",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tue"
+   ]
+  },
+  {
+   "id": "thieu-duong",
+   "ten": "Thiếu Dương",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "tang-mon",
+   "ten": "Tang Môn",
+   "hanh": "M",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tang-ho",
+    "hung-tinh"
+   ]
+  },
+  {
+   "id": "thieu-am",
+   "ten": "Thiếu Âm",
+   "hanh": "T",
+   "loai": "vong-thai-tue",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "quan-phu",
+   "ten": "Quan Phù",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tu-phu-nhom"
+   ]
+  },
+  {
+   "id": "tu-phu",
+   "ten": "Tử Phù",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tu-phu-nhom"
+   ]
+  },
+  {
+   "id": "tue-pha",
+   "ten": "Tuế Phá",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "long-duc",
+   "ten": "Long Đức",
+   "hanh": "T",
+   "loai": "vong-thai-tue",
+   "nhom": "cat",
+   "tags": [
+    "tu-duc"
+   ]
+  },
+  {
+   "id": "bach-ho",
+   "ten": "Bạch Hổ",
+   "hanh": "K",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tang-ho",
+    "hung-tinh",
+    "tu-linh"
+   ]
+  },
+  {
+   "id": "phuc-duc",
+   "ten": "Phúc Đức",
+   "hanh": "O",
+   "loai": "vong-thai-tue",
+   "nhom": "cat",
+   "tags": [
+    "tu-duc"
+   ]
+  },
+  {
+   "id": "dieu-khach",
+   "ten": "Điếu Khách",
+   "hanh": "H",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "truc-phu",
+   "ten": "Trực Phù",
+   "hanh": "K",
+   "loai": "vong-thai-tue",
+   "nhom": "hung",
+   "tags": [
+    "tu-phu-nhom"
+   ]
+  },
+  {
+   "id": "bac-si",
+   "ten": "Bác Sĩ",
+   "hanh": "T",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "luc-si",
+   "ten": "Lực Sĩ",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "thanh-long",
+   "ten": "Thanh Long",
+   "hanh": "T",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "tieu-hao",
+   "ten": "Tiểu Hao",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": [
+    "song-hao"
+   ]
+  },
+  {
+   "id": "tuong-quan",
+   "ten": "Tướng Quân",
+   "hanh": "M",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": [
+    "tuong-an"
+   ]
+  },
+  {
+   "id": "tau-thu",
+   "ten": "Tấu Thư",
+   "hanh": "K",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "phi-liem",
+   "ten": "Phi Liêm",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "hy-than",
+   "ten": "Hỷ Thần",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "cat",
+   "tags": [
+    "hy-tinh"
+   ]
+  },
+  {
+   "id": "benh-phu",
+   "ten": "Bệnh Phù",
+   "hanh": "O",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "dai-hao",
+   "ten": "Đại Hao",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": [
+    "song-hao"
+   ]
+  },
+  {
+   "id": "phuc-binh",
+   "ten": "Phục Binh",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "quan-phu-bs",
+   "ten": "Quan Phủ",
+   "hanh": "H",
+   "loai": "vong-bac-si",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "trang-sinh",
+   "ten": "Tràng Sinh",
+   "hanh": "T",
+   "loai": "vong-trang-sinh",
+   "nhom": "cat",
+   "tags": [
+    "sinh-vuong"
+   ]
+  },
+  {
+   "id": "moc-duc",
+   "ten": "Mộc Dục",
+   "hanh": "T",
+   "loai": "vong-trang-sinh",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "quan-doi",
+   "ten": "Quan Đới",
+   "hanh": "K",
+   "loai": "vong-trang-sinh",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "lam-quan",
+   "ten": "Lâm Quan",
+   "hanh": "K",
+   "loai": "vong-trang-sinh",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "de-vuong",
+   "ten": "Đế Vượng",
+   "hanh": "K",
+   "loai": "vong-trang-sinh",
+   "nhom": "cat",
+   "tags": [
+    "sinh-vuong"
+   ]
+  },
+  {
+   "id": "suy",
+   "ten": "Suy",
+   "hanh": "K",
+   "loai": "vong-trang-sinh",
+   "nhom": "trung",
+   "tags": []
+  },
+  {
+   "id": "benh",
+   "ten": "Bệnh",
+   "hanh": "H",
+   "loai": "vong-trang-sinh",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "tu",
+   "ten": "Tử",
+   "hanh": "T",
+   "loai": "vong-trang-sinh",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "mo",
+   "ten": "Mộ",
+   "hanh": "O",
+   "loai": "vong-trang-sinh",
+   "nhom": "trung",
+   "tags": []
+  },
+  {
+   "id": "tuyet",
+   "ten": "Tuyệt",
+   "hanh": "O",
+   "loai": "vong-trang-sinh",
+   "nhom": "hung",
+   "tags": []
+  },
+  {
+   "id": "thai",
+   "ten": "Thai",
+   "hanh": "O",
+   "loai": "vong-trang-sinh",
+   "nhom": "trung",
+   "tags": []
+  },
+  {
+   "id": "duong",
+   "ten": "Dưỡng",
+   "hanh": "M",
+   "loai": "vong-trang-sinh",
+   "nhom": "cat",
+   "tags": []
+  },
+  {
+   "id": "tuan",
+   "ten": "Tuần Không",
+   "hanh": "H",
+   "loai": "tuan-triet",
+   "nhom": "hung",
+   "tags": [
+    "tam-khong",
+    "tuan-triet"
+   ]
+  },
+  {
+   "id": "triet",
+   "ten": "Triệt Lộ",
+   "hanh": "K",
+   "loai": "tuan-triet",
+   "nhom": "hung",
+   "tags": [
+    "tam-khong",
+    "tuan-triet"
+   ]
+  },
+  {
+   "id": "luu-thai-tue",
+   "ten": "L.Thái Tuế",
+   "hanh": "H",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "thai-tue"
+  },
+  {
+   "id": "luu-tang-mon",
+   "ten": "L.Tang Môn",
+   "hanh": "M",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "tang-mon"
+  },
+  {
+   "id": "luu-bach-ho",
+   "ten": "L.Bạch Hổ",
+   "hanh": "K",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "bach-ho"
+  },
+  {
+   "id": "luu-thien-khoc",
+   "ten": "L.Thiên Khốc",
+   "hanh": "T",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "thien-khoc"
+  },
+  {
+   "id": "luu-thien-hu",
+   "ten": "L.Thiên Hư",
+   "hanh": "T",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "thien-hu"
+  },
+  {
+   "id": "luu-thien-ma",
+   "ten": "L.Thiên Mã",
+   "hanh": "H",
+   "loai": "luu",
+   "nhom": "cat",
+   "tags": [
+    "luu"
+   ],
+   "base": "thien-ma"
+  },
+  {
+   "id": "luu-loc-ton",
+   "ten": "L.Lộc Tồn",
+   "hanh": "O",
+   "loai": "luu",
+   "nhom": "cat",
+   "tags": [
+    "luu"
+   ],
+   "base": "loc-ton"
+  },
+  {
+   "id": "luu-kinh-duong",
+   "ten": "L.Kình Dương",
+   "hanh": "K",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "kinh-duong"
+  },
+  {
+   "id": "luu-da-la",
+   "ten": "L.Đà La",
+   "hanh": "K",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "da-la"
+  },
+  {
+   "id": "luu-tuan",
+   "ten": "L.Tuần",
+   "hanh": "H",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "tuan"
+  },
+  {
+   "id": "luu-triet",
+   "ten": "L.Triệt",
+   "hanh": "K",
+   "loai": "luu",
+   "nhom": "hung",
+   "tags": [
+    "luu"
+   ],
+   "base": "triet"
+  }
+ ],
+ "groups": {
+  "tu-phu-vu-tuong": [
+   "tu-vi",
+   "vu-khuc",
+   "thien-phu",
+   "thien-tuong"
+  ],
+  "de-tinh": [
+   "tu-vi"
+  ],
+  "co-nguyet-dong-luong": [
+   "thien-co",
+   "thien-dong",
+   "thai-am",
+   "thien-luong"
+  ],
+  "cu-nhat": [
+   "thai-duong",
+   "cu-mon"
+  ],
+  "nhat-nguyet": [
+   "thai-duong",
+   "thai-am"
+  ],
+  "tai-tinh": [
+   "vu-khuc",
+   "thien-phu",
+   "thai-am",
+   "loc-ton",
+   "hoa-loc",
+   "thien-kho"
+  ],
+  "phuc-tinh": [
+   "thien-dong"
+  ],
+  "sat-pha-liem-tham": [
+   "liem-trinh",
+   "tham-lang",
+   "that-sat",
+   "pha-quan"
+  ],
+  "dao-hoa-tinh": [
+   "tham-lang",
+   "dao-hoa",
+   "hong-loan",
+   "thien-hy",
+   "thien-rieu"
+  ],
+  "am-tinh": [
+   "cu-mon"
+  ],
+  "tho-tinh": [
+   "thien-luong",
+   "thien-tho"
+  ],
+  "luc-cat": [
+   "van-xuong",
+   "van-khuc",
+   "thien-khoi",
+   "thien-viet",
+   "ta-phu",
+   "huu-bat"
+  ],
+  "van-tinh-nhom": [
+   "van-xuong",
+   "van-khuc",
+   "hoa-khoa",
+   "van-tinh"
+  ],
+  "xuong-khuc": [
+   "van-xuong",
+   "van-khuc"
+  ],
+  "khoi-viet": [
+   "thien-khoi",
+   "thien-viet"
+  ],
+  "quy-tinh": [
+   "thien-khoi",
+   "thien-viet",
+   "an-quang",
+   "thien-quy",
+   "thien-quan",
+   "thien-phuc"
+  ],
+  "ta-huu": [
+   "ta-phu",
+   "huu-bat"
+  ],
+  "loc": [
+   "loc-ton",
+   "hoa-loc"
+  ],
+  "ma": [
+   "thien-ma"
+  ],
+  "tu-hoa": [
+   "hoa-loc",
+   "hoa-quyen",
+   "hoa-khoa",
+   "hoa-ky"
+  ],
+  "tam-hoa": [
+   "hoa-loc",
+   "hoa-quyen",
+   "hoa-khoa"
+  ],
+  "hung-tinh": [
+   "bach-ho",
+   "da-la",
+   "dai-hao",
+   "dia-khong",
+   "dia-kiep",
+   "hoa-ky",
+   "hoa-tinh",
+   "kiep-sat",
+   "kinh-duong",
+   "linh-tinh",
+   "luu-ha",
+   "pha-toai",
+   "tang-mon",
+   "thien-hinh",
+   "thien-hu",
+   "thien-khoc",
+   "thien-khong",
+   "tieu-hao",
+   "triet",
+   "tuan"
+  ],
+  "luc-sat": [
+   "kinh-duong",
+   "da-la",
+   "dia-khong",
+   "dia-kiep",
+   "hoa-tinh",
+   "linh-tinh"
+  ],
+  "tu-sat": [
+   "kinh-duong",
+   "da-la",
+   "hoa-tinh",
+   "linh-tinh"
+  ],
+  "sat-tinh": [
+   "kinh-duong",
+   "da-la",
+   "dia-khong",
+   "dia-kiep",
+   "hoa-tinh",
+   "linh-tinh"
+  ],
+  "kinh-da": [
+   "kinh-duong",
+   "da-la"
+  ],
+  "khong-kiep": [
+   "dia-khong",
+   "dia-kiep"
+  ],
+  "tam-khong": [
+   "dia-khong",
+   "thien-khong",
+   "tuan",
+   "triet"
+  ],
+  "hoa-linh": [
+   "hoa-tinh",
+   "linh-tinh"
+  ],
+  "long-phuong": [
+   "long-tri",
+   "phuong-cac"
+  ],
+  "tu-linh": [
+   "long-tri",
+   "phuong-cac",
+   "hoa-cai",
+   "bach-ho"
+  ],
+  "giai-tinh": [
+   "giai-than",
+   "thien-duc",
+   "nguyet-duc",
+   "thien-giai",
+   "dia-giai"
+  ],
+  "quang-quy": [
+   "an-quang",
+   "thien-quy"
+  ],
+  "thai-toa": [
+   "tam-thai",
+   "bat-toa"
+  ],
+  "thai-cao": [
+   "thai-phu",
+   "phong-cao"
+  ],
+  "dao-hong": [
+   "dao-hoa",
+   "hong-loan"
+  ],
+  "hy-tinh": [
+   "thien-hy",
+   "hy-than"
+  ],
+  "quan-phuc": [
+   "thien-quan",
+   "thien-phuc"
+  ],
+  "tu-duc": [
+   "thien-duc",
+   "nguyet-duc",
+   "long-duc",
+   "phuc-duc"
+  ],
+  "hinh-rieu": [
+   "thien-hinh",
+   "thien-rieu"
+  ],
+  "khoc-hu": [
+   "thien-khoc",
+   "thien-hu"
+  ],
+  "co-qua": [
+   "co-than",
+   "qua-tu"
+  ],
+  "thuong-su": [
+   "thien-thuong",
+   "thien-su"
+  ],
+  "tuong-an": [
+   "quoc-an",
+   "tuong-quan"
+  ],
+  "la-vong": [
+   "thien-la",
+   "dia-vong"
+  ],
+  "tue": [
+   "thai-tue"
+  ],
+  "tang-ho": [
+   "tang-mon",
+   "bach-ho"
+  ],
+  "tu-phu-nhom": [
+   "quan-phu",
+   "tu-phu",
+   "truc-phu"
+  ],
+  "song-hao": [
+   "tieu-hao",
+   "dai-hao"
+  ],
+  "sinh-vuong": [
+   "trang-sinh",
+   "de-vuong"
+  ],
+  "tuan-triet": [
+   "tuan",
+   "triet"
+  ],
+  "luu": [
+   "luu-thai-tue",
+   "luu-tang-mon",
+   "luu-bach-ho",
+   "luu-thien-khoc",
+   "luu-thien-hu",
+   "luu-thien-ma",
+   "luu-loc-ton",
+   "luu-kinh-duong",
+   "luu-da-la",
+   "luu-tuan",
+   "luu-triet"
+  ],
+  "chinh-tinh": [
+   "tu-vi",
+   "thien-co",
+   "thai-duong",
+   "vu-khuc",
+   "thien-dong",
+   "liem-trinh",
+   "thien-phu",
+   "thai-am",
+   "tham-lang",
+   "cu-mon",
+   "thien-tuong",
+   "thien-luong",
+   "that-sat",
+   "pha-quan"
+  ],
+  "cat-tinh": [
+   "van-xuong",
+   "van-khuc",
+   "thien-khoi",
+   "thien-viet",
+   "ta-phu",
+   "huu-bat",
+   "loc-ton",
+   "thien-ma",
+   "hoa-loc",
+   "hoa-quyen",
+   "hoa-khoa",
+   "long-tri",
+   "phuong-cac",
+   "giai-than",
+   "an-quang",
+   "thien-quy",
+   "tam-thai",
+   "bat-toa",
+   "thai-phu",
+   "phong-cao",
+   "thien-hy",
+   "hoa-cai",
+   "thien-quan",
+   "thien-phuc",
+   "thien-duc",
+   "nguyet-duc",
+   "thien-tho",
+   "thien-kho",
+   "thien-giai",
+   "dia-giai",
+   "thien-y",
+   "thien-tru",
+   "van-tinh",
+   "quoc-an",
+   "duong-phu",
+   "thieu-duong",
+   "thieu-am",
+   "long-duc",
+   "phuc-duc",
+   "bac-si",
+   "luc-si",
+   "thanh-long",
+   "tuong-quan",
+   "tau-thu",
+   "hy-than",
+   "trang-sinh",
+   "quan-doi",
+   "lam-quan",
+   "de-vuong",
+   "duong"
+  ],
+  "nam-dau": [
+   "thien-co",
+   "thien-dong",
+   "thien-phu",
+   "thien-tuong",
+   "thien-luong",
+   "that-sat",
+   "van-xuong",
+   "thien-khoi",
+   "thien-viet",
+   "hoa-tinh",
+   "linh-tinh"
+  ],
+  "bac-dau": [
+   "vu-khuc",
+   "liem-trinh",
+   "tham-lang",
+   "cu-mon",
+   "pha-quan",
+   "van-khuc",
+   "ta-phu",
+   "huu-bat",
+   "loc-ton",
+   "kinh-duong",
+   "da-la"
+  ]
+ }
+}

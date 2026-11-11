@@ -1,0 +1,8697 @@
+{
+ "rules": [
+  {
+   "id": "c-bao-tuan-triet",
+   "ten": "Tuần Triệt chiếu Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tuan",
+     "triet"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Cung Huynh Đệ gặp Tuần Triệt: anh/chị cả dễ phải xa gia đình, ly tông.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Triệt Tuần xung củng, đầu đàn ly tông"
+  },
+  {
+   "id": "c-bao-kiep-thien-khong",
+   "ten": "Địa Kiếp Thiên Không",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "dia-kiep",
+     "thien-khong"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Huynh Đệ có Địa Kiếp, Thiên Không: anh em không nhiều, hay xung khắc.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Sinh lai hãy đoán khắc xung / Hễ là Địa Kiếp Thiên Không chẳng nhiều."
+  },
+  {
+   "id": "c-bao-tuong-quan-loc-ma-chieu",
+   "ten": "Tướng Quân Lộc Mã củng triều",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "not": {
+       "sao": [
+        "tuong-quan",
+        "@loc",
+        "thien-ma"
+       ]
+      }
+     },
+     {
+      "sao": [
+       "tuong-quan",
+       "@loc",
+       "thien-ma"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tướng Quân, Lộc, Mã củng chiếu: trong anh em có người thành danh.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Tướng Quân Lộc Mã củng triều. / Anh em có kẻ thuận chiều danh công"
+  },
+  {
+   "id": "c-bao-tuong-quan-loc-ma-dong-cung",
+   "ten": "Tướng Quân Lộc Mã đồng cung",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tuong-quan",
+     "@loc",
+     "thien-ma"
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tướng Quân, Lộc, Mã đồng cung: anh em có người làm quan, quyền quý.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "su-nghiep"
+   ],
+   "trang": 124,
+   "nguyenVan": "Tướng Quân Lộc Mã đồng cung / Anh em có kẻ triều trung quí quyền"
+  },
+  {
+   "id": "c-bao-tuan-triet-khong-kiep",
+   "ten": "Tuần Triệt gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@tuan-triet",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ gặp Tuần Triệt và Không Kiếp: anh em có người theo đường gian, gây phiền lụy.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Triệt Tuần Không Kiếp giao liên / Có người gian đạo để phiền luỵ thân"
+  },
+  {
+   "id": "c-bao-dao-thai-hy-pha-tuong-phuc",
+   "ten": "Đào Thai Hỷ, ngoài có Phá Tướng Phục",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "dao-hoa",
+       "thai"
+      ]
+     },
+     {
+      "sao": "@hy-tinh"
+     },
+     {
+      "sao": [
+       "pha-quan",
+       "tuong-quan",
+       "phuc-binh"
+      ],
+      "o": "chieu",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Đào Hoa, Thai, Hỷ, cung chiếu có Phá Quân, Tướng Quân, Phục Binh: chị em gái dễ say mê trai, hoang thai.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Đào Hoa, Thai Hỉ trong cung, / Phá Quân, Tướng, Phục chiếm xung ở ngoài / Có chị em gái theo trai / Say mê đến nổi hoang thai bỏ mình"
+  },
+  {
+   "id": "c-bao-tuong-phuc-cai-dao-hong",
+   "ten": "Tướng Phục, ngoài có Cái Đào Hồng",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "tuong-quan",
+       "phuc-binh"
+      ]
+     },
+     {
+      "sao": [
+       "hoa-cai",
+       "dao-hoa",
+       "hong-loan"
+      ],
+      "o": "chieu",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tướng Quân, Phục Binh, cung chiếu có Hoa Cái, Đào, Hồng: anh em có người tư thông.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Trong thời Tướng Phổ……, Phục Binh, / Ngoài thì Hoa Cái liên minh Đào Hồng / ... Anh em có kẻ tư thông hẳn là"
+  },
+  {
+   "id": "c-bao-ky",
+   "ten": "Hóa Kỵ ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "hoa-ky"
+   },
+   "ketLuan": "Huynh Đệ có Hóa Kỵ: anh em kém hòa thuận.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Gặp sao Hóa Kỵ khiếm hoà"
+  },
+  {
+   "id": "c-bao-hinh",
+   "ten": "Thiên Hình ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "thien-hinh"
+   },
+   "ketLuan": "Huynh Đệ có Thiên Hình: anh em xung khắc, ghét nhau.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Thiên Hình xung khắc trong nhà ghét nhau"
+  },
+  {
+   "id": "c-bao-loc-ma",
+   "ten": "Lộc Mã ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "@loc",
+     "thien-ma"
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Lộc và Thiên Mã: anh em buôn bán nên giàu.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc",
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Lộc Mã buôn bán nên giàu"
+  },
+  {
+   "id": "c-bao-pha-hinh-ky",
+   "ten": "Phá gặp Hình Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "pha-quan"
+     },
+     {
+      "sao": [
+       "thien-hinh",
+       "hoa-ky"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Phá Quân gặp Hình, Kỵ: anh em bất thuận, tranh chấp.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Phá phùng Hình Kỵ đồng xung / Anh em bất thuận những đường trở tranh"
+  },
+  {
+   "id": "c-bao-nhat-nguyet-hy-di-bao",
+   "ten": "Nhật Nguyệt chiếu gặp Hỷ",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet",
+      "o": "chieu"
+     },
+     {
+      "sao": "@hy-tinh"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ được Nhật Nguyệt chiếu lại có Hỷ: có anh em dị bào (khác cha hoặc khác mẹ).",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Âm Dương chiếu với Hỉ tinh"
+  },
+  {
+   "id": "c-bao-nguyet-thien-phuc-di-bao",
+   "ten": "Thái Âm gặp Thiên Phúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai-am"
+     },
+     {
+      "sao": "thien-phuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Thái Âm gặp Thiên Phúc: có anh em dị bào.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Âm cùng Thiên Phúc cũng sinh dị bào"
+  },
+  {
+   "id": "c-bao-tu-ta-huu",
+   "ten": "Tử Vi gặp Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "@ta-huu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tử Vi gặp Tả Hữu: có chị em gái ưa làm dáng, phấn son.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Tử Vi Tả Hữu lâm vào / Có chị em gái say màu phấn son (làm dáng)"
+  },
+  {
+   "id": "c-bao-sinh-vuong",
+   "ten": "Tràng Sinh Đế Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "@sinh-vuong"
+   },
+   "ketLuan": "Huynh Đệ có Tràng Sinh, Đế Vượng: đông anh em.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Trường Sinh Đế Vượng đa nhân"
+  },
+  {
+   "id": "c-bao-thai-nhat-nguyet",
+   "ten": "Thai gặp Nhật Nguyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai"
+     },
+     {
+      "sao": "@nhat-nguyet"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có sao Thai cùng Nhật/Nguyệt: anh em có lần sinh đôi.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Thai giữ Nhật Nguyệt có lần song sinh"
+  },
+  {
+   "id": "c-bao-tam-khong-duong",
+   "ten": "Tam Không gặp Dưỡng",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "duong"
+     },
+     {
+      "sao": [
+       "tuan",
+       "triet",
+       "thien-khong",
+       "dia-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Dưỡng gặp các sao Không: có anh em nuôi (nghĩa tử) giúp đỡ.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Tam Không ngộ Dưỡng đinh ninh / Nuôi con nghĩa tử giúp mình yên vui"
+  },
+  {
+   "id": "c-bao-tu-tang-ta-huu",
+   "ten": "Tử, Tang, Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tu",
+     "tang-mon",
+     "@ta-huu"
+    ]
+   },
+   "ketLuan": "Huynh Đệ có sao Tử, Tang Môn, Tả Hữu: có chị em gái duyên phận không lành.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao",
+    "tinh-duyen"
+   ],
+   "trang": 124,
+   "nguyenVan": "Tử Tang Tả Hữu cùng ngôi / Có chị em gái duyên ôi chẳng lành"
+  },
+  {
+   "id": "c-bao-tang-ma",
+   "ten": "Tang Môn gặp Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tang-mon",
+     "thien-ma"
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tang Môn, Thiên Mã: anh em mỗi người một xứ, gia đình quạnh hiu.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Tang Môn ngộ Mã đinh ninh / Mỗi người mỗi xứ gia đình quạnh hiu"
+  },
+  {
+   "id": "c-bao-kinh-thai-triet-vuong",
+   "ten": "Kình Thai Triệt Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kinh-duong",
+     "thai",
+     "triet",
+     "de-vuong"
+    ],
+    "min": 3
+   },
+   "ketLuan": "Huynh Đệ có Kình, Thai, Triệt, Đế Vượng: có anh em dị bào.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 124,
+   "nguyenVan": "Dương Thai Triệt Vượng thấu vào / Trong anh em có dị bào chẳng không"
+  },
+  {
+   "id": "c-bao-tuong-thai-vuong",
+   "ten": "Tướng, Thai, Đế Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thai",
+       "de-vuong"
+      ]
+     },
+     {
+      "any": [
+       {
+        "sao": "thien-tuong"
+       },
+       {
+        "sao": "tuong-quan"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Tướng, Thai, Đế Vượng: có anh em dị bào.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Tướng Thai, Đế Vượng hợp cùng / Dị bào có kẻ trong vòng đệ huynh"
+  },
+  {
+   "id": "c-bao-sat-thin-tuat",
+   "ten": "Thất Sát Thìn Tuất",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "that-sat"
+     },
+     {
+      "chi": [
+       "Thìn",
+       "Tuất"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Thất Sát một mình ở Thìn/Tuất: anh em hiếm hoi.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Thìn Tuất Thất Sát một mình"
+  },
+  {
+   "id": "c-bao-ton-co-qua",
+   "ten": "Lộc Tồn gặp Cô Quả",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "loc-ton"
+     },
+     {
+      "sao": "@co-qua",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Lộc Tồn gặp Cô Thần, Quả Tú: anh em hiếm hoi.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Lộc Tồn Cô Quả, anh em có nào"
+  },
+  {
+   "id": "c-bao-xuong-khuc-thai-tue",
+   "ten": "Khúc Xương với Thai, Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@xuong-khuc"
+     },
+     {
+      "any": [
+       {
+        "sao": "thai"
+       },
+       {
+        "sao": "thai-tue"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Xương Khúc với Thai, Thái Tuế: có người anh trưởng tài giỏi, tung hoành.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Khúc Xương, Thai Tuế cung Bào / Có người anh trưởng thấp cao tung hoành"
+  },
+  {
+   "id": "c-bao-khoi",
+   "ten": "Thiên Khôi ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "thien-khoi"
+   },
+   "ketLuan": "Huynh Đệ có Thiên Khôi: có anh.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Thiên Khôi có kẻ đàn anh"
+  },
+  {
+   "id": "c-bao-viet",
+   "ten": "Thiên Việt ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "thien-viet"
+   },
+   "ketLuan": "Huynh Đệ có Thiên Việt: có khoảng ba người em.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Thiên Việt ba kẻ lại dành đàn em"
+  },
+  {
+   "id": "c-bao-tu-vi",
+   "ten": "Tử Vi ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "tu-vi"
+   },
+   "ketLuan": "Huynh Đệ có Tử Vi: anh em đông.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Tử Vi răm kẻ trọn miền."
+  },
+  {
+   "id": "c-bao-dong-luong",
+   "ten": "Đồng Lương ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-dong"
+     },
+     {
+      "sao": "thien-luong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Thiên Đồng, Thiên Lương: khoảng ba anh chị em.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Đồng Lương trai gái kết liền được ba"
+  },
+  {
+   "id": "c-bao-nguyet-dong-tuong-toa",
+   "ten": "Âm, Đồng, Tướng, Tọa",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "thai-am"
+       },
+       {
+        "sao": "thien-dong"
+       },
+       {
+        "sao": "thien-tuong"
+       }
+      ]
+     },
+     {
+      "sao": "bat-toa",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Thái Âm, Thiên Đồng hay Thiên Tướng gặp Bát Tọa: khoảng năm anh em trai.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Âm Đồng Tướng Toạ sinh ra năm chàng"
+  },
+  {
+   "id": "c-bao-sat-liem-cat",
+   "ten": "Sát Liêm gặp cát tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "that-sat"
+       },
+       {
+        "sao": "liem-trinh"
+       }
+      ]
+     },
+     {
+      "sao": "@luc-cat",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Thất Sát hay Liêm Trinh gặp cát tinh: được khoảng ba anh em nên người.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Sát Liêm ngộ Cát kể tường / Ất là cùng được 3 chàng nên thân"
+  },
+  {
+   "id": "c-bao-xuong-khuc-ta-huu",
+   "ten": "Khúc Xương Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": [
+     "van-xuong",
+     "van-khuc",
+     "ta-phu",
+     "huu-bat"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Huynh Đệ hội Xương Khúc, Tả Hữu: khoảng năm anh em.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Khúc Xương Tả Hữu năm lân"
+  },
+  {
+   "id": "c-bao-hoa-linh",
+   "ten": "Hỏa Linh ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "@hoa-linh"
+   },
+   "ketLuan": "Huynh Đệ có Hỏa Linh: chỉ khoảng hai anh em.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Kìa ngoài Linh Hỏa vương thần được hai"
+  },
+  {
+   "id": "c-bao-kinh-da",
+   "ten": "Kình Đà ở Bào",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "sao": "@kinh-da"
+   },
+   "ketLuan": "Huynh Đệ có Kình Dương, Đà La: anh em xung khắc.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Dươnng Đà xung khắc chẳng sai"
+  },
+  {
+   "id": "c-bao-khoi-viet-tam-hoa",
+   "ten": "Khôi Việt Tam Hóa",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@khoi-viet",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@tam-hoa",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ hội Khôi Việt và Tam Hóa: anh em có người anh hùng, hiển đạt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "su-nghiep"
+   ],
+   "trang": 125,
+   "nguyenVan": "Khôi Việt Tam Hóa được ngôi anh hùng"
+  },
+  {
+   "id": "c-bao-dau-quan-ky",
+   "ten": "Đẩu Quân gặp Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Huynh Đệ"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "dau-quan"
+     },
+     {
+      "sao": "hoa-ky",
+      "o": "tamPhuong"
+     },
+     {
+      "not": {
+       "sao": "@luc-cat",
+       "o": "tamPhuong",
+       "min": 2
+      }
+     }
+    ]
+   },
+   "ketLuan": "Huynh Đệ có Đẩu Quân gặp Hóa Kỵ: anh em thù nghịch (có cát tinh thì hòa thuận).",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 125,
+   "nguyenVan": "Đẩu Quân Kỵ huynh đệ cùng / Cát hội hoà thuận, còn hưng vẫn thù."
+  },
+  {
+   "id": "c-phoi-duc-dao",
+   "ten": "Thiên/Nguyệt Đức gặp Đào",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "dao-hoa"
+     },
+     {
+      "sao": [
+       "thien-duc",
+       "nguyet-duc"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Đào Hoa gặp Thiên/Nguyệt Đức: trai lấy vợ đẹp, gái lấy chồng sang.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Phối cung Nguyệt Đức Đào tinh (hoặc có Thiên Đức) / Trai lấy vợ đẹp, gái làng chồng sang"
+  },
+  {
+   "id": "c-phoi-di-dao-hong",
+   "ten": "Thiên Di có Đào Hồng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "tai": "Thiên Di",
+    "dieuKien": {
+     "sao": "@dao-hong"
+    }
+   },
+   "ketLuan": "Đào Hồng ở Thiên Di chiếu về: vợ chồng là người phương xa, kết duyên nơi đất khách.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen",
+    "xuat-hanh"
+   ],
+   "trang": 125,
+   "nguyenVan": "Vợ chồng viễn phối tha hương / Hồng Đào đối chiếu từ làng Thiên Di"
+  },
+  {
+   "id": "c-phoi-ta-huu-hong-dao",
+   "ten": "Tả Hữu, Hồng, Đào",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "ta-phu",
+     "huu-bat",
+     "hong-loan",
+     "dao-hoa"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Tả Hữu, Hồng Loan, Đào Hoa: vợ chồng vui vẻ, cao sang phú quý (có thể có thê thiếp).",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen",
+    "tai-loc"
+   ],
+   "trang": 125,
+   "nguyenVan": "Chính thê, thứ thiếp tề vui / Tả Phù Hữu Bật Loan thì Đào Hoa / Cao sang phú quí một nhà"
+  },
+  {
+   "id": "c-phoi-loc-long-phuong",
+   "ten": "Lộc gặp Long Phượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@loc"
+     },
+     {
+      "sao": [
+       "long-tri",
+       "phuong-cac"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Lộc gặp Long Phượng: vợ (chồng) mang về nhiều của cải.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen",
+    "tai-loc"
+   ],
+   "trang": 125,
+   "nguyenVan": "Phối cung có Lộc hợp hoà Phượng Long / Vợ về của có muôn trùng"
+  },
+  {
+   "id": "c-phoi-tri-am-phu-gia",
+   "ten": "Quang, Đức, Mã, Lộc, Quyền",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "an-quang",
+     "nguyet-duc",
+     "thien-ma",
+     "hoa-loc",
+     "hoa-quyen"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Ân Quang, Nguyệt Đức, Thiên Mã, Lộc, Quyền: kết duyên tri âm với nhà giàu.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen",
+    "tai-loc"
+   ],
+   "trang": 125,
+   "nguyenVan": "Ân Quang Nguyệt Đức, Mã, Đồng Thái Dương / Lộc, Quyền kia cũng một đường / Tri âm của sẵn hợp phường phú gia"
+  },
+  {
+   "id": "c-phoi-thai-dao",
+   "ten": "Thai gặp Đào Hoa",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thai",
+     "dao-hoa"
+    ]
+   },
+   "ketLuan": "Phu Thê có Thai và Đào Hoa: có quan hệ trước rồi mới thành vợ chồng.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Sao Thai mà ngộ Đào Hoa / Tiền dâm hậu thú mới ra vợ chồng"
+  },
+  {
+   "id": "c-phoi-tot-duyen",
+   "ten": "Tướng Đào Hồng / Mã Tồn Long / Hỷ Đào Hồng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "all": [
+       {
+        "sao": "thien-tuong"
+       },
+       {
+        "sao": "@dao-hong",
+        "o": "tamPhuong"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "thien-ma",
+       "loc-ton",
+       "thanh-long"
+      ],
+      "o": "tamPhuong"
+     },
+     {
+      "all": [
+       {
+        "sao": "@hy-tinh"
+       },
+       {
+        "sao": "@dao-hong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Tướng gặp Đào Hồng, hoặc Mã, Lộc Tồn, Thanh Long, hoặc Hỷ cùng Đào Hồng: duyên tốt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Phối cung Thiên Tướng Đào Hồng / Hoặc là Thiên Mã, Lộc Tồn, Thanh Long / ... Hoặc là Thiên Hỉ, Đào Hồng tốt thay"
+  },
+  {
+   "id": "c-phoi-luong-dong-tu-phu",
+   "ten": "Lương Đồng Tử Phủ",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-luong",
+     "thien-dong",
+     "tu-vi",
+     "thien-phu"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Phu Thê hội Lương, Đồng, Tử, Phủ: vợ (chồng) chính, nết na hiếu thảo, con nhà tử tế.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Lương Đồng Tử Phủ hợp bầy / Chính phòng, nết sẵn thảo ngay con giòng"
+  },
+  {
+   "id": "c-phoi-cai-phuong-dao-hong",
+   "ten": "Hoa Cái Phượng Đào Hồng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "hoa-cai",
+     "phuong-cac",
+     "dao-hoa",
+     "hong-loan"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Hoa Cái, Phượng Các, Đào, Hồng: chồng dễ có ý bỏ vợ.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Hoa Cái, Phượng Các, Đào Hồng / Trai toan bỏ vợ trong lòng chẳng khuây"
+  },
+  {
+   "id": "c-phoi-tang-khoc-hu",
+   "ten": "Tang Môn gặp Khốc Hư",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": "@khoc-hu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Tang Môn gặp Khốc, Hư: hôn nhân không hay.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Tang Môn, Hư Khốc chẳng hay"
+  },
+  {
+   "id": "c-phoi-tuan-triet",
+   "ten": "Tuần Triệt ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "@tuan-triet"
+   },
+   "ketLuan": "Phu Thê có Tuần Triệt: nên lấy người phương xa mới lành.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 125,
+   "nguyenVan": "Tuần Triệt viễn phối họa may mới lành"
+  },
+  {
+   "id": "c-phoi-hoa-ky",
+   "ten": "Hỏa Kỵ ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "hoa-tinh",
+     "hoa-ky"
+    ]
+   },
+   "ketLuan": "Phu Thê có Hỏa Tinh, Hóa Kỵ: tình duyên lận đận, mối này chưa dứt mối khác lại đến.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phu cung Hỏa Kỵ một mình / Tơ tình chưa dứt mối tình lại xui"
+  },
+  {
+   "id": "c-phoi-rieu",
+   "ten": "Thiên Diêu ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "thien-rieu"
+   },
+   "ketLuan": "Phu Thê có Thiên Diêu: vợ chồng dễ có quan hệ bất chính.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thiêu Diêu bất chính cả đôi"
+  },
+  {
+   "id": "c-phoi-liem",
+   "ten": "Liêm Trinh ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "liem-trinh"
+   },
+   "ketLuan": "Phu Thê có Liêm Trinh: kết duyên xa, nơi bần hàn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Liêm Trinh viễn phối ở nơi bần hàn."
+  },
+  {
+   "id": "c-phoi-tu-khong-ma",
+   "ten": "Tứ Không gặp Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "gioiTinh": "nu",
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-ma"
+     },
+     {
+      "sao": [
+       "tuan",
+       "triet",
+       "thien-khong",
+       "dia-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Mã gặp các sao Không: có chồng mà vẫn bỏ theo người khác.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Tứ Không ngộ Mã chẳng bàn / Có chồng còn bỏ theo làng bướm hoa"
+  },
+  {
+   "id": "c-phoi-da-tham",
+   "ten": "Đà Tham ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "da-la",
+     "tham-lang"
+    ]
+   },
+   "ketLuan": "Phu Thê có Đà La, Tham Lang: vợ/chồng ham tửu sắc.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Đà Tham tửu sắc la đà"
+  },
+  {
+   "id": "c-phoi-tue-da",
+   "ten": "Tuế Đà / Phục Binh Kỵ chiếu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "thai-tue",
+       "da-la"
+      ]
+     },
+     {
+      "sao": [
+       "phuc-binh",
+       "hoa-ky"
+      ],
+      "o": "chieu"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thái Tuế, Đà La, hoặc Phục Binh, Hóa Kỵ chiếu: hay cãi vã, nay giận mai hòa.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Tuế Đà miệng lưỡi ắt là sai ngoa / Vợ chồng nay giận mai hoà / Phục Binh, Hóa Kỵ chiếu toà phối cung."
+  },
+  {
+   "id": "c-phoi-cu-hoa-linh",
+   "ten": "Cự Môn gặp Hỏa Linh",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "cu-mon"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Cự Môn gặp Hỏa Linh: ba lần mai mối chưa thành.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Cự Môn, Linh Hỏa tương phùng / Ba lần mối lái chẳng xong mối sầu"
+  },
+  {
+   "id": "c-phoi-dao-ky-kiep-khoc-hu",
+   "ten": "Đào Kỵ Kiếp Khốc Hư",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "gioiTinh": "nu",
+   "dieuKien": {
+    "sao": [
+     "dao-hoa",
+     "hoa-ky",
+     "dia-kiep",
+     "thien-khoc",
+     "thien-hu"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Cung Phu có Đào, Kỵ, Kiếp, Khốc, Hư: dễ có mưu hại chồng.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen",
+    "gia-dao"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phu: Đào Kỵ Kiếp Khốc Hư / Hại chồng mưu kế dễ hầu biết bao"
+  },
+  {
+   "id": "c-phoi-pha-tuan-triet",
+   "ten": "Phá Quân gặp Tuần Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "pha-quan"
+     },
+     {
+      "sao": "@tuan-triet"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Phá Quân gặp Tuần Triệt: ba lần mới thành hôn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phá Quân, Tuần Triệt lâm vào / Có chăng thì cũng 3 tao mới thành"
+  },
+  {
+   "id": "c-phoi-vu-sat",
+   "ten": "Vũ Sát đồng cung",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "vu-khuc",
+     "that-sat"
+    ]
+   },
+   "ketLuan": "Phu Thê có Vũ Khúc, Thất Sát: ba lần hôn phối mới yên.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Vũ Khúc, Thất Sát đồng danh / Ba lần hôn phối mới lành được chăng"
+  },
+  {
+   "id": "c-phoi-vu-ma-tuan-triet",
+   "ten": "Vũ, Mã gặp Tuần Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "gioiTinh": "nam",
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "vu-khuc"
+     },
+     {
+      "sao": "thien-ma",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@tuan-triet"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Vũ Khúc, Thiên Mã gặp Tuần Triệt: xung khắc, bỏ vợ ra đi.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Vũ Khúc, Thiên Mã, Triệt Tuần / Khắc xung bỏ vợ khuê phòng ra đi"
+  },
+  {
+   "id": "c-phoi-khong-kiep",
+   "ten": "Không Kiếp ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "@khong-kiep"
+   },
+   "ketLuan": "Phu Thê có Không Kiếp: hai ba lần lập gia đình mới yên.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phối cung Không Kiếp kể chi / Trai hai ba độ họa may mới toàn"
+  },
+  {
+   "id": "c-phoi-kinh-da-ky-nhat-nguyet-xung",
+   "ten": "Kình Đà Kỵ, Nhật Nguyệt xung",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "kinh-duong"
+       },
+       {
+        "sao": "da-la"
+       }
+      ]
+     },
+     {
+      "sao": "hoa-ky",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@nhat-nguyet",
+      "o": "xung"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Kình/Đà, Kỵ, Nhật Nguyệt xung: vợ chồng chán nhau.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Dương Đà Kỵ, Nhật Nguyệt xung / Chim cưu thói ấy vợ chồng chán nhau"
+  },
+  {
+   "id": "c-phoi-nguyet-sang",
+   "ten": "Thái Âm đắc địa ở Thê",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "gioiTinh": "nam",
+   "dieuKien": {
+    "sao": "thai-am",
+    "dacTinh": "sang"
+   },
+   "ketLuan": "Cung Thê có Thái Âm đắc địa: duyên lành, vợ sang quý.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Duyên lành phò mã ngôi cao / Thái Âm đắc địa đóng vào Thê cung"
+  },
+  {
+   "id": "c-phoi-tuong",
+   "ten": "Thiên Tướng ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "thien-tuong"
+   },
+   "ketLuan": "Phu Thê có Thiên Tướng: vợ/chồng đứng đắn.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thiên Tướng đứng đắn lạ thường"
+  },
+  {
+   "id": "c-phoi-liem-sang",
+   "ten": "Liêm Trinh đắc địa ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "liem-trinh",
+    "dacTinh": "sang"
+   },
+   "ketLuan": "Phu Thê có Liêm Trinh đắc địa: vợ/chồng đoan chính.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Liêm Trinh đắc địa là phường đoan trinh"
+  },
+  {
+   "id": "c-phoi-tham-truong-nu",
+   "ten": "Tham Lang ở Thê",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "gioiTinh": "nam",
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tham-lang"
+     },
+     {
+      "sao": "thien-luong"
+     }
+    ]
+   },
+   "ketLuan": "Cung Thê có Tham Lang (hay Thiên Lương): nên lấy con gái trưởng thì duyên lành.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Tham Lương gái trưởng duyên lành / Tham Lang thê thiếp xem qua / Hôn nghi trưởng nữ mới ra đông sàng"
+  },
+  {
+   "id": "c-phoi-pha",
+   "ten": "Phá Quân ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "pha-quan"
+   },
+   "ketLuan": "Phu Thê có Phá Quân: duyên nợ ít vẹn toàn, trước trở sau thành.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phá Quân tiên trở hậu thành mới hay / Phá Quân duyên nợ ít toàn"
+  },
+  {
+   "id": "c-phoi-tuong-long-phuong",
+   "ten": "Thiên Tướng gặp Long Phượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-tuong"
+     },
+     {
+      "sao": [
+       "long-tri",
+       "phuong-cac"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Tướng gặp Long Phượng: vợ chồng càng ngày càng yêu thương.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thiên Tướng, Phượng Các Long Trì / Càng thêm yêu dấu mỗi ngày mỗi tăng"
+  },
+  {
+   "id": "c-phoi-tuan-triet-khong-kiep",
+   "ten": "Tuần Triệt gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@tuan-triet"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Tuần Triệt gặp Không Kiếp: mai mối dang dở ba lần mới nên.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Triệt Tuần, Không Kiếp giao lâm / Mối mai dang dở ba lần mới nên"
+  },
+  {
+   "id": "c-phoi-luong-nguyet",
+   "ten": "Lương Âm",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "all": [
+       {
+        "sao": "thien-luong"
+       },
+       {
+        "sao": "thai-am",
+        "o": "tamPhuong"
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "thai-am"
+       },
+       {
+        "sao": "thien-luong",
+        "o": "tamPhuong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Lương hợp Thái Âm: vợ đẹp lại hiền.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Lương Âm đã đẹp lại hiền"
+  },
+  {
+   "id": "c-phoi-luong-co",
+   "ten": "Lương Cơ ở Thê",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-luong",
+     "thien-co"
+    ]
+   },
+   "ketLuan": "Cung Thê có Thiên Lương, Thiên Cơ: vợ có nhan sắc.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Lương Cơ gái sắc ở miền Thê cung"
+  },
+  {
+   "id": "c-phoi-dong-rieu",
+   "ten": "Đồng Diêu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-dong",
+     "thien-rieu"
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Đồng, Thiên Diêu: dễ ngoại tình.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Đồng Diêu đoán ắt ngoại tình"
+  },
+  {
+   "id": "c-phoi-khoi-viet-quyen-tuong",
+   "ten": "Khôi Việt Quyền Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-viet",
+     "thien-khoi",
+     "hoa-quyen",
+     "thien-tuong"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Khôi Việt, Hóa Quyền, Thiên Tướng: vợ/chồng đáng yêu, gia đạo vinh quang.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Việt Khôi Quyền Tướng đáng yêu / Lại gia Tử Tướng mọi chiều vinh quanh"
+  },
+  {
+   "id": "c-phoi-long-phuong",
+   "ten": "Long Phượng ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "@long-phuong"
+   },
+   "ketLuan": "Phu Thê có Long Phượng: vợ/chồng nhan sắc, dịu dàng.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen",
+    "ngoai-hinh"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phượng Long nhan sắc dịu dàng"
+  },
+  {
+   "id": "c-phoi-xuong-khuc-ta-huu",
+   "ten": "Khúc Xương Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "van-xuong",
+     "van-khuc",
+     "ta-phu",
+     "huu-bat"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Xương Khúc, Tả Hữu: vợ/chồng tài hoa.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Khúc Xương Tả Hữu ấy làng tài hoa"
+  },
+  {
+   "id": "c-phoi-khoi-de-vuong",
+   "ten": "Thiên Khôi Đế Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-khoi",
+     "de-vuong"
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Khôi, Đế Vượng: vợ/chồng trên người có nhiều nốt ruồi.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "ngoai-hinh"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thiên Khôi Đế Vượng tinh trần / Nốt ruồi điểm ở trong thân khá nhiều"
+  },
+  {
+   "id": "c-phoi-linh",
+   "ten": "Linh Tinh ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "linh-tinh"
+   },
+   "ketLuan": "Phu Thê có Linh Tinh: vợ/chồng hà tiện.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Linh Tinh hà tiện bao nhiêu"
+  },
+  {
+   "id": "c-phoi-pha-tieu-lieu",
+   "ten": "Phá Quân tiêu liều",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": "pha-quan"
+   },
+   "ketLuan": "Phu Thê có Phá Quân: vợ/chồng tính tiêu xài liều lĩnh.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen",
+    "tai-loc"
+   ],
+   "trang": 126,
+   "nguyenVan": "Phá Quân kia lại tính liều tiêu vung"
+  },
+  {
+   "id": "c-phoi-nguyet-loc-ma-khuc",
+   "ten": "Thái Âm gặp Đồng, Ấn, Lộc, Mã, Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai-am"
+     },
+     {
+      "sao": [
+       "thien-dong",
+       "quoc-an",
+       "@loc",
+       "thien-ma",
+       "van-khuc"
+      ],
+      "o": "tamPhuong",
+      "min": 3
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thái Âm gặp Thiên Đồng, Quốc Ấn, Lộc, Mã, Văn Khúc: vợ về mang nhiều của cải.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen",
+    "tai-loc"
+   ],
+   "trang": 126,
+   "nguyenVan": "Vợ về của sẳn muôn trùng / Đông, Ấn, Lộc, Mã Khúc phùng Thái Âm"
+  },
+  {
+   "id": "c-phoi-binh-hinh-hoa-ky",
+   "ten": "Binh Hình gặp Hỏa Kỵ xung",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "phuc-binh",
+       "thien-hinh"
+      ]
+     },
+     {
+      "any": [
+       {
+        "sao": "hoa-tinh",
+        "o": "xung"
+       },
+       {
+        "sao": "hoa-ky",
+        "o": "xung"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Phục Binh, Thiên Hình, bị Hỏa/Kỵ xung: vợ chồng cư xử bạc bẽo.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Binh Hình gặp Hỏa Kỵ xung / Đêm ngày cư xử ra lòng bạc đen"
+  },
+  {
+   "id": "c-phoi-tang-khoc",
+   "ten": "Tang Môn Thiên Khốc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tang-mon",
+     "thien-khoc"
+    ]
+   },
+   "ketLuan": "Phu Thê có Tang Môn, Thiên Khốc: phận hèn, hoặc làm lẽ, hoặc ly tình.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Tang Môn Thiên Khốc phận hèn / Hoặc là làm lẽ, hoặc phen ly tình"
+  },
+  {
+   "id": "c-phoi-ma-da",
+   "ten": "Thiên Mã ngộ Đà La",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-ma",
+     "da-la"
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Mã gặp Đà La: vợ/chồng có tật ở chân tay.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 126,
+   "nguyenVan": "Kìa Thiên Mã ngộ Đà La / Chân tay có tật ắt là chẳng sai"
+  },
+  {
+   "id": "c-phoi-xuong-khuc-tue",
+   "ten": "Khúc Xương Thái Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@xuong-khuc"
+     },
+     {
+      "sao": "thai-tue"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Xương Khúc, Thái Tuế: vợ/chồng nói nhiều, chua ngoa.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Khúc Xương Thái Tuế liệt hồi / Chua ngoa miệng, lưỡi, ấy người đa ngôn"
+  },
+  {
+   "id": "c-phoi-dong-luong",
+   "ten": "Đồng Lương ở Phối",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-dong",
+     "thien-luong"
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Đồng, Thiên Lương: có thể hai vợ cùng một họ; vợ/chồng có vết trên đầu.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Đồng Lương hội nhập Phối cung / Hai vợ ắt một tổ tông đó mà / Trên đầu có vết để mà sai đâu"
+  },
+  {
+   "id": "c-phoi-tuan-triet-ma",
+   "ten": "Tuần Triệt gặp Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-ma"
+     },
+     {
+      "sao": "@tuan-triet"
+     }
+    ]
+   },
+   "ketLuan": "Phu Thê có Thiên Mã gặp Tuần Triệt: ưu phiền, vợ chồng bỏ nhau đi xa.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Triệt Tuần ngộ Mã ưu phiền / Bỏ chồng, vợ trốn đến miền xa phương"
+  },
+  {
+   "id": "c-phoi-co-qua-tang-ho-khoc",
+   "ten": "Cô Quả Tang Hổ Khốc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "sao": [
+     "co-than",
+     "qua-tu",
+     "tang-mon",
+     "bach-ho",
+     "thien-khoc"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phu Thê hội Cô, Quả, Tang, Hổ, Khốc: dễ có tang vợ/chồng.",
+   "danhGia": "hung",
+   "mucDo": 3,
+   "chuDe": [
+    "tinh-duyen",
+    "gia-dao"
+   ],
+   "trang": 126,
+   "nguyenVan": "Cô, Quả, Tang, Hổ, Khốc thường tóc tang"
+  },
+  {
+   "id": "c-phoi-nguyet-khuc",
+   "ten": "Thái Âm Văn Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai-am"
+     },
+     {
+      "sao": "van-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Cung Thê có Thái Âm, Văn Khúc: vợ hiền tài, giúp chồng thành đạt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thê cung Nguyệt, Khúc trang tàng / Ra tay bẻ quế Đông sàng thiềm cung"
+  },
+  {
+   "id": "c-phoi-xuong-tam-khong",
+   "ten": "Văn Xương gặp Tam Không",
+   "loai": "phu-doan",
+   "cung": [
+    "Phu Thê"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "van-xuong"
+     },
+     {
+      "sao": [
+       "tuan",
+       "triet",
+       "thien-khong",
+       "dia-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Cung Thê có Văn Xương gặp các sao Không: kết duyên với con nhà danh giá.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tinh-duyen"
+   ],
+   "trang": 126,
+   "nguyenVan": "Thê cung Xương gặp tam Không / Con nhà danh giá tổ tòng kết duyên"
+  },
+  {
+   "id": "c-tu-quyen-loc",
+   "ten": "Quyền Lộc ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "hoa-quyen",
+     "hoa-loc"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Tử Tức hội Quyền, Lộc: con cái hiển vinh.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung Quyền Lộc hiển vinh"
+  },
+  {
+   "id": "c-tu-khoi-viet-van-tinh",
+   "ten": "Khôi Việt văn tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@khoi-viet"
+     },
+     {
+      "sao": "@van-tinh-nhom",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Khôi Việt gặp văn tinh: con học giỏi, đỗ đầu.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai",
+    "hoc-van"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung Khôi Việt Văn tinh đỗ đầu"
+  },
+  {
+   "id": "c-tu-long-phuong",
+   "ten": "Long Phượng ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "@long-phuong"
+   },
+   "ketLuan": "Tử Tức có Long Phượng: con cái sang giàu.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung Long Phượng sang giàu"
+  },
+  {
+   "id": "c-tu-xuong-khuc-tue",
+   "ten": "Khúc Xương Thái Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@xuong-khuc"
+     },
+     {
+      "sao": "thai-tue"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Xương Khúc, Thái Tuế: con được phong tặng, hiển đạt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Khúc Xương, Thái Tuế thập hầu tặng phong"
+  },
+  {
+   "id": "c-tu-thai-ta-huu",
+   "ten": "Thai gặp Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai"
+     },
+     {
+      "sao": "@ta-huu"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thai và Tả Hữu: có con với vợ lẽ / con riêng.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thai cùng Tả Hữu hội chung / Sinh con có kẻ bên giòng tiểu tinh"
+  },
+  {
+   "id": "c-tu-nguyet-thai",
+   "ten": "Thái Âm gặp Thai",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thai-am",
+     "thai"
+    ]
+   },
+   "ketLuan": "Tử Tức có Thái Âm và Thai: con do cầu tự mà có (cầu Phật mới có con).",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thái Âm, Thai hội con sinh Bụt thần / Thái Âm cung Tử an bài / Gặp sao Thai hẳn Phật đài cầu con"
+  },
+  {
+   "id": "c-tu-quan-phuc-quang-tau",
+   "ten": "Thiên Quan Phúc / Quang Tấu",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "@quan-phuc"
+     },
+     {
+      "sao": [
+       "an-quang",
+       "tau-thu"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thiên Quan, Thiên Phúc hoặc Ân Quang, Tấu Thư: con là quý nhân, như có thần giáng sinh.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thiên Quan, Thiên Phúc Quí nhân / Ân Quang cùng Tấu có thần giáng sinh"
+  },
+  {
+   "id": "c-tu-thanh-long-vuong-thai-hy",
+   "ten": "Thanh Long, Đế Vượng, Thai, Hỷ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thanh-long",
+     "de-vuong",
+     "thai",
+     "thien-hy"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Tử Tức có Thanh Long, Đế Vượng, Thai, Thiên Hỷ: sinh nở thuận lợi.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thanh Long, Đế Vượng, Thai tinh / Cùng là Thiên Hỉ, thai sinh một đường"
+  },
+  {
+   "id": "c-tu-dong-nguyet",
+   "ten": "Đồng Nguyệt thủ chiếu",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "all": [
+       {
+        "sao": "thien-dong"
+       },
+       {
+        "sao": "thai-am",
+        "o": "tamPhuong"
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "thai-am"
+       },
+       {
+        "sao": "thien-dong",
+        "o": "tamPhuong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thiên Đồng, Thái Âm thủ chiếu: sinh con trai gái thuận hòa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thiên Đồng Nguyệt thủ chiếu phương / Sinh con trai gái thuận đường lứa đôi"
+  },
+  {
+   "id": "c-tu-vu-xuong-khuc",
+   "ten": "Vũ gặp Xương/Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "vu-khuc"
+     },
+     {
+      "sao": "@xuong-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Vũ Khúc gặp Văn Xương hoặc Văn Khúc: con xinh đẹp hơn người.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai",
+    "ngoai-hinh"
+   ],
+   "trang": 127,
+   "nguyenVan": "Vũ, Xương hoặc Khúc cùng ngồi / Sinh con xinh đẹp hơn người chẳng ngoa"
+  },
+  {
+   "id": "c-tu-khong-hoa-linh",
+   "ten": "Không Kiếp gặp Hỏa Linh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@khong-kiep"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Không Kiếp gặp Hỏa Linh: con có tính xấu, bất hảo.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Không ngộ Linh Hỏa xấu xa / Sinh con lại gặp những tà ác tinh"
+  },
+  {
+   "id": "c-tu-khoc-hu-duong",
+   "ten": "Khốc Hư gặp Dưỡng",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@khoc-hu",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": [
+       "duong",
+       "co-than"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Khốc Hư gặp Dưỡng, Cô Thần: sinh nhiều nuôi ít, lo âu.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Khốc Hư ngộ Dưỡng không lành / Khốc Hư lại gặp Dưỡng, Thần (Cô) / Sinh nhiều nuôi ít muôn phần ưu tư"
+  },
+  {
+   "id": "c-tu-tuong-binh-xung",
+   "ten": "Tướng Binh xung phá",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tuong-quan",
+     "phuc-binh"
+    ],
+    "o": "chieu",
+    "min": 1
+   },
+   "ketLuan": "Tử Tức bị Tướng Quân, Phục Binh xung chiếu: dễ có chuyện hoang thai.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tướng Binh xung phá hẳn đành hoang thai"
+  },
+  {
+   "id": "c-tu-xuong-khuc",
+   "ten": "Khúc Xương ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "@xuong-khuc"
+   },
+   "ketLuan": "Tử Tức có Xương Khúc: con gái dễ ham chơi, phóng túng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung mà có Khúc Xương / Tuồng gì con gái những phường chơi ngang"
+  },
+  {
+   "id": "c-tu-dao",
+   "ten": "Đào Hoa ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "dao-hoa"
+   },
+   "ketLuan": "Tử Tức có Đào Hoa: con gái dễ đa tình.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Đào Hoa nhi nữ dâm tàng"
+  },
+  {
+   "id": "c-tu-tu-phu",
+   "ten": "Tử Phủ ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "thien-phu"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Tử Vi hay Thiên Phủ: con gái giỏi giang, làm rường cột.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử Phủ nhi nữ lại làng đống lương"
+  },
+  {
+   "id": "c-tu-nguyet-ham-hoa-linh",
+   "ten": "Thái Âm hãm gặp Hỏa Linh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai-am",
+      "dacTinh": "ham"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thái Âm hãm gặp Hỏa Linh: kém con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Bóng tà vẫn kém hào con / Bở chưng Linh Hỏa, Thái Âm hãm nhàn"
+  },
+  {
+   "id": "c-tu-kinh-hu",
+   "ten": "Kình Dương Thiên Hư",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kinh-duong",
+     "thien-hu"
+    ]
+   },
+   "ketLuan": "Tử Tức có Kình Dương, Thiên Hư: có sinh mà khó nuôi.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Kình Dương mà cặp Thiên Hư / Hữu sinh vô dưỡng âu lo một đời"
+  },
+  {
+   "id": "c-tu-nhat-nguyet-thai",
+   "ten": "Nhật Nguyệt gặp Thai",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet"
+     },
+     {
+      "sao": "thai"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Nhật/Nguyệt và Thai: sinh nuôi không thuận.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Âm Dương Thai hội sinh nuôi chẳng lành"
+  },
+  {
+   "id": "c-tu-phi-liem-kinh-hinh",
+   "ten": "Phi Liêm hoặc Kình Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "phi-liem"
+     },
+     {
+      "sao": [
+       "kinh-duong",
+       "thien-hinh"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Phi Liêm hoặc Kình Dương, Thiên Hình: hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Hiếm hoi Phi (Liêm) hoặc Kình Hình"
+  },
+  {
+   "id": "c-tu-ma-khong-ta-huu",
+   "ten": "Mã, Không, Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-ma",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@ta-huu",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": [
+       "dia-khong",
+       "thien-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức hội Thiên Mã, Không, Tả Hữu: đề phòng sinh đôi.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Mã, Không, Phụ Bật song sinh phải phòng"
+  },
+  {
+   "id": "c-tu-khoc-hinh-kinh-ho",
+   "ten": "Khốc Hình Kình Hổ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-khoc",
+     "thien-hinh",
+     "kinh-duong",
+     "bach-ho"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Tử Tức hội Khốc, Hình, Kình, Hổ: đến già khó có con bồng bế.",
+   "danhGia": "hung",
+   "mucDo": 3,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Khốc Hình Kình Hổ Tử cung / Đến già chẳng thấy tay bồng con thơ"
+  },
+  {
+   "id": "c-tu-kinh-da-khong-kiep-khoc-hu",
+   "ten": "Kình Đà Không Kiếp Khốc Hư",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kinh-duong",
+     "da-la",
+     "dia-khong",
+     "dia-kiep",
+     "thien-khoc",
+     "thien-hu"
+    ],
+    "o": "tamPhuong",
+    "min": 4
+   },
+   "ketLuan": "Tử Tức hội Kình, Đà, Không, Kiếp, Khốc, Hư: con dễ điếc lác, chậm chạp.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai",
+    "suc-khoe"
+   ],
+   "trang": 127,
+   "nguyenVan": "Kình Đà Không Kiếp Khốc Hư / Sinh con điếc lác ngẩn ngơ thêm buồn"
+  },
+  {
+   "id": "c-tu-dau-quan",
+   "ten": "Đẩu Quân ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "dau-quan"
+     },
+     {
+      "not": {
+       "sao": "@luc-cat",
+       "o": "tamPhuong",
+       "min": 2
+      }
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Đẩu Quân mà không có cát tinh: hiếm con (có cát tinh hội thì còn hy vọng).",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Đẩu quân cung Tử xem qua / Cát tinh giao hội may còn ước mong"
+  },
+  {
+   "id": "c-tu-tuong-co",
+   "ten": "Tướng, Cơ ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-tuong"
+     },
+     {
+      "sao": "thien-co"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thiên Tướng hay Thiên Cơ: hiếm muộn con.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tướng, Cơ số hiếm muộn màng"
+  },
+  {
+   "id": "c-tu-da-ky",
+   "ten": "Đà Kỵ ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "da-la",
+     "hoa-ky"
+    ]
+   },
+   "ketLuan": "Tử Tức có Đà La, Hóa Kỵ: hiếm muộn con.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Hoặc là Đà Kỵ ở làng Tử cung"
+  },
+  {
+   "id": "c-tu-duong-da-tuyet",
+   "ten": "Dưỡng Đà gặp Tuyệt (Tý Ngọ Mão Dậu)",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Mão",
+       "Dậu",
+       "Tý",
+       "Ngọ"
+      ]
+     },
+     {
+      "sao": [
+       "duong",
+       "da-la"
+      ]
+     },
+     {
+      "sao": "tuyet",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức ở Tý, Ngọ, Mão, Dậu có Dưỡng, Đà La gặp Tuyệt: uổng công sinh thành.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Dưỡng Đà ngộ Tuyệt phùng xung / Mão Dậu Tí Ngọ uổng công sinh thành"
+  },
+  {
+   "id": "c-tu-thai-tuong-phuc",
+   "ten": "Thai, Tướng, Phục Binh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thai",
+       "phuc-binh"
+      ]
+     },
+     {
+      "any": [
+       {
+        "sao": "thien-tuong"
+       },
+       {
+        "sao": "tuong-quan"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thai, Tướng, Phục Binh: vợ chồng có con trước khi cưới (tư sinh).",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung Thai Tướng Phục sinh / Vợ chồng ắt hẳn tư sinh thuở nào"
+  },
+  {
+   "id": "c-tu-hoa-linh-kinh",
+   "ten": "Hỏa Linh Kình",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "hoa-tinh",
+     "linh-tinh",
+     "kinh-duong"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Tử Tức có Hỏa, Linh, Kình Dương: con dễ có tật.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai",
+    "suc-khoe"
+   ],
+   "trang": 127,
+   "nguyenVan": "Hỏa, Linh, Dương Nhẫn lâm vào / Có sinh con cũng liệt vào tật thương"
+  },
+  {
+   "id": "c-tu-khong-kiep",
+   "ten": "Không Kiếp ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "@khong-kiep"
+   },
+   "ketLuan": "Tử Tức có Không Kiếp: khi sinh nở dễ băng huyết, con khó nuôi.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai",
+    "suc-khoe"
+   ],
+   "trang": 127,
+   "nguyenVan": "Kiếp Không cung Tử khá phòng / Đẻ hay băng huyết, con vòng tràng hoa"
+  },
+  {
+   "id": "c-tu-tang-ho-khong-kiep",
+   "ten": "Tang Hổ Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@tang-ho"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Tang, Hổ gặp Không Kiếp: con dễ yểu, nhiều lần mất con.",
+   "danhGia": "hung",
+   "mucDo": 3,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Hổ Tang Không Kiếp tương gia / Sinh con yểu chiết đã ba, bốn lần"
+  },
+  {
+   "id": "c-tu-tuan-triet",
+   "ten": "Tuần Triệt ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "@tuan-triet"
+   },
+   "ketLuan": "Tử Tức có Tuần Triệt: trước khó sau dễ sinh.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử cung mà ngộ Triệt Tuần / Tuy rằng trước dữ, sau phần dễ sinh"
+  },
+  {
+   "id": "c-tu-sat-ham-hinh",
+   "ten": "Thất Sát hãm gặp Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "that-sat",
+      "dacTinh": "ham"
+     },
+     {
+      "sao": "thien-hinh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thất Sát hãm gặp Thiên Hình: con dễ thành lưu manh, hoang đàng.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Thất sát hãm, ngộ Thiên Hình / Sinh con những giống lưu manh hoang tàng"
+  },
+  {
+   "id": "c-tu-cung-duong-nhat",
+   "ten": "Cung dương có Thái Dương",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Tý",
+       "Dần",
+       "Thìn",
+       "Ngọ",
+       "Thân",
+       "Tuất"
+      ]
+     },
+     {
+      "sao": "thai-duong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức ở cung dương có Thái Dương: con đầu lòng là trai thì tốt.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Cung Tử Dương, sao Nhật sinh / Con đầu Nam tử mới lành được chăng"
+  },
+  {
+   "id": "c-tu-cung-am-nguyet",
+   "ten": "Cung âm có Thái Âm",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Sửu",
+       "Mão",
+       "Tỵ",
+       "Mùi",
+       "Dậu",
+       "Hợi"
+      ]
+     },
+     {
+      "sao": "thai-am"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức ở cung âm có Thái Âm: con đầu lòng là gái thì tránh được yểu.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Cung Tử Âm ngộ Thái Âm / Con đầu nhi nữ khỏi tầm yểu vong"
+  },
+  {
+   "id": "c-tu-tu-nhat-nguyet",
+   "ten": "Tử Vi gặp Nhật Nguyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "@nhat-nguyet",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Tử Vi gặp Nhật Nguyệt: khoảng ba trai hai gái, tốt.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Tử Vi, Nhật, Nguyệt giao lâm / Ba trai, hai gái tốt phần gia hương"
+  },
+  {
+   "id": "c-tu-phu-dong",
+   "ten": "Phủ, Đồng ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-phu"
+     },
+     {
+      "sao": "thien-dong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thiên Phủ hay Thiên Đồng: khoảng năm con.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Phủ, Đồng năm trẻ yêu đương"
+  },
+  {
+   "id": "c-tu-am-duong-tham-tuong",
+   "ten": "Âm Dương Tham Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thai-duong"
+     },
+     {
+      "sao": "thai-am"
+     },
+     {
+      "sao": "tham-lang"
+     },
+     {
+      "sao": "thien-tuong"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Thái Dương, Thái Âm, Tham Lang hay Thiên Tướng: thường khoảng ba con.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Âm Dương Tham Tướng là thường độ ba"
+  },
+  {
+   "id": "c-tu-ta-huu",
+   "ten": "Tả Hữu ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "@ta-huu"
+   },
+   "ketLuan": "Tử Tức có Tả Phụ, Hữu Bật: khoảng ba bốn con.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Phụ Bật ba bốn sinh ra"
+  },
+  {
+   "id": "c-tu-liem-luong-loc-sat",
+   "ten": "Liêm Lương Lộc Sát",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "liem-trinh"
+     },
+     {
+      "sao": "thien-luong"
+     },
+     {
+      "sao": "@loc"
+     },
+     {
+      "sao": "that-sat"
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Liêm, Lương, Lộc hay Sát: chỉ khoảng một hai con.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Liêm Lương Lộc Sát may mà một hai"
+  },
+  {
+   "id": "c-tu-pha",
+   "ten": "Phá Quân ở Tử",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": "pha-quan"
+   },
+   "ketLuan": "Tử Tức có Phá Quân: khoảng ba con, không hòa thuận.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Phá quân ba trẻ bất hài"
+  },
+  {
+   "id": "c-tu-ton-sat",
+   "ten": "Lộc Tồn gặp sát tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "loc-ton"
+     },
+     {
+      "sao": "@sat-tinh",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Tử Tức có Lộc Tồn gặp sát tinh: rất hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 127,
+   "nguyenVan": "Lộc Tồn gia Sát hiếm hoi vô cùng."
+  },
+  {
+   "id": "c-tu-hiem-1",
+   "ten": "Hiếm con: Kình Đà, Thiên Không, Đẩu Quân",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kinh-duong",
+     "da-la",
+     "thien-khong",
+     "dau-quan"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Kình Đà, Thiên Không, Đẩu Quân: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Kình Đà gặp Thiên Không và Đẩu quân"
+  },
+  {
+   "id": "c-tu-hiem-2",
+   "ten": "Hiếm con: Hình Diêu Hư Khốc gặp Tuyệt/Tuần Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thien-hinh",
+       "thien-rieu",
+       "thien-hu",
+       "thien-khoc"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     },
+     {
+      "sao": [
+       "tuyet",
+       "tuan",
+       "triet"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Hình, Diêu, Hư, Khốc với Tuyệt hay Tuần Triệt: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Hình Diêu Hư Khốc gặp Tuyệt hay Tuần Triệt"
+  },
+  {
+   "id": "c-tu-hiem-3",
+   "ten": "Hiếm con: Không Kiếp Hỏa Linh Tuần Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@chinh-tinh",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": [
+       "dia-khong",
+       "dia-kiep",
+       "linh-tinh",
+       "hoa-tinh",
+       "tuan",
+       "triet"
+      ],
+      "o": "tamPhuong",
+      "min": 4
+     }
+    ]
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Không Kiếp, Hỏa Linh, Tuần Triệt: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Không Kiếp Linh Hoả, Triệt Tuần"
+  },
+  {
+   "id": "c-tu-hiem-4",
+   "ten": "Hiếm con: Song Hao, Cô Quả, Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tieu-hao",
+     "dai-hao",
+     "co-than",
+     "qua-tu",
+     "hoa-ky"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Song Hao, Cô Quả, Hóa Kỵ: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Đại Tiểu Hao, Cô Quả, Hóa Kỵ"
+  },
+  {
+   "id": "c-tu-hiem-5",
+   "ten": "Hiếm con: Kiếp Sát, Phá Toái, Tang Hổ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kiep-sat",
+     "pha-toai",
+     "tang-mon",
+     "bach-ho"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Kiếp Sát, Phá Toái, Tang Hổ: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Kiếp Sát, Phá Toái, Tang Hổ"
+  },
+  {
+   "id": "c-tu-hiem-6",
+   "ten": "Hiếm con: Phục Binh, Thái Tuế, Thiên Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Tử Tức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "phuc-binh",
+     "thai-tue",
+     "thien-hinh"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Cung Tử có chính tinh đắc cách mà tam phương gặp Phục Binh, Thái Tuế, Thiên Hình: số hiếm con.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "con-cai"
+   ],
+   "trang": 128,
+   "nguyenVan": "Phục Binh, Thái Tuế ngộ Thiên Hình"
+  },
+  {
+   "id": "c-tai-tang-quang-ma-ton",
+   "ten": "Tang Môn gặp Quang, Mã, Lộc Tồn",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": [
+       "an-quang",
+       "thien-ma",
+       "loc-ton"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Tang Môn gặp Ân Quang, Thiên Mã, Lộc Tồn: được hưởng của cô dì, phúc dày.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Tài cung bỗng thấy Tang Môn / Ân Quang Thiên Mã Lộc Tồn đồng qui / Ấy người hưởng của Cô, Dỳ"
+  },
+  {
+   "id": "c-tai-xuong-khuc-ta-huu",
+   "ten": "Khúc Xương Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "van-xuong",
+     "van-khuc",
+     "ta-phu",
+     "huu-bat"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Tài Bạch hội Xương Khúc, Tả Hữu: tiền của có dư.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Khúc Xương Tả Hữu có dư"
+  },
+  {
+   "id": "c-tai-cu",
+   "ten": "Cự Môn ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "cu-mon"
+   },
+   "ketLuan": "Tài Bạch có Cự Môn: tay trắng dựng nên cơ đồ.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Cự Môn bạch thủ cơ đồ lại nên"
+  },
+  {
+   "id": "c-tai-vu-tham",
+   "ten": "Vũ Tham ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "vu-khuc",
+     "tham-lang"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Vũ Tham: giàu có lâu bền, từ 30 tuổi trở lên mới vững.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Vũ Tham giàu có lâu bền / Từ 30 tuổi giở lên mới toàn"
+  },
+  {
+   "id": "c-tai-hoanh-tai",
+   "ten": "Liêm Dần Thân / Phá Tý Ngọ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "all": [
+       {
+        "sao": "liem-trinh"
+       },
+       {
+        "chi": [
+         "Dần",
+         "Thân"
+        ]
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "pha-quan"
+       },
+       {
+        "chi": [
+         "Tý",
+         "Ngọ"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Liêm Trinh ở Dần/Thân hay Phá Quân ở Tý/Ngọ: có hoạnh tài.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Liêm Trinh cư tại Dần Thân, / Cũng như Tí Ngọ: Phá Quân hoạnh tài"
+  },
+  {
+   "id": "c-tai-co-luong-loc-ma",
+   "ten": "Cơ Lương gặp Lộc Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thien-co",
+       "thien-luong"
+      ]
+     },
+     {
+      "sao": [
+       "@loc",
+       "thien-ma"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Cơ Lương gặp Lộc, Mã: giàu như Thạch Sùng.",
+   "danhGia": "cat",
+   "mucDo": 3,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Cơ Lương Lộc Mã ấy ai / Thạch Sùng kim ốc có sai đâu là"
+  },
+  {
+   "id": "c-tai-tu-phu-nhat-nguyet",
+   "ten": "Tử Phủ, Nhật Nguyệt ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "thien-phu"
+     },
+     {
+      "sao": "@nhat-nguyet",
+      "dacTinh": "sang"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Tử Vi, Thiên Phủ hoặc Nhật Nguyệt sáng: phú gia.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Tử Phủ Nhật Nguyệt phú gia"
+  },
+  {
+   "id": "c-tai-tuong-luong-sang",
+   "ten": "Tướng Lương đắc địa",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-tuong",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": "thien-luong",
+      "dacTinh": "sang"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Thiên Tướng, Thiên Lương đắc địa: tài lộc vững vàng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Tướng Lương đắc địa ai mà dám đương"
+  },
+  {
+   "id": "c-tai-co-qua",
+   "ten": "Cô Quả ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@co-qua"
+   },
+   "ketLuan": "Tài Bạch có Cô Thần, Quả Tú: giữ được của, khỏi tốn hao.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Cô Thần Quả Tú khỏi đường tốn hao"
+  },
+  {
+   "id": "c-tai-hinh",
+   "ten": "Thiên Hình ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "thien-hinh"
+   },
+   "ketLuan": "Tài Bạch có Thiên Hình: giữ của tốt.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Thiên Hình giữ của tốt sao"
+  },
+  {
+   "id": "c-tai-linh",
+   "ten": "Linh Tinh ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "linh-tinh"
+   },
+   "ketLuan": "Tài Bạch có Linh Tinh: hà tiện mà nên giàu.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Linh Tinh hà tiện nên giàu đáng khen"
+  },
+  {
+   "id": "c-tai-hoa-linh-mieu",
+   "ten": "Hỏa Linh miếu ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@hoa-linh",
+    "dacTinh": "sang"
+   },
+   "ketLuan": "Tài Bạch có Hỏa Linh miếu địa: phát tài nhiều phen.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Hỏa Linh miếu, phát nhiều phen"
+  },
+  {
+   "id": "c-tai-khoi-viet",
+   "ten": "Khôi Việt ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@khoi-viet"
+   },
+   "ketLuan": "Tài Bạch có Khôi Việt: phát tài một cách thanh cao.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 128,
+   "nguyenVan": "Việt Khôi cũng phát giữ miền thanh cao"
+  },
+  {
+   "id": "c-tai-duong-da-tu-mo",
+   "ten": "Dưỡng Đà Tứ Mộ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "duong",
+       "da-la"
+      ]
+     },
+     {
+      "chi": [
+       "Thìn",
+       "Tuất",
+       "Sửu",
+       "Mùi"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch ở Tứ Mộ có Dưỡng, Đà La: làm nghề chài lưới, muối… ở bậc trung.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc",
+    "su-nghiep"
+   ],
+   "trang": 128,
+   "nguyenVan": "Dưỡng Đà Tứ mộ ước ao / Ngư, diêm nghề ấy cũng vào bậc trung"
+  },
+  {
+   "id": "c-tai-ma-ton-vu-thin-tuat",
+   "ten": "Mã gặp Lộc Tồn / Vũ Thìn Tuất",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "thien-ma",
+       "loc-ton"
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "vu-khuc"
+       },
+       {
+        "chi": [
+         "Thìn",
+         "Tuất"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Thiên Mã gặp Lộc Tồn, hoặc Vũ Khúc ở Thìn/Tuất: phú gia.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Sao Thiên Mã ngộ Lộc Tồn / Hoặc Vũ Thìn, Tuất là phường phú gia"
+  },
+  {
+   "id": "c-tai-phu-vu",
+   "ten": "Phủ Vũ đồng cung",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-phu",
+     "vu-khuc"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Thiên Phủ, Vũ Khúc: của cải truyền đến ba bốn đời.",
+   "danhGia": "cat",
+   "mucDo": 3,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Thiên Phủ Vũ Khúc một nhà / Lưu truyền của cải đến ba bốn đời"
+  },
+  {
+   "id": "c-tai-mo-loc",
+   "ten": "Sao Mộ, Hóa Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "mo",
+     "hoa-loc"
+    ]
+   },
+   "ketLuan": "Tài Bạch có sao Mộ và Hóa Lộc: tiền của tự tìm đến tay.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Sao Mộ Hoá Lộc một nơi / Thật là tiền của chào mời tận tay"
+  },
+  {
+   "id": "c-tai-mo-long-phuong",
+   "ten": "Sao Mộ, Long Phượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "mo"
+     },
+     {
+      "sao": [
+       "long-tri",
+       "phuong-cac"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có sao Mộ gặp Long Phượng: được hưởng của tổ nghiệp.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Sao Mộ Long Phượng hợp bầy / Của truyền tổ nghiệp đến tay đó mà"
+  },
+  {
+   "id": "c-tai-mo-co-luong",
+   "ten": "Sao Mộ, Cơ Lương",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "mo"
+     },
+     {
+      "any": [
+       {
+        "sao": "thien-co"
+       },
+       {
+        "sao": "thien-luong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có sao Mộ cùng Cơ/Lương: tiền tài dễ kiếm, tiêu pha thoải mái.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Sao Mộ Cơ Lương cùng gia / Tiền tài dễ kiếm tiêu pha tháng ngày"
+  },
+  {
+   "id": "c-tai-tham-dong-vuong",
+   "ten": "Tham/Đồng miếu vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tham-lang",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     },
+     {
+      "sao": "thien-dong",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Tham Lang hay Thiên Đồng miếu vượng: tay trắng làm nên giàu.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tham Đồng miếu vượng cũng hay / Khi xưa bạch thủ mà nay sang giàu"
+  },
+  {
+   "id": "c-tai-quang-loc",
+   "ten": "Ân Quang Hóa Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "an-quang",
+     "hoa-loc"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Ân Quang, Hóa Lộc: nhờ lộc nước, hiển danh.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc",
+    "su-nghiep"
+   ],
+   "trang": 129,
+   "nguyenVan": "Ân Quang Hóa Lộc cùng nhau / Ơn nhờ lộc nước rạng màu hiển danh"
+  },
+  {
+   "id": "c-tai-kiep-sat-phuc-binh",
+   "ten": "Kiếp Sát Phục Binh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "kiep-sat",
+     "phuc-binh"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Kiếp Sát, Phục Binh: tiền của do đường gian tà.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Gian tà Kiếp Sát Phục Binh"
+  },
+  {
+   "id": "c-tai-xuong-khuc-tue",
+   "ten": "Khúc Xương Thái Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@xuong-khuc"
+     },
+     {
+      "sao": "thai-tue"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Xương Khúc, Thái Tuế: mưu sinh tảo tần.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Khúc Xương Thái Tuế mưu sinh tảo tần"
+  },
+  {
+   "id": "c-tai-quan-phu-tue",
+   "ten": "Quan Phủ Thái Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "quan-phu-bs",
+     "thai-tue"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Quan Phủ, Thái Tuế: tiền bạc đa đoan.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Quan Phủ Thái Tuế đa đoan"
+  },
+  {
+   "id": "c-tai-co-tue",
+   "ten": "Thiên Cơ Thái Tuế",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-co",
+     "thai-tue"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Thiên Cơ, Thái Tuế: kiếm tiền gian nan.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Thiên Cơ, Thái Tuế gian nan mọi đường"
+  },
+  {
+   "id": "c-tai-da-khong",
+   "ten": "Đà La Địa Không",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "da-la",
+     "dia-khong"
+    ]
+   },
+   "ketLuan": "Tài Bạch có Đà La, Địa Không: nghèo khó, gặp tai ương.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Đà Không nghèo khó tai ương"
+  },
+  {
+   "id": "c-tai-song-hao",
+   "ten": "Song Hao ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@song-hao"
+   },
+   "ketLuan": "Tài Bạch có Đại/Tiểu Hao: tiền tài hao tán bốn phương.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Lưỡng Hao tài tán 4 phương thêm phần"
+  },
+  {
+   "id": "c-tai-tu-tuong-duong",
+   "ten": "Tử Tướng gặp Dưỡng",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "tu-vi",
+       "thien-tuong"
+      ]
+     },
+     {
+      "sao": "duong"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Tử Vi, Thiên Tướng gặp Dưỡng: kiếm tiền bằng nghề phù thủy, bói toán khôn ngoan.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tử Tướng ngại Dưỡng tài viên / Làm nghề phù thủy các miền khôn ngoan"
+  },
+  {
+   "id": "c-tai-da",
+   "ten": "Đà La ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "da-la"
+     },
+     {
+      "not": {
+       "sao": "dia-khong"
+      }
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Đà La: túng thiếu, làm nghề lao động nặng nhọc (củi than).",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Đà La đói rách, củi than làm nghề"
+  },
+  {
+   "id": "c-tai-khong-kiep",
+   "ten": "Không Kiếp ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@khong-kiep"
+   },
+   "ketLuan": "Tài Bạch có Không Kiếp: khốn khó mọi bề.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Kiếp Không khốn khó mọi bề"
+  },
+  {
+   "id": "c-tai-hoa-linh-ham",
+   "ten": "Hỏa Linh hãm ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@hoa-linh",
+    "dacTinh": "ham"
+   },
+   "ketLuan": "Tài Bạch có Hỏa Linh hãm: bủn xỉn, keo kiệt.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc",
+    "tinh-cach"
+   ],
+   "trang": 129,
+   "nguyenVan": "Hỏa Linh biển lận đáng chê vô cùng"
+  },
+  {
+   "id": "c-tai-pha-hao-khong-kiep",
+   "ten": "Phá Quân, Song Hao, Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "pha-quan"
+     },
+     {
+      "sao": "@song-hao",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Phá Quân gặp Song Hao, Không Kiếp: dễ trắng tay.",
+   "danhGia": "hung",
+   "mucDo": 3,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Phá Quân nhị Hao Kiếp Không, / Tấu Thư Xương Khúc trùng phùng bạch gia"
+  },
+  {
+   "id": "c-tai-quan-phu-tue-kinh-da",
+   "ten": "Quan Phù, Thái Tuế, Kình Đà",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "quan-phu",
+       "thai-tue"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     },
+     {
+      "sao": "@kinh-da",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Quan Phù, Thái Tuế gặp Kình Đà: vì tiền mà sinh kiện cáo.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc",
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Quan Phù Thái Tuế Dương Đà / Phải sanh kiện cáo ắt là mới xong"
+  },
+  {
+   "id": "c-tai-tuan-triet",
+   "ten": "Tuần Triệt ở Tài",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "sao": "@tuan-triet"
+   },
+   "ketLuan": "Tài Bạch có Tuần Triệt: khó giữ được cơ nghiệp.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tuần Triệt trước đất cùng không / Tư cơ nan bảo Phủ Không xứ phùng."
+  },
+  {
+   "id": "c-tai-phu-khong",
+   "ten": "Thiên Phủ gặp Không",
+   "loai": "phu-doan",
+   "cung": [
+    "Tài Bạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-phu"
+     },
+     {
+      "sao": [
+       "dia-khong",
+       "thien-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tài Bạch có Thiên Phủ gặp Không: khó giữ được của.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tư cơ nan bảo Phủ Không xứ phùng."
+  },
+  {
+   "id": "c-giai-bach-ho",
+   "ten": "Bạch Hổ ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "bach-ho"
+   },
+   "ketLuan": "Tật Ách có Bạch Hổ: bệnh về huyết, khí huyết hư.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Ách cung Bạch Hổ huyết hư"
+  },
+  {
+   "id": "c-giai-khoc-hu-co",
+   "ten": "Khốc Hư, Thiên Cơ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-co"
+     },
+     {
+      "sao": "@khoc-hu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Thiên Cơ gặp Khốc Hư: bệnh phong.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Khốc Hư, Cơ lại có đề phong dâm"
+  },
+  {
+   "id": "c-giai-kinh-da",
+   "ten": "Kình Đà ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "@kinh-da"
+   },
+   "ketLuan": "Tật Ách có Kình Dương hay Đà La: đau bụng, dễ điếc lác.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Dương Đà phúc thống bệnh lâm / Dương Đà điếc lác thế âu"
+  },
+  {
+   "id": "c-giai-ma-da",
+   "ten": "Mã Đà ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-ma",
+     "da-la"
+    ]
+   },
+   "ketLuan": "Tật Ách có Thiên Mã, Đà La: mang tật.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Mã Đà đới tật"
+  },
+  {
+   "id": "c-giai-kinh",
+   "ten": "Kình Dương ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "kinh-duong"
+   },
+   "ketLuan": "Tật Ách có Kình Dương: bệnh tỳ vị.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Kình làm tỳ thương"
+  },
+  {
+   "id": "c-giai-benh-phu-hinh-ky",
+   "ten": "Bệnh Phù gặp Hình Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "benh-phu"
+     },
+     {
+      "sao": [
+       "thien-hinh",
+       "hoa-ky"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Bệnh Phù gặp Thiên Hình, Hóa Kỵ: bệnh phong sương, phong thấp.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Bệnh Phù, Hình, Kỵ phong sương"
+  },
+  {
+   "id": "c-giai-khong-kiep",
+   "ten": "Không Kiếp ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "@khong-kiep"
+   },
+   "ketLuan": "Tật Ách có Không Kiếp: huyết suy.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Kiếp Không cung Giải mọi đường huyết suy"
+  },
+  {
+   "id": "c-giai-nhat-nguyet-da-ky",
+   "ten": "Nhật Nguyệt gặp Đà Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet"
+     },
+     {
+      "sao": [
+       "da-la",
+       "hoa-ky"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Nhật/Nguyệt gặp Đà La, Hóa Kỵ: bệnh về mắt.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Nhật Nguyệt Đà Kỵ mục tỳ"
+  },
+  {
+   "id": "c-giai-hoa-linh-kinh",
+   "ten": "Hỏa Linh Kình Dương",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "kinh-duong",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách gặp Hỏa Linh, Kình Dương: hay đau mắt.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Hỏa Linh Dương Nhận tháng ngày mắt đau"
+  },
+  {
+   "id": "c-giai-rieu",
+   "ten": "Thiên Diêu ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "thien-rieu"
+   },
+   "ketLuan": "Tật Ách có Thiên Diêu: bệnh mộng tinh.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Thiên Diêu mộng hiện ắt sầu mộng tinh"
+  },
+  {
+   "id": "c-giai-ky",
+   "ten": "Hóa Kỵ ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "hoa-ky"
+   },
+   "ketLuan": "Tật Ách có Hóa Kỵ: chứng âm hư, khó có con.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe",
+    "con-cai"
+   ],
+   "trang": 129,
+   "nguyenVan": "Ách cung Hóa Kỵ cho mình / Âm hư chứng ấy thường tình hiếm con"
+  },
+  {
+   "id": "c-giai-liem-vu-sat",
+   "ten": "Liêm, Vũ, Sát ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "liem-trinh"
+     },
+     {
+      "sao": "vu-khuc"
+     },
+     {
+      "sao": "that-sat"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Liêm Trinh, Vũ Khúc hay Thất Sát: lúc nhỏ hay đau ốm, cha mẹ phải lo thuốc thang.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Liêm Trinh, Vũ, Sát hung đồ (Thất Sát) / Ấu nhi cha mẹ âu lo thuốc thầy"
+  },
+  {
+   "id": "c-giai-cu-pha-hung",
+   "ten": "Cự Phá gặp hung tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "cu-mon"
+       },
+       {
+        "sao": "pha-quan"
+       }
+      ]
+     },
+     {
+      "sao": "@luc-sat",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Cự Môn, Phá Quân gặp hung tinh: thời thiếu niên vướng bệnh phong, mụn nhọt.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 129,
+   "nguyenVan": "Cự Phá, hung tinh họp bày / Phong sang vương vấn ~ ngày thiếu niên"
+  },
+  {
+   "id": "c-giai-long-moc-kiep",
+   "ten": "Long Trì/Kiếp gặp Mộc Dục",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "long-tri",
+       "moc-duc"
+      ]
+     },
+     {
+      "sao": [
+       "moc-duc",
+       "dia-kiep"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Long Trì hay Địa Kiếp với Mộc Dục: tránh sông biển (nạn nước).",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Lòng Trì Mộc Dục sao nên / Hoặc là Mộc Kiếp tránh miền bể sông"
+  },
+  {
+   "id": "c-giai-hinh-kinh-ngo-sat",
+   "ten": "Hình Kình ở Ngọ gặp Thất Sát",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Ngọ"
+      ]
+     },
+     {
+      "sao": [
+       "thien-hinh",
+       "kinh-duong"
+      ]
+     },
+     {
+      "sao": "that-sat",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách ở Ngọ có Thiên Hình, Kình Dương gặp Thất Sát: dễ vướng tù ngục.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Thiên Hình, Dương Nhẫn Ngọ cung / Gặp sao Thất Sát ngục trung đợi chờ"
+  },
+  {
+   "id": "c-giai-tham-liem-ty-hoi",
+   "ten": "Tham Liêm Tỵ Hợi ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "tham-lang",
+       "liem-trinh"
+      ]
+     },
+     {
+      "chi": [
+       "Tỵ",
+       "Hợi"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Tham Liêm ở Tỵ/Hợi: dễ bị lưu đày, tù tội.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tham Liêm Tỵ Hợi khá lo / Lâm vào cung Giải lưu đồ tân loan"
+  },
+  {
+   "id": "c-giai-dan-than-khong-kiep-tham",
+   "ten": "Tham Lang Dần Thân gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Dần",
+       "Thân"
+      ]
+     },
+     {
+      "sao": "tham-lang"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách ở Dần/Thân có Tham Lang gặp Không Kiếp: dễ bị lưu đày.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Dần Thân Không Kiếp Tham Lang / Vận ưng Quản Trọng gặp đàng thứ lưu"
+  },
+  {
+   "id": "c-giai-sat-kinh-phu-ho",
+   "ten": "Sát/Kình gặp Quan Phủ, Hổ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "that-sat"
+       },
+       {
+        "sao": "kinh-duong"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "quan-phu-bs",
+       "bach-ho"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Thất Sát (hay Kình) gặp Quan Phủ, Bạch Hổ: dễ tù tội.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Sát (hay Kình) phùng Phù (Quan Phủ) Hổ ngục tù"
+  },
+  {
+   "id": "c-giai-tham-ky",
+   "ten": "Tham Lang Hóa Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tham-lang",
+     "hoa-ky"
+    ]
+   },
+   "ketLuan": "Tật Ách có Tham Lang, Hóa Kỵ: hạn xấu phải đề phòng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Tham Lang Hoá Kỵ hạn ưu phải phòng"
+  },
+  {
+   "id": "c-giai-cu-ky",
+   "ten": "Cự Kỵ ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "cu-mon",
+     "hoa-ky"
+    ]
+   },
+   "ketLuan": "Tật Ách có Cự Môn, Hóa Kỵ: nên tránh đò, sông nước.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Cự Kỵ nên tránh đò sông"
+  },
+  {
+   "id": "c-giai-phuc-binh-hinh-viet",
+   "ten": "Phục Binh, Hình, Việt",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "phuc-binh",
+     "thien-hinh",
+     "thien-viet"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Tật Ách hội Phục Binh, Thiên Hình, Thiên Việt: dễ bị thương vì gươm đao.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Phục Binh, Hình Việt mắc vòng gươm đao"
+  },
+  {
+   "id": "c-giai-hoa-linh-hinh-viet",
+   "ten": "Hỏa Linh, Hình, Việt",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": [
+       "thien-hinh",
+       "thien-viet"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách hội Hỏa Linh, Thiên Hình, Thiên Việt: đề phòng sét đánh, búa đao.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 129,
+   "nguyenVan": "Hỏa Linh, Hình Việt khác nào / Không bị sét đánh búa đao có ngày"
+  },
+  {
+   "id": "c-giai-hoa-linh-moc",
+   "ten": "Hỏa Linh gặp Mộc Dục",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "moc-duc"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách có Mộc Dục gặp Hỏa Linh: đề phòng nước sôi, lửa bỏng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 130,
+   "nguyenVan": "Hỏa Linh, Mộc Dục phải hay / Nước sôi, lửa đỏ hẹn ngày họa thương"
+  },
+  {
+   "id": "c-giai-ton",
+   "ten": "Lộc Tồn ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "loc-ton"
+   },
+   "ketLuan": "Tật Ách có Lộc Tồn: có bệnh kín kéo dài.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 130,
+   "nguyenVan": "Lộc Tồn ám tật miên trường"
+  },
+  {
+   "id": "c-giai-cuu-giai-tu-phu-luong",
+   "ten": "Tử Phủ Lương, Tả Hữu Xương Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "tu-vi",
+       "thien-phu",
+       "thien-luong"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     },
+     {
+      "sao": [
+       "ta-phu",
+       "huu-bat",
+       "van-xuong",
+       "van-khuc"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Tật Ách được Tả Hữu, Xương Khúc và Tử Phủ, Thiên Lương chiếu: tai ương được phòng giải.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "suc-khoe",
+    "tai-hoa"
+   ],
+   "trang": 130,
+   "nguyenVan": "Tả Hữu Xương Khúc tai ương khá phòng / Ba phương chiếu tại một phương / Thấy sao Tử Phủ, Thiên Lương cùng là"
+  },
+  {
+   "id": "c-giai-cuu-giai-quan-phuc",
+   "ten": "Quan Phúc, Giải Thần, Nguyệt Đức",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-quan",
+     "thien-phuc",
+     "giai-than",
+     "nguyet-duc"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Tật Ách hội Thiên Quan, Thiên Phúc, Giải Thần, Nguyệt Đức: trừ được hung họa, bệnh tật.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "suc-khoe",
+    "tai-hoa"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên Quan, Thiên Phúc hợp là / Giải Thần, Nguyệt Đức một tòa trừ hung"
+  },
+  {
+   "id": "c-giai-tuan-triet",
+   "ten": "Tuần Triệt ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": "@tuan-triet"
+   },
+   "ketLuan": "Tật Ách có Tuần Triệt: có bệnh cũng khỏi, gặp hạn cũng qua.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "suc-khoe"
+   ],
+   "trang": 130,
+   "nguyenVan": "Triệt Tuần đóng ở Ách cung / Bệnh phùng cũng khỏi, hạn phùng cũng qua"
+  },
+  {
+   "id": "c-giai-han-ky-dau-quan",
+   "ten": "Hạn gặp Hóa Kỵ, Đẩu Quân",
+   "loai": "phu-doan",
+   "cung": [
+    "Hạn"
+   ],
+   "dieuKien": {
+    "sao": [
+     "hoa-ky",
+     "dau-quan"
+    ]
+   },
+   "ketLuan": "Hạn gặp Hóa Kỵ lại có Đẩu Quân: năm ấy nhiều tai nạn.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 130,
+   "nguyenVan": "Hạn cung Hóa Kỵ xem qua / Lấy Đẩu Quân độ luận hòa nhất niên"
+  },
+  {
+   "id": "c-giai-khoi-hinh",
+   "ten": "Khôi Hình ở Ách",
+   "loai": "phu-doan",
+   "cung": [
+    "Tật Ách"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-khoi",
+     "thien-hinh"
+    ]
+   },
+   "ketLuan": "Tật Ách có Thiên Khôi, Thiên Hình: dễ vướng pháp luật, kiện tụng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "tai-hoa"
+   ],
+   "trang": 130,
+   "nguyenVan": "Cung Giải mà ngộ Khôi Hình / Số người phải mắc pháp đình can thương."
+  },
+  {
+   "id": "c-di-tu-phu-luong-dong-cat",
+   "ten": "Tử Phủ, Lương Đồng gặp cát tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "tu-vi"
+       },
+       {
+        "sao": "thien-phu"
+       },
+       {
+        "sao": "thien-luong"
+       },
+       {
+        "sao": "thien-dong"
+       }
+      ]
+     },
+     {
+      "sao": "@luc-cat",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Tử Phủ hay Lương Đồng gặp nhiều cát tinh: ra ngoài là bậc anh hùng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh",
+    "su-nghiep"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên Di xuất ngoại anh hùng / Quần thần Tử Phủ, Lương Đồng cùng gia"
+  },
+  {
+   "id": "c-di-tuong-ton-ta-huu",
+   "ten": "Tướng gặp Lộc Tồn, Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-tuong"
+     },
+     {
+      "sao": [
+       "loc-ton",
+       "ta-phu",
+       "huu-bat"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Thiên Tướng gặp Lộc Tồn, Tả Hữu: ra ngoài hơn người.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Tướng Tồn Tả Hữu ai qua"
+  },
+  {
+   "id": "c-di-nhat-nguyet-quyen-loc",
+   "ten": "Nhật Nguyệt gặp Quyền Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": [
+       "hoa-quyen",
+       "hoa-loc"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Nhật Nguyệt sáng gặp Quyền Lộc: ra ngoài vinh hiển.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh",
+    "su-nghiep"
+   ],
+   "trang": 130,
+   "nguyenVan": "Nhật Nguyệt Quyền Lộc hợp hoà vinh xương"
+  },
+  {
+   "id": "c-di-luong-khoa-quyen-loc",
+   "ten": "Lương gặp Khoa Quyền Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-luong"
+     },
+     {
+      "sao": [
+       "hoa-khoa",
+       "hoa-quyen",
+       "hoa-loc"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Thiên Lương gặp Khoa, Quyền, Lộc: nhiều bạn, được quý nhân trọng dụng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh",
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Khoa Quyền Lương Lộc ai đương / Bạn nhiều, lại gặp quí nhân yêu dùng"
+  },
+  {
+   "id": "c-di-viet",
+   "ten": "Thiên Việt ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "thien-viet"
+   },
+   "ketLuan": "Thiên Di có Thiên Việt: ra ngoài ung dung, thường nhờ bạn bè.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh",
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Việt Khôi là cách ung dung / Việt thường nhờ bạn"
+  },
+  {
+   "id": "c-di-khoi",
+   "ten": "Thiên Khôi ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "thien-khoi"
+   },
+   "ketLuan": "Thiên Di có Thiên Khôi: ra ngoài ung dung, thường gặp người sang.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh",
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Khôi thường gặp sang"
+  },
+  {
+   "id": "c-di-dao-hong",
+   "ten": "Đào Hồng ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "@dao-hong"
+   },
+   "ketLuan": "Thiên Di có Đào Hồng: vợ chồng là người phương xa, kết duyên nơi tha hương.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "tinh-duyen",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Vợ chồng viễn phối tha hương / Hồng Đào len lỏi vào hàng Thiên di"
+  },
+  {
+   "id": "c-di-hy-than-cai",
+   "ten": "Hỷ Thần, Hoa Cái ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "hy-than"
+     },
+     {
+      "sao": "hoa-cai"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Hỷ Thần, Hoa Cái: ra ngoài được yêu mến.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Hỉ Thần, Hoa Cái yêu vì"
+  },
+  {
+   "id": "c-di-loc-ma",
+   "ten": "Lộc Mã hội Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "@loc"
+       },
+       {
+        "sao": "thien-ma"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "@loc",
+       "thien-ma"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di hội Lộc, Mã: thường có tài lộc ở bên ngoài.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Lộc Mã hội họp nhiều khi ngoại tài"
+  },
+  {
+   "id": "c-di-vu-tham",
+   "ten": "Vũ Tham ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "vu-khuc",
+     "tham-lang"
+    ]
+   },
+   "ketLuan": "Thiên Di có Vũ Tham: phát tài ở phương xa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Vũ Tham tài phát phương ngoài"
+  },
+  {
+   "id": "c-di-xuong-khuc-ta-huu",
+   "ten": "Khúc Xương Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "van-xuong",
+     "van-khuc",
+     "ta-phu",
+     "huu-bat"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Thiên Di hội Xương Khúc, Tả Hữu: ra ngoài gặp quý nhân.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Khúc Xương Tả Hữu gặp người quí nhân"
+  },
+  {
+   "id": "c-di-duong-luc-si-tuong-quan",
+   "ten": "Dưỡng, Lực Sĩ, Tướng Quân",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "duong",
+     "luc-si",
+     "tuong-quan"
+    ],
+    "min": 2
+   },
+   "ketLuan": "Thiên Di có Dưỡng, Lực Sĩ, Tướng Quân: thường ra vào chốn quyền quý.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Dưỡng phùng Lực Sĩ Tướng Quân / Ra vào thường ở trong sân quí quyền"
+  },
+  {
+   "id": "c-di-nhat-nguyet-giap-trieu",
+   "ten": "Nhật Nguyệt giáp hoặc triều",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "giap": [
+       "thai-duong",
+       "thai-am"
+      ]
+     },
+     {
+      "sao": [
+       "thai-duong",
+       "thai-am"
+      ],
+      "o": "chieu"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di được Nhật Nguyệt giáp hoặc chiếu: ra ngoài gặp quý nhân.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Âm Dương giáp hoặc triều viên / Thiên di cung ấy là miền quí nhân"
+  },
+  {
+   "id": "c-di-co",
+   "ten": "Thiên Cơ ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "thien-co"
+   },
+   "ketLuan": "Thiên Di có Thiên Cơ: gần người quý.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên Cơ cận quí khá phân"
+  },
+  {
+   "id": "c-di-luong",
+   "ten": "Thiên Lương ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "thien-luong"
+   },
+   "ketLuan": "Thiên Di có Thiên Lương: được đứng ngang hàng với bậc vĩ nhân, anh tài.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên Lương đồng vị vỹ nhân anh tài"
+  },
+  {
+   "id": "c-di-pha-sat-ham",
+   "ten": "Phá/Sát hãm ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "pha-quan",
+      "dacTinh": "ham"
+     },
+     {
+      "sao": "that-sat",
+      "dacTinh": "ham"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Phá Quân hay Thất Sát hãm: ra ngoài suốt đời gặp thị phi.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Phá Quân Thất Sát cõi ngoài / Hãm cung thôi lại suốt đời thị phi"
+  },
+  {
+   "id": "c-di-cu-sat",
+   "ten": "Cự Môn, Thất Sát ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "cu-mon"
+     },
+     {
+      "sao": "that-sat"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Cự Môn hay Thất Sát: bôn ba, lao tâm khổ trí.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Cự Môn Thất Sát bôn trì / Lao tâm, khổ trí ích gì ước mong"
+  },
+  {
+   "id": "c-di-tu-sat",
+   "ten": "Tứ hung ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "@tu-sat",
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Thiên Di gặp Kình, Đà, Hỏa, Linh: ở một mình thì thiếu thốn, có cát tinh mới khá.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Dương Đà Linh Hỏa tứ hung / Độc cư bất túc, cát đồng khá do"
+  },
+  {
+   "id": "c-di-vu-kinh-da",
+   "ten": "Vũ gặp Kình Đà",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "vu-khuc"
+     },
+     {
+      "sao": "@kinh-da",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Vũ Khúc gặp Kình Đà: ra ngoài nhiều âu lo.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Vũ Đà Kình tất âu lo"
+  },
+  {
+   "id": "c-di-liem-cu-ky",
+   "ten": "Liêm/Cự gặp Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "liem-trinh"
+       },
+       {
+        "sao": "cu-mon"
+       }
+      ]
+     },
+     {
+      "sao": "hoa-ky",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Liêm Trinh, Cự Môn gặp Hóa Kỵ: xấu như gặp sát tinh.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Liêm Trinh, Cự, Kỵ cũng là sát tinh"
+  },
+  {
+   "id": "c-di-phuc-binh-tue-hinh",
+   "ten": "Phục Binh, Thái Tuế, Thiên Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "phuc-binh",
+     "thai-tue",
+     "thien-hinh"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Thiên Di có Phục Binh, Thái Tuế, Thiên Hình: hay tranh cạnh với người, lòng không vui.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Phục Binh, Thái Tuế Thiên Hình / Cùng người tranh cạnh, tâm tình chẳng vui"
+  },
+  {
+   "id": "c-di-rieu-ky",
+   "ten": "Diêu Kỵ ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-rieu",
+     "hoa-ky"
+    ]
+   },
+   "ketLuan": "Thiên Di có Thiên Diêu, Hóa Kỵ: ra ngoài hay bị mạ nhục, ít người yêu.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên Diêu Hóa Kỵ ra ngoài / Đa chiêu mạ nhục, chẳng ai yêu mình"
+  },
+  {
+   "id": "c-di-tuong-quan-triet",
+   "ten": "Tướng Quân gặp Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tuong-quan",
+     "triet"
+    ]
+   },
+   "ketLuan": "Thiên Di có Tướng Quân gặp Triệt: ra trận dễ bỏ mình.",
+   "danhGia": "hung",
+   "mucDo": 3,
+   "chuDe": [
+    "tai-hoa",
+    "tho-yeu"
+   ],
+   "trang": 130,
+   "nguyenVan": "Tướng Quân ngộ Triệt không lành / Trận tiền kia dễ bỏ mình chôn thây"
+  },
+  {
+   "id": "c-di-co-ma-ham",
+   "ten": "Cơ Mã hãm",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-co",
+     "thien-ma"
+    ]
+   },
+   "ketLuan": "Thiên Di có Thiên Cơ, Thiên Mã: long đong bôn tẩu đông tây.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Long đong Đông tẩu, Tây trì / Bởi vì Cơ Mã Thiên di hãm thân"
+  },
+  {
+   "id": "c-di-dao-ma",
+   "ten": "Đào Mã ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": [
+     "dao-hoa",
+     "thien-ma"
+    ]
+   },
+   "ketLuan": "Thiên Di có Đào Hoa, Thiên Mã: thích chơi bời, du ngoạn, kết giao.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "xuat-hanh",
+    "quan-he"
+   ],
+   "trang": 130,
+   "nguyenVan": "Chơi bời du thảy du san / Thiên di Đào Mã hợp làng kết giao"
+  },
+  {
+   "id": "c-di-khong-kiep",
+   "ten": "Không Kiếp ở Di",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "sao": "@khong-kiep"
+   },
+   "ketLuan": "Thiên Di có Không Kiếp: khốn đốn, dễ chết nơi đất khách.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "xuat-hanh",
+    "tho-yeu"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên di Không Kiếp khốn sao / Hồn qui dặm liễu gặp vào người thân"
+  },
+  {
+   "id": "c-di-luong-nguyet-mieu",
+   "ten": "Lương Nguyệt miếu",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "all": [
+       {
+        "sao": "thien-luong",
+        "dacTinh": "sang"
+       },
+       {
+        "sao": "thai-am",
+        "o": "tamPhuong"
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "thai-am",
+        "dacTinh": "sang"
+       },
+       {
+        "sao": "thien-luong",
+        "o": "tamPhuong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Thiên Lương, Thái Âm miếu địa: chắc là phú gia.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-loc"
+   ],
+   "trang": 130,
+   "nguyenVan": "Thiên di Lương Nguyệt một nhà / Miếu cung ắt hẳn phú gia cho tường"
+  },
+  {
+   "id": "c-di-quan-phu-hinh",
+   "ten": "Quan Phù gặp Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Thiên Di"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "quan-phu"
+     },
+     {
+      "sao": "thien-hinh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Thiên Di có Quan Phù gặp Thiên Hình: ly hương, gặp hình phạt.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa",
+    "xuat-hanh"
+   ],
+   "trang": 130,
+   "nguyenVan": "Quan Phù gặp Hình, Thiên Thương / Ở Thiên di sẽ ly hương, ngộ hình"
+  },
+  {
+   "id": "c-no-cai-hong-dao-ta-huu",
+   "ten": "Hoa Cái Hồng Đào, Tả Hữu chiếu",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "hoa-cai",
+       "hong-loan",
+       "dao-hoa"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     },
+     {
+      "sao": "@ta-huu",
+      "o": "chieu"
+     }
+    ]
+   },
+   "ketLuan": "Nô Bộc có Hoa Cái, Hồng Đào lại được Tả Hữu chiếu: thê thiếp hòa thuận như dây cát quấn bên cây.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 131,
+   "nguyenVan": "Nô cung Hoa Cái Hồng Đào / Cùng là Phụ Bật chiếu vào cho nên / Chính thê, thứ thiếp tiền duyên"
+  },
+  {
+   "id": "c-no-vu-tuong-ta-huu",
+   "ten": "Vũ Tướng gặp Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "vu-khuc",
+       "thien-tuong"
+      ]
+     },
+     {
+      "sao": "@ta-huu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Nô Bộc có Vũ Khúc, Thiên Tướng gặp Tả Hữu: một tiếng gọi trăm người dạ, kẻ dưới đông đảo.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Vũ Tướng Tả Hữu đồng lưu / Nhất hô bách nặc ai đâu dám bì"
+  },
+  {
+   "id": "c-no-nhat-nguyet-ham",
+   "ten": "Nhật Nguyệt hãm ở Nô",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "sao": "@nhat-nguyet",
+    "dacTinh": "ham"
+   },
+   "ketLuan": "Nô Bộc có Nhật Nguyệt hãm: người giúp việc lúc ở lúc đi.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Con em lúc ở lúc đi / Bởi sao Nhật Nguyệt hãm vì Nô cung"
+  },
+  {
+   "id": "c-no-dao",
+   "ten": "Đào Hoa ở Nô",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "sao": "dao-hoa"
+   },
+   "ketLuan": "Nô Bộc có Đào Hoa: dễ mang tiếng bất trung, ưu phiền.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Đào Hoa Nô lại tương phùng / Vong phu mắc tiếng bất trung ưu phiền"
+  },
+  {
+   "id": "c-no-quyen",
+   "ten": "Hóa Quyền ở Nô",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "sao": "hoa-quyen"
+   },
+   "ketLuan": "Nô Bộc có Hóa Quyền: người dưới (hoặc vợ lẽ) lấn quyền người trên.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he",
+    "gia-dao"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cung Nô mà có Hóa Quyền / Ắt rằng vợ lẽ cướp quyền người trên"
+  },
+  {
+   "id": "c-no-cu",
+   "ten": "Cự Môn ở Nô",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "sao": "cu-mon"
+   },
+   "ketLuan": "Nô Bộc có Cự Môn: kẻ dưới oán chủ nhưng không bỏ đi được.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cự Môn oán chủ nhiều phen / Nhưng không thể kiếm được miền ra đi"
+  },
+  {
+   "id": "c-no-pha-vu",
+   "ten": "Phá Vũ đồng cung",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "pha-quan",
+     "vu-khuc"
+    ]
+   },
+   "ketLuan": "Nô Bộc có Phá Quân, Vũ Khúc: gặp kẻ dưới phản bội.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Phá Quân Vũ Khúc đồng vì / Những loài phản bội yêu vì sao nên"
+  },
+  {
+   "id": "c-no-pha-ham-kinh-da-ky",
+   "ten": "Phá hãm gặp Kình Đà Kỵ",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "pha-quan",
+      "dacTinh": "ham"
+     },
+     {
+      "sao": [
+       "kinh-duong",
+       "da-la",
+       "hoa-ky"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Nô Bộc có Phá Quân hãm gặp Kình, Đà, Kỵ: bạn bè, tôi tớ đảo điên khó lường.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Dương Đà Kỵ Phá hãm bên / Bạn bè tôi tớ đảo điên khó lường"
+  },
+  {
+   "id": "c-no-luong-co-cat",
+   "ten": "Lương Cơ miếu gặp Tả Hữu Xương Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "thien-luong",
+        "dacTinh": "sang"
+       },
+       {
+        "sao": "thien-co",
+        "dacTinh": "sang"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "ta-phu",
+       "huu-bat",
+       "van-xuong",
+       "van-khuc"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Nô Bộc có Thiên Lương, Thiên Cơ miếu gặp Tả Hữu, Xương Khúc: được bạn bè, kẻ dưới tốt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Lương Cơ Tả Hữu Khúc Xương / Miếu cung cũng được mọi đường kết giao"
+  },
+  {
+   "id": "c-no-tham-liem-tuong",
+   "ten": "Tham Liêm / Liêm Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Nô Bộc"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "tham-lang",
+       "liem-trinh"
+      ]
+     },
+     {
+      "sao": [
+       "liem-trinh",
+       "thien-tuong"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Nô Bộc có Tham Lang, Liêm Trinh, Thiên Tướng: thiếu người giúp đỡ, lại chuốc oán thù.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "quan-he"
+   ],
+   "trang": 131,
+   "nguyenVan": "Tham Lang Trinh Tướng ngộ vào / Thiếu niên thiếu trợ, lại chiêu oán thù."
+  },
+  {
+   "id": "c-quan-sat-mieu",
+   "ten": "Thất Sát miếu ở Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": "that-sat",
+    "dacTinh": [
+     "M",
+     "V"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thất Sát miếu: uy hùng, nắm binh quyền, lập quân công.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cung Quan Thất Sát uy hùng / Miếu thời chức chưởng vẫy vùng quân công"
+  },
+  {
+   "id": "c-quan-tham-vu",
+   "ten": "Tham Vũ ở Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tham-lang",
+     "vu-khuc"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Tham Vũ: công danh phải bôn ba, chờ thời mới đạt.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cung Quan Tham Vũ đồng tông / Chiếu cung hẹn bước ruổi dong tháng ngày"
+  },
+  {
+   "id": "c-quan-nhat-nguyet",
+   "ten": "Nhật Nguyệt ở Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet"
+     },
+     {
+      "not": {
+       "all": [
+        {
+         "sao": [
+          "thai-duong",
+          "thai-am"
+         ]
+        },
+        {
+         "chi": [
+          "Sửu",
+          "Mùi"
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thái Dương/Thái Âm: rất hay, giàu sang sẵn có.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep",
+    "tai-loc"
+   ],
+   "trang": 131,
+   "nguyenVan": "Nhật Nguyệt cư Quan rất hay / Giàu sang số đã sẵn tay trời dành"
+  },
+  {
+   "id": "c-quan-nhat-nguyet-suu-mui",
+   "ten": "Nhật Nguyệt đồng cung Sửu Mùi ở Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thai-duong",
+       "thai-am"
+      ]
+     },
+     {
+      "chi": [
+       "Sửu",
+       "Mùi"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Nhật Nguyệt đồng cung ở Sửu/Mùi: công danh không thông suốt.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Nhật Nguyệt Quan lộc bất thông / Chỉ hiềm một nỗi đồng cung Sửu Mùi"
+  },
+  {
+   "id": "c-quan-hinh-mao-dau",
+   "ten": "Thiên Hình Mão Dậu",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Mão",
+       "Dậu"
+      ]
+     },
+     {
+      "sao": "thien-hinh"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc ở Mão/Dậu có Thiên Hình: chức trọng, cai trị dân, nắm binh quyền.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cung Quan Dậu Mão Thiên Hình / Trị dân trọng chức, chưởng binh cao quyền"
+  },
+  {
+   "id": "c-quan-quan-tuong",
+   "ten": "Thiên Quan, Thiên Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-quan",
+     "thien-tuong"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thiên Quan, Thiên Tướng: hiển vinh, đức trọng tài hiền.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Thiên Quan, Thiên Tướng cát viên / Hiển vinh đức trọng, tài hiền ấy ai"
+  },
+  {
+   "id": "c-quan-hoa-linh-suu-mui",
+   "ten": "Hỏa Linh Sửu Mùi",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "chi": [
+       "Sửu",
+       "Mùi"
+      ]
+     },
+     {
+      "sao": "@hoa-linh"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc ở Sửu/Mùi có Hỏa Linh: lập chiến công, có tài binh nhung.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Hoả Linh Mùi Sửu an bài / Chiến công đã hẹn đức tài binh nhung"
+  },
+  {
+   "id": "c-quan-kinh-tu-mo-ma",
+   "ten": "Kình Tứ Mộ, Mã triều",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "kinh-duong"
+     },
+     {
+      "chi": [
+       "Thìn",
+       "Tuất",
+       "Sửu",
+       "Mùi"
+      ]
+     },
+     {
+      "sao": "thien-ma",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Kình Dương ở Tứ Mộ, Thiên Mã chiếu về: ra biên cương lập võ công.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Kình tứ mộ, Mã triều lai / Biên cương đi hẳn ra tài võ công"
+  },
+  {
+   "id": "c-quan-giap-long-phuong-xuong-khuc",
+   "ten": "Giáp Long Phượng / Xương Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "giap": [
+       "long-tri",
+       "phuong-cac"
+      ]
+     },
+     {
+      "giap": [
+       "van-xuong",
+       "van-khuc"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc được Long Phượng hoặc Xương Khúc giáp: công danh hanh thông.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Cung Quan giáp Phượng, giáp Long / Giáp Xương, giáp Khúc 1 đường hanh thông"
+  },
+  {
+   "id": "c-quan-tuong-khong-kiep",
+   "ten": "Thiên Tướng gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-tuong"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thiên Tướng gặp Không Kiếp: công danh gian truân, dễ bị mất chức.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Không Kiếp Thiên Tướng gian truân / Những ai đới ấn triệt hồi / Thiên Tướng Không Kiếp đứng ngồi 1 bên"
+  },
+  {
+   "id": "c-quan-khoa",
+   "ten": "Hóa Khoa ở Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": "hoa-khoa"
+   },
+   "ketLuan": "Quan Lộc có Hóa Khoa: tuổi trẻ đã đỗ đạt.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "hoc-van",
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Khoa tinh niên thiếu giữ tuần đăng khoa"
+  },
+  {
+   "id": "c-quan-tu-phu-hoa-trieu",
+   "ten": "Tử Phủ có Hóa triều",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "tu-vi"
+       },
+       {
+        "sao": "thien-phu"
+       }
+      ]
+     },
+     {
+      "sao": "@tam-hoa",
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Tử Vi/Thiên Phủ, tam phương có Hóa triều: công danh cát tường, văn võ vẹn toàn.",
+   "danhGia": "cat",
+   "mucDo": 3,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Một rằng Tử Phủ ba phương Hóa triều"
+  },
+  {
+   "id": "c-quan-khoi-viet",
+   "ten": "Khôi Việt hội Quan",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-khoi",
+     "thien-viet"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Quan Lộc hội Khôi Việt: công danh tốt đẹp.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hai rằng Khôi Việt đáng yêu"
+  },
+  {
+   "id": "c-quan-ta-huu-nhat-nguyet",
+   "ten": "Tả Hữu hợp Nhật Nguyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@ta-huu",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@nhat-nguyet",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Tả Hữu hợp Nhật Nguyệt: công danh cát tường; miếu thì văn võ vẹn toàn, hãm cũng giữ được công danh.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Ba rằng Tả Hữu hợp chiều Âm Dương / Miếu thì văn võ vẹn toàn / Hãm cung cũng giữ được phần công danh"
+  },
+  {
+   "id": "c-quan-kinh-da-ma",
+   "ten": "Kình Đà gặp Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@kinh-da"
+     },
+     {
+      "sao": "thien-ma",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Kình/Đà gặp Thiên Mã: xuôi ngược lập chiến công.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Kình Đà ngộ Mã đã đành / Là người xuôi ngược để dành chiến công"
+  },
+  {
+   "id": "c-quan-tho-thuyen",
+   "ten": "Hình Diêu Tấu gặp Cơ/Vũ",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "thien-co"
+       },
+       {
+        "sao": "vu-khuc"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "thien-hinh",
+       "thien-rieu",
+       "tau-thu"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Cơ hoặc Vũ gặp Hình, Diêu, Tấu Thư: khéo nghề thợ thuyền, sinh nhai vững.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hình Diêu, Cơ, Tấu Vũ cùng / Khéo nghề thuyền thợ vững đường sinh nhai"
+  },
+  {
+   "id": "c-quan-ca-xuong",
+   "ten": "Cơ/Vũ gặp Hồng Diêu Tấu Đào",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "thien-co"
+       },
+       {
+        "sao": "vu-khuc"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "hong-loan",
+       "thien-rieu",
+       "tau-thu",
+       "dao-hoa"
+      ],
+      "o": "tamPhuong",
+      "min": 3
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Cơ/Vũ gặp Hồng, Diêu, Tấu, Đào: làm nghề khôi hài, ca xướng nổi tiếng.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hồng Diêu Cơ Tấu Vũ Đào / Khôi hài, ca xướng tiếng vào nhà quan"
+  },
+  {
+   "id": "c-quan-tue-ho-phu-xuong-khuc",
+   "ten": "Tuế Hổ Phù gặp Khúc Xương",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "thai-tue",
+       "bach-ho",
+       "quan-phu"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     },
+     {
+      "sao": "@xuong-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thái Tuế, Bạch Hổ, Quan Phù gặp Xương Khúc: tài hùng biện, văn chương hơn người.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep",
+    "hoc-van"
+   ],
+   "trang": 131,
+   "nguyenVan": "Tuế, Hổ, Phù hợp Khúc Xương / Có tài hùng biện văn chương hơn người"
+  },
+  {
+   "id": "c-quan-pha-pha-toai",
+   "ten": "Phá Quân, Phá Toái",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "pha-quan",
+     "pha-toai"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Phá Quân, Phá Toái: thích mạo hiểm, hợp việc binh.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Phá Quân, Phá Toái một nơi / Tính ưa mạo hiểm, việc thời chiến binh"
+  },
+  {
+   "id": "c-quan-giap-liem-sat",
+   "ten": "Giáp Liêm Sát",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "giap": [
+     "liem-trinh",
+     "that-sat"
+    ]
+   },
+   "ketLuan": "Quan Lộc bị Liêm Trinh, Thất Sát giáp: về già mới rạng công danh.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Giáp Liêm, giáp Sát (Thất) tung hoành / Tuổi già mới rạng công danh có mà"
+  },
+  {
+   "id": "c-quan-hoa-linh-ma",
+   "ten": "Hỏa Linh gặp Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-ma"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thiên Mã gặp Hỏa Linh: làm nghề cơ khí hoặc vận tải.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Hỏa, Linh, Mã hợp một nhà / Hoặc nghề cơ khí, hoặc là chở chuyên"
+  },
+  {
+   "id": "c-quan-ma-long-hy-loc",
+   "ten": "Mã Long Hỷ / Lộc Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "thien-ma",
+       "long-tri",
+       "thien-hy"
+      ],
+      "o": "tamPhuong",
+      "min": 3
+     },
+     {
+      "all": [
+       {
+        "any": [
+         {
+          "sao": "@loc"
+         },
+         {
+          "sao": "thien-ma"
+         }
+        ]
+       },
+       {
+        "sao": [
+         "@loc",
+         "thien-ma"
+        ],
+        "o": "tamPhuong"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc gặp Thiên Mã, Long Trì, Thiên Hỷ hoặc Lộc Mã: công danh thuận đường, tốt đẹp.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Mã Long Thiên Hỉ thuận đường / Hoặc là Lộc Mã hợp phường tốt thay"
+  },
+  {
+   "id": "c-quan-tham-luong-khuc",
+   "ten": "Tham/Lương gặp Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "tham-lang"
+       },
+       {
+        "sao": "thien-luong"
+       }
+      ]
+     },
+     {
+      "sao": "van-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Tham Lang hay Thiên Lương gặp Văn Khúc: có danh chức, quyền uy.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Tham Lương hay Khúc hội vì / Có danh chức lại quyền uy đó mà"
+  },
+  {
+   "id": "c-quan-tau-thu-bac-si",
+   "ten": "Tấu Thư, Bác Sĩ",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tau-thu"
+     },
+     {
+      "sao": "bac-si"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Tấu Thư hay Bác Sĩ: rộng đường văn học, con nhà trâm anh.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "hoc-van",
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Tấu Thư Bác Sỹ xem qua / Rộng đường văn học con nhà trâm anh"
+  },
+  {
+   "id": "c-quan-phong-cao-tuong",
+   "ten": "Phong Cáo, Thiên Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "phong-cao",
+     "thien-tuong"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Phong Cáo, Thiên Tướng: nhờ lộc nước, hiển vinh muôn phần.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 131,
+   "nguyenVan": "Phong Cáo Thiên Tướng chính tinh / Ơn nhờ lộc nước hiển vinh muôn phần"
+  },
+  {
+   "id": "c-quan-xuong-khuc-long-phuong",
+   "ten": "Xương Khúc Long Phượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@xuong-khuc",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "@long-phuong",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc gặp Xương Khúc, Long Phượng: phát về văn.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep",
+    "hoc-van"
+   ],
+   "trang": 132,
+   "nguyenVan": "Khúc Xương Long Phượng phát văn"
+  },
+  {
+   "id": "c-quan-vo-cong",
+   "ten": "Vũ, Tham, Sát, Phá, Cự đắc địa",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "vu-khuc",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": "tham-lang",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": "that-sat",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": "pha-quan",
+      "dacTinh": "sang"
+     },
+     {
+      "sao": "cu-mon",
+      "dacTinh": "sang"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Vũ, Tham, Sát, Phá, Cự đắc địa: phát về võ công.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Vũ, Tham, Sát, Phá Cự rằng võ công"
+  },
+  {
+   "id": "c-quan-quyen-kiep-hu-hao-sat",
+   "ten": "Quyền gặp Kiếp Hư Hao Sát",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "hoa-quyen"
+     },
+     {
+      "sao": [
+       "dia-kiep",
+       "thien-hu",
+       "tieu-hao",
+       "dai-hao",
+       "that-sat"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Hóa Quyền gặp Kiếp, Hư, Hao, Sát: quyền hành không minh bạch, bị kẻ dưới khinh nhờn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Kẻ hèn khinh dễ người trên / Kiếp Hư Hao Sát ngộ Quyền bất minh"
+  },
+  {
+   "id": "c-quan-liem-sat-hinh",
+   "ten": "Liêm Sát gặp Thiên Hình",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "liem-trinh",
+       "that-sat"
+      ]
+     },
+     {
+      "sao": "thien-hinh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Quan Lộc có Liêm Trinh, Thất Sát gặp Thiên Hình: vận gặp đao thương.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "tai-hoa",
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Lại như Liêm Sát, Thiên Hình / Hội cư Quan Lộc vận hành đao thương"
+  },
+  {
+   "id": "c-quan-nhat-xuong",
+   "ten": "Thái Dương, Văn Xương",
+   "loai": "phu-doan",
+   "cung": [
+    "Quan Lộc"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thai-duong",
+     "van-xuong"
+    ]
+   },
+   "ketLuan": "Quan Lộc có Thái Dương, Văn Xương: được dự chốn triều đình, công danh thuận lợi.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "su-nghiep"
+   ],
+   "trang": 132,
+   "nguyenVan": "Nhật Xương Quan lộc cho tương / Dự trong Hoàng điện thuận dường tốt thay."
+  },
+  {
+   "id": "c-trach-tau-xuong-khuc",
+   "ten": "Tấu Thư Xương Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tau-thu"
+     },
+     {
+      "sao": "@xuong-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Tấu Thư, Xương Khúc: sinh tiền tài, nhà cửa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua",
+    "tai-loc"
+   ],
+   "trang": 132,
+   "nguyenVan": "Tấu Thư Xương Khúc rành rành / Vào cung Điền Trạch ắt sanh tiền tài"
+  },
+  {
+   "id": "c-trach-an-quang",
+   "ten": "Ân Quang ở Điền",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": "an-quang"
+   },
+   "ketLuan": "Điền Trạch có Ân Quang: phúc lộc trùng lai.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Ân Quang, phúc lộc trùng lai"
+  },
+  {
+   "id": "c-trach-mo-sinh-vuong",
+   "ten": "Mộ gặp Sinh Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "mo"
+     },
+     {
+      "sao": "@sinh-vuong",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có sao Mộ gặp Tràng Sinh, Đế Vượng: nhà cửa lâu đài nguy nga.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Mộ phùng Sinh, Vượng lâu đài nguy nga"
+  },
+  {
+   "id": "c-trach-cu-co-mao",
+   "ten": "Cự Cơ ở Mão",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "cu-mon",
+       "thien-co"
+      ]
+     },
+     {
+      "chi": [
+       "Mão"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Cự Cơ ở Mão: giàu có, hào hoa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua",
+    "tai-loc"
+   ],
+   "trang": 132,
+   "nguyenVan": "Cự Cơ giàu có hào hoa (tại Mão)"
+  },
+  {
+   "id": "c-trach-phu-vu",
+   "ten": "Thiên Phủ, Vũ Khúc ở Điền",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-phu"
+     },
+     {
+      "sao": "vu-khuc"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Thiên Phủ hay Vũ Khúc: nhiều nhà cửa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Thiên Phủ, Vũ Khúc mấy toà nghênh ngang"
+  },
+  {
+   "id": "c-trach-hong",
+   "ten": "Hồng Loan ở Điền",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": "hong-loan"
+   },
+   "ketLuan": "Điền Trạch có Hồng Loan: ruộng đất giàu sang.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hồng Loan ruộng đất giàu sang"
+  },
+  {
+   "id": "c-trach-tu-dong-nhat-nguyet",
+   "ten": "Tử, Đồng, Nhật Nguyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "thien-dong"
+     },
+     {
+      "sao": "@nhat-nguyet",
+      "dacTinh": "sang"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Tử Vi, Thiên Đồng hay Nhật Nguyệt sáng: nhà cửa hanh thông.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Tử Đồng Nhật Nguyệt một đàng hanh thông"
+  },
+  {
+   "id": "c-trach-co-than",
+   "ten": "Cô Thần ở Điền",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": "co-than"
+   },
+   "ketLuan": "Điền Trạch có Cô Thần: giữ được điền sản.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Cô Thần yếu giữ Điền cung"
+  },
+  {
+   "id": "c-trach-tang-quang-loc",
+   "ten": "Tang Môn gặp Ân Quang, Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": [
+       "an-quang",
+       "hoa-loc"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Tang Môn gặp Ân Quang, Lộc: được hưởng của tổ truyền.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Tang Môn, Ân Lộc của mong tổ truyền"
+  },
+  {
+   "id": "c-trach-dong-tham-mieu",
+   "ten": "Đồng/Tham miếu vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-dong",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     },
+     {
+      "sao": "tham-lang",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Thiên Đồng hay Tham Lang miếu vượng: tay trắng dựng nên nhà cửa.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Đồng Tham miếu vượng lâm Điền / Ấy là bạch thủ lập nên cửa nhà"
+  },
+  {
+   "id": "c-trach-mo-loc",
+   "ten": "Sao Mộ với Hóa Lộc",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": [
+       "mo",
+       "hoa-loc"
+      ]
+     },
+     {
+      "all": [
+       {
+        "sao": "mo"
+       },
+       {
+        "sao": "hoa-loc",
+        "o": "giap"
+       }
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có sao Mộ gặp (hoặc được giáp) Hóa Lộc: phú gia.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua",
+    "tai-loc"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hóa Lộc giáp Mộ (sao) phú gia"
+  },
+  {
+   "id": "c-trach-luong-co-sang",
+   "ten": "Lương Cơ đắc địa",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-luong",
+     "thien-co"
+    ],
+    "dacTinh": "sang"
+   },
+   "ketLuan": "Điền Trạch có Thiên Lương, Thiên Cơ đắc địa: nhà cửa khang trang.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Lương Cơ đắc địa cửa nhà xênh xoang"
+  },
+  {
+   "id": "c-trach-dao-hong-quang-quy",
+   "ten": "Đào Hồng gặp Quang Quý",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@dao-hong"
+     },
+     {
+      "sao": "@quang-quy",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Đào Hồng gặp Ân Quang, Thiên Quý: được cô dì để lại của.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Đào Hồng lại gặp Quí, Ân / Cô dỳ để lại có phần phong lưu"
+  },
+  {
+   "id": "c-trach-hoa-khong",
+   "ten": "Hỏa Tinh gặp Không",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "hoa-tinh"
+     },
+     {
+      "sao": [
+       "dia-khong",
+       "thien-khong"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Hỏa Tinh gặp Không: vườn ruộng chẳng được bao nhiêu.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Hỏa Không vường ruộng được bao"
+  },
+  {
+   "id": "c-trach-tang-hoa-linh",
+   "ten": "Tang Môn gặp Hỏa Linh",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Điền Trạch có Tang Môn gặp Hỏa Linh: đề phòng hỏa hoạn.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "nha-cua",
+    "tai-hoa"
+   ],
+   "trang": 132,
+   "nguyenVan": "Tang Môn, Linh Hỏa lâm vào hỏa tai"
+  },
+  {
+   "id": "c-trach-pha",
+   "ten": "Phá Quân ở Điền",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": "pha-quan"
+   },
+   "ketLuan": "Điền Trạch có Phá Quân: bán hết tổ nghiệp rồi sau mới tự tạo dựng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Phá Quân sao ấy tán tài / Tổ truyền bán sạch, tương lai tạo thành"
+  },
+  {
+   "id": "c-trach-tang-ho",
+   "ten": "Tang Môn Bạch Hổ",
+   "loai": "phu-doan",
+   "cung": [
+    "Điền Trạch"
+   ],
+   "dieuKien": {
+    "sao": "@tang-ho"
+   },
+   "ketLuan": "Điền Trạch có Tang Môn, Bạch Hổ: nhà cửa chỉ vừa đủ ở.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "nha-cua"
+   ],
+   "trang": 132,
+   "nguyenVan": "Tang Môn Bạch Hổ tương hành / Cửa nhà vừa đủ nấu mình mà thôi."
+  },
+  {
+   "id": "c-phuc-tuong-binh-de-tuyet",
+   "ten": "Tướng Binh Đế Tuyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "tuong-quan",
+     "phuc-binh",
+     "de-vuong",
+     "tuyet"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phúc Đức có Tướng Quân, Phục Binh, Đế Vượng, Tuyệt ở tam phương: họ hàng có người theo nghiệp chinh chiến.",
+   "danhGia": "trung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Phúc cung có kẻ chiến chinh / Tướng Binh Đế Tuyệt đóng thành 3 phương"
+  },
+  {
+   "id": "c-phuc-cu-loc-ma",
+   "ten": "Cự Môn gặp Lộc Mã",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "cu-mon"
+     },
+     {
+      "sao": [
+       "@loc",
+       "thien-ma"
+      ],
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Cự Môn gặp Lộc, Mã: đất hoạnh phát võ công.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc",
+    "su-nghiep"
+   ],
+   "trang": 133,
+   "nguyenVan": "Cự Môn, Lộc Mã tương phùng / Ấy đất hoạnh phát vũ công đó mà"
+  },
+  {
+   "id": "c-phuc-vu-tham-phu-khoa",
+   "ten": "Vũ Tham Phủ gặp Khoa",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "vu-khuc"
+       },
+       {
+        "sao": "tham-lang"
+       },
+       {
+        "sao": "thien-phu"
+       }
+      ]
+     },
+     {
+      "sao": "hoa-khoa",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Vũ, Tham, Phủ gặp Hóa Khoa: họ hàng phát võ nghiệp, nhiều anh hùng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Vũ Tham Thiên Phủ Hóa Khoa / Cũng phát võ nghiệp, cũng đa anh hùng"
+  },
+  {
+   "id": "c-phuc-ham-khong-kiep",
+   "ten": "Phúc hãm gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "@chinh-tinh",
+        "dacTinh": "ham"
+       },
+       {
+        "vcd": true
+       }
+      ]
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức hãm gặp Không Kiếp: họ hàng nhiều kẻ hung hãn ở ngoài.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Phúc cung hãm, ngộ Kiếp Không / Họ hàng lắm kẻ hành hung ở ngoài"
+  },
+  {
+   "id": "c-phuc-dao-hong-tang-thai",
+   "ten": "Đào Hồng Tang gặp Thai",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai"
+     },
+     {
+      "sao": [
+       "dao-hoa",
+       "hong-loan",
+       "tang-mon"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Thai gặp Đào, Hồng, Tang Môn: trong họ có người phóng túng, loạn phong.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Đào Hồng Tang ngộ sao Thai / Tôn thân có kẻ tính bài loạn phong"
+  },
+  {
+   "id": "c-phuc-tau-xuong-khuc",
+   "ten": "Tấu Thư Xương Khúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tau-thu"
+     },
+     {
+      "sao": "@xuong-khuc",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Tấu Thư gặp Xương Khúc: trong họ có người thần đồng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc",
+    "hoc-van"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tấu Thư Xương Khúc tương phùng / Tôn thân có kẻ thần đồng hiện ra"
+  },
+  {
+   "id": "c-phuc-khoi-viet-dao",
+   "ten": "Khôi Việt gặp Đào",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@khoi-viet"
+     },
+     {
+      "sao": "dao-hoa",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Khôi Việt gặp Đào Hoa: làm nên sự nghiệp, phúc nhà khá.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Việt Khôi lại gặp Đào Hoa / Làm nên sự nghiệp phúc nhà khá mong"
+  },
+  {
+   "id": "c-phuc-cu-loc-tuong",
+   "ten": "Cự Môn với Lộc, Tướng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "cu-mon"
+     },
+     {
+      "sao": "@loc",
+      "o": "tamPhuong"
+     },
+     {
+      "sao": "thien-tuong",
+      "o": "giap"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Cự Môn với Lộc, Thiên Tướng kề bên: phát phúc thịnh hưng.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Cự Môn, Lộc Tướng song song / Ấy là phát phúc trùng trùng thịnh hưng"
+  },
+  {
+   "id": "c-phuc-tu-nhat-mieu",
+   "ten": "Tử Vi/Thái Dương miếu vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "tu-vi",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     },
+     {
+      "sao": "thai-duong",
+      "dacTinh": [
+       "M",
+       "V"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Tử Vi hay Thái Dương miếu vượng: trong họ có người quyền quý.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tử, Dương nhập miếu vượng cung / Phát đến có kẻ triều trung quí quyền"
+  },
+  {
+   "id": "c-phuc-tham",
+   "ten": "Tham Lang ở Phúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "tham-lang"
+   },
+   "ketLuan": "Phúc Đức có Tham Lang: thọ khảo.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "tho-yeu",
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tham Lang thọ khảo kỳ viên"
+  },
+  {
+   "id": "c-phuc-nguyet-tu-hong-dao-cai",
+   "ten": "Thái Âm/Tử Vi gặp Hồng Đào Cái",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "any": [
+       {
+        "sao": "thai-am"
+       },
+       {
+        "sao": "tu-vi"
+       }
+      ]
+     },
+     {
+      "sao": [
+       "hong-loan",
+       "dao-hoa",
+       "hoa-cai"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Thái Âm hay Tử Vi gặp Hồng, Đào, Hoa Cái: con gái trong họ hiển quý.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Thái Âm tương hội Tử Vi / Hồng Đào Hoa Cái cung phi hẹn ngày"
+  },
+  {
+   "id": "c-phuc-tang-co-qua",
+   "ten": "Tang Môn gặp Cô Quả",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": "@co-qua",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Tang Môn gặp Cô Quả: trong họ có người góa bụa cô đơn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tang Môn Cô Quả chẳng hay / Quả phu có kẻ tháng ngay cô đơn"
+  },
+  {
+   "id": "c-phuc-sinh-vuong",
+   "ten": "Tràng Sinh Đế Vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "@sinh-vuong"
+   },
+   "ketLuan": "Phúc Đức có Tràng Sinh, Đế Vượng: trong họ đông đúc nhân đinh.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Trường Sinh Đế Vượng hai phương / Ắt là trong họ thịnh đường nhân đinh"
+  },
+  {
+   "id": "c-phuc-tue-phu",
+   "ten": "Thái Tuế, Quan Phù",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thai-tue"
+     },
+     {
+      "sao": "quan-phu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Thái Tuế, Quan Phù: trong họ hay tranh tụng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tuế, Phù tụng sự tương tranh"
+  },
+  {
+   "id": "c-phuc-ton-co-qua",
+   "ten": "Lộc Tồn gặp Cô Quả",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "loc-ton"
+     },
+     {
+      "sao": "@co-qua",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Lộc Tồn gặp Cô Quả: dòng họ ít con trai (độc đinh).",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Lộc Tồn, Cô Quả độc đinh đó mà"
+  },
+  {
+   "id": "c-phuc-tuong-binh-tu-tuyet",
+   "ten": "Tướng Binh gặp Tử Tuyệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "tuong-quan",
+       "phuc-binh"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     },
+     {
+      "sao": [
+       "tu",
+       "tuyet"
+      ],
+      "o": "tamPhuong",
+      "min": 1
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Tướng Quân/Phục Binh gặp Tử, Tuyệt: trong họ có người tử trận nơi xa.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tướng Binh Tử Tuyệt phải là / Có người từ trận phương xa thuở nào"
+  },
+  {
+   "id": "c-phuc-hy",
+   "ten": "Thiên Hỷ, Hỷ Thần",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "@hy-tinh"
+   },
+   "ketLuan": "Phúc Đức có Thiên Hỷ, Hỷ Thần: đất quý, tương sinh.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Thiên Hỉ, Hỉ Thần tốt sao / Ấy là đất quí được màu tương sinh"
+  },
+  {
+   "id": "c-phuc-quan-phuc",
+   "ten": "Thiên Quan, Thiên Phúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "@quan-phuc"
+   },
+   "ketLuan": "Phúc Đức có Thiên Quan, Thiên Phúc: tốt lành, họ có người làm quan trưởng, vinh hiển.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Thiên Quan Thiên Phúc tốt lành / Vượng đường quan trưởng thân vinh chẳng ngờ"
+  },
+  {
+   "id": "c-phuc-van-hoc",
+   "ten": "Khôi Khoa Xương Khúc Tấu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-khoi",
+     "hoa-khoa",
+     "van-xuong",
+     "van-khuc",
+     "tau-thu"
+    ],
+    "o": "tamPhuong",
+    "min": 3
+   },
+   "ketLuan": "Phúc Đức hội Khôi, Khoa, Xương Khúc, Tấu Thư: họ phát về văn học, nhiều anh tài.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc",
+    "hoc-van"
+   ],
+   "trang": 133,
+   "nguyenVan": "Khôi Khoa Xương Khúc Tấu Thư / Phát đà văn học có dư anh tài"
+  },
+  {
+   "id": "c-phuc-vu-vuong",
+   "ten": "Vũ Khúc vượng địa",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "vu-khuc",
+    "dacTinh": [
+     "M",
+     "V"
+    ]
+   },
+   "ketLuan": "Phúc Đức có Vũ Khúc vượng địa: họ hàng hòa thuận, phát võ ban.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Vũ Khúc vượng địa chẳng sai / Phúc cung ắt hẳn hoà hài vũ ban"
+  },
+  {
+   "id": "c-phuc-tang-hoa-linh",
+   "ten": "Tang Môn gặp Hỏa Linh",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "tang-mon"
+     },
+     {
+      "sao": "@hoa-linh",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Tang Môn gặp Hỏa Linh: trong họ hay có hỏa hoạn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc",
+    "tai-hoa"
+   ],
+   "trang": 133,
+   "nguyenVan": "Tang Môn Linh Hỏa chớ màng / Thường sinh hỏa hoạn trong hàng tộc tôn"
+  },
+  {
+   "id": "c-phuc-dao-hong-cai",
+   "ten": "Đào Hồng Hoa Cái",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": [
+       "dao-hoa",
+       "hong-loan",
+       "hoa-cai"
+      ],
+      "o": "tamPhuong",
+      "min": 2
+     },
+     {
+      "not": {
+       "sao": "thai"
+      }
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Đào, Hồng, Hoa Cái: trong họ có con gái đẹp và khôn khác thường.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Đào Hồng Hoa Cái nhập môn / Ắt rằng có gái đẹp khôn khác thường"
+  },
+  {
+   "id": "c-phuc-dao-thai",
+   "ten": "Đào Thai",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": [
+     "dao-hoa",
+     "thai"
+    ]
+   },
+   "ketLuan": "Phúc Đức có Đào Hoa, Thai: trong họ có con gái lẳng lơ.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Đào Thai hội hợp chớ vương / Phúc cung có gái tìm đường gió trăng"
+  },
+  {
+   "id": "c-phuc-da-khong-kiep",
+   "ten": "Đà La gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "da-la"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có Đà La gặp Không Kiếp: dòng họ suy hao.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Đà La Không Kiếp án ngăn / Đẹp gì trong họ, ắt rằng suy hao"
+  },
+  {
+   "id": "c-phuc-chinh-dieu",
+   "ten": "Phúc có chính tinh",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "not": {
+       "vcd": true
+      }
+     },
+     {
+      "not": {
+       "sao": "@tuan-triet"
+      }
+     }
+    ]
+   },
+   "ketLuan": "Phúc Đức có chính tinh (không bị Tuần Triệt): anh em trong họ có cơ hưng thịnh.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Phúc có chánh diệu, đệ bào tiềm hưng"
+  },
+  {
+   "id": "c-phuc-tuan-triet",
+   "ten": "Tuần Triệt ở Phúc",
+   "loai": "phu-doan",
+   "cung": [
+    "Phúc Đức"
+   ],
+   "dieuKien": {
+    "sao": "@tuan-triet"
+   },
+   "ketLuan": "Phúc Đức gặp Tuần Triệt án ngữ: khó còn hy vọng phúc ấm.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "phuc-duc"
+   ],
+   "trang": 133,
+   "nguyenVan": "Nếu gặp án ngữ Triệt Tuần / Thôi còn hy vọng ước mong được gì."
+  },
+  {
+   "id": "c-pm-nhat-ham",
+   "ten": "Thái Dương hãm ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": "thai-duong",
+    "dacTinh": "ham"
+   },
+   "ketLuan": "Phụ Mẫu có Thái Dương hãm (tối): cha dễ mất sớm.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 133,
+   "nguyenVan": "Phụ Mẫu Nhật Nguyệt xem qua / Sao nào đen tối sớm xa cõi trần"
+  },
+  {
+   "id": "c-pm-nguyet-ham",
+   "ten": "Thái Âm hãm ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": "thai-am",
+    "dacTinh": "ham"
+   },
+   "ketLuan": "Phụ Mẫu có Thái Âm hãm (tối): mẹ dễ mất sớm.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 133,
+   "nguyenVan": "Phụ Mẫu Nhật Nguyệt xem qua / Sao nào đen tối sớm xa cõi trần"
+  },
+  {
+   "id": "c-pm-dong-co-tu-phu",
+   "ten": "Đồng Cơ Tử Phủ",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "thien-dong"
+     },
+     {
+      "sao": "thien-co"
+     },
+     {
+      "sao": "tu-vi"
+     },
+     {
+      "sao": "thien-phu"
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Đồng, Thiên Cơ, Tử Vi hay Thiên Phủ: cha mẹ song toàn.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Đồng Cơ Tử Phủ lâm vì / Nhật Nguyệt sinh địa vui thay song toàn"
+  },
+  {
+   "id": "c-pm-viet-khoa",
+   "ten": "Việt, Khoa ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-viet",
+     "hoa-khoa"
+    ],
+    "o": "tamPhuong"
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Việt, Hóa Khoa: cha mẹ hiển vang.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Việt Khoa Phụ Mẫu hiển vang"
+  },
+  {
+   "id": "c-pm-xuong-khuc-ta-huu",
+   "ten": "Khúc Xương Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": [
+     "van-xuong",
+     "van-khuc",
+     "ta-phu",
+     "huu-bat"
+    ],
+    "o": "tamPhuong",
+    "min": 2
+   },
+   "ketLuan": "Phụ Mẫu có Xương Khúc, Tả Hữu: cha mẹ mọi đường hanh thông.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Khúc Xương Tả Hữu mọi đàng hanh thông"
+  },
+  {
+   "id": "c-pm-co-hoi-ty-suu",
+   "ten": "Thiên Cơ Hợi Tý Sửu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-co"
+     },
+     {
+      "chi": [
+       "Hợi",
+       "Tý",
+       "Sửu"
+      ]
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Cơ ở Hợi, Tý, Sửu: cha mẹ với con xung khắc nhiều.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Thiên Cơ Hợi Tí Sửu cung / Mẫu thân, Phụ tử ắt xung khắc nhiều"
+  },
+  {
+   "id": "c-pm-co-luong",
+   "ten": "Cơ Lương ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": [
+     "thien-co",
+     "thien-luong"
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Cơ, Thiên Lương: cha mẹ đáng yêu, hòa thuận.",
+   "danhGia": "cat",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Cơ Lương hội họp đáng yêu"
+  },
+  {
+   "id": "c-pm-ton-khong-kiep",
+   "ten": "Lộc Tồn gặp Không Kiếp",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "loc-ton"
+     },
+     {
+      "sao": "@khong-kiep",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Lộc Tồn gặp Không Kiếp: cha mẹ phá gia sản.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "tai-loc"
+   ],
+   "trang": 134,
+   "nguyenVan": "Lộc Tồn Không Kiếp lại điều phá gia"
+  },
+  {
+   "id": "c-pm-ta-huu-tuong",
+   "ten": "Thiên Tướng gặp Tả Hữu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "thien-tuong"
+     },
+     {
+      "sao": "@ta-huu",
+      "o": "tamPhuong"
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Tướng gặp Tả Hữu cùng cát tinh: cha mẹ là con nhà danh giá.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Bật Tướng cát diệu đồng hoà / Mẹ cha kia vốn con nhà danh môn"
+  },
+  {
+   "id": "c-pm-hoa-linh",
+   "ten": "Hỏa Linh ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": "@hoa-linh"
+   },
+   "ketLuan": "Phụ Mẫu có Hỏa Linh: hình khắc, cô đơn.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Hỏa Linh hình khắc cô đơn"
+  },
+  {
+   "id": "c-pm-kinh-da",
+   "ten": "Kình Đà ở Phụ Mẫu",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": "@kinh-da"
+   },
+   "ketLuan": "Phụ Mẫu có Kình Đà: cha mẹ với con bất đồng.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Kình Đà cha mẹ cùng con bất đồng"
+  },
+  {
+   "id": "c-pm-ly-tong",
+   "ten": "Cự Liêm Vũ Sát Phá Tham",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "any": [
+     {
+      "sao": "cu-mon"
+     },
+     {
+      "sao": "liem-trinh"
+     },
+     {
+      "sao": "vu-khuc"
+     },
+     {
+      "sao": "that-sat"
+     },
+     {
+      "sao": "pha-quan"
+     },
+     {
+      "sao": "tham-lang"
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Cự, Liêm, Vũ, Sát, Phá hay Tham: cha mẹ con cái dễ ly tông, xa nhau.",
+   "danhGia": "hung",
+   "mucDo": 1,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Cự Liêm Vũ, Sát Phá Tham / Mẹ cha, con cái vốn đàng ly tông"
+  },
+  {
+   "id": "c-pm-luong-vuong",
+   "ten": "Thiên Lương vượng",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "sao": "thien-luong",
+    "dacTinh": [
+     "M",
+     "V"
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Thiên Lương vượng: cha mẹ hưởng thọ, ung dung.",
+   "danhGia": "cat",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao",
+    "tho-yeu"
+   ],
+   "trang": 134,
+   "nguyenVan": "Thung Huyên hưởng thụ ung dung / Nhờ cung Phụ Mẫu Thiên Lương vượng hành"
+  },
+  {
+   "id": "c-pm-nhat-nguyet-tuan-triet",
+   "ten": "Nhật Nguyệt gặp Tuần Triệt",
+   "loai": "phu-doan",
+   "cung": [
+    "Phụ Mẫu"
+   ],
+   "dieuKien": {
+    "all": [
+     {
+      "sao": "@nhat-nguyet"
+     },
+     {
+      "sao": "@tuan-triet"
+     }
+    ]
+   },
+   "ketLuan": "Phụ Mẫu có Nhật/Nguyệt gặp Tuần Triệt: cha hoặc mẹ mất sớm.",
+   "danhGia": "hung",
+   "mucDo": 2,
+   "chuDe": [
+    "gia-dao"
+   ],
+   "trang": 134,
+   "nguyenVan": "Âm Dương Tuần Triệt bất minh / Mẹ hay cha đã một mình chơi tiên."
+  }
+ ]
+}

@@ -20,6 +20,10 @@
       {
         "include": "views/**/*",
         "watchAssets": true
+      },
+      {
+        "include": "tuvi/kb/**/*.json",
+        "watchAssets": true
       }
     ]
   }

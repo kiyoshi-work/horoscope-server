@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tử Vi Chính Biện</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="seal">紫</span>
+      <div>
+        <h1>Tử Vi Chính Biện</h1>
+        <p>Lập lá số &amp; luận giải theo phương pháp của thầy tử vi</p>
+      </div>
+    </div>
+    <form id="form" class="form" autocomplete="off">
+      <label class="f-ten">Họ tên<input name="ten" placeholder="Đương số" /></label>
+      <label>Giới tính
+        <select name="gioiTinh"><option value="nam">Nam</option><option value="nu">Nữ</option></select>
+      </label>
+      <label>Lịch
+        <select name="lich"><option value="duong">Dương lịch</option><option value="am">Âm lịch</option></select>
+      </label>
+      <label class="f-date">Ngày sinh
+        <span class="dmy">
+          <input name="ngay" type="number" min="1" max="31" required placeholder="dd" />
+          <input name="thang" type="number" min="1" max="12" required placeholder="mm" />
+          <input name="nam" type="number" min="1900" max="2100" required placeholder="yyyy" />
+        </span>
+      </label>
+      <label>Giờ sinh <select name="gio" id="gio"></select></label>
+      <label class="f-nhuan" title="Chỉ áp dụng khi nhập âm lịch"><input type="checkbox" name="thangNhuan" /> Tháng nhuận</label>
+      <label>Năm xem<input name="namXem" type="number" min="1900" max="2200" /></label>
+      <button type="submit" class="btn-primary">Lập lá số</button>
+    </form>
+  </header>
+
+  <main class="layout">
+    <section class="chart-wrap">
+      <div id="chart" class="chart" aria-label="Lá số"></div>
+      <div class="legend">
+        <span><i class="dot hanh-Kim"></i>Kim</span><span><i class="dot hanh-Mộc"></i>Mộc</span><span><i class="dot hanh-Thủy"></i>Thủy</span><span><i class="dot hanh-Hỏa"></i>Hỏa</span><span><i class="dot hanh-Thổ"></i>Thổ</span>
+        <span class="sep"></span>
+        <span>M miếu · V vượng · Đ đắc · B bình · H hãm</span>
+        <span class="sep"></span>
+        <label class="toggle"><input type="checkbox" id="showLuu" checked /> Sao lưu niên</label>
+      </div>
+      <p class="hint">Bấm vào một cung để xem tam phương tứ chính và luận giải cung đó · bấm vào sao để xem bản chất sao · bấm vào một bộ sao/cách cục ở bảng bên phải để tô sáng các sao tạo thành nó.</p>
+    </section>
+
+    <section class="panel">
+      <nav class="tabs" id="tabs">
+        <button data-tab="tongquan" class="active"><b>1</b> Tổng quan</button>
+        <button data-tab="cung"><b>2</b> Các cung</button>
+        <button data-tab="bosao"><b>3</b> Cách cục &amp; bộ sao</button>
+        <button data-tab="van"><b>4</b> Vận hạn</button>
+        <button data-tab="tongket"><b>5</b> Tổng kết</button>
+      </nav>
+      <div id="focus" class="focus hidden"></div>
+      <div id="content" class="content"><div class="empty">Nhập ngày giờ sinh và bấm <b>Lập lá số</b>.</div></div>
+    </section>
+  </main>
+  <footer class="foot">Tri thức luận giải trích từ sách <i>Tử Vi Chính Biện</i> (số trang ghi ở từng mục). Điểm số các cung là thước đo tham khảo do chương trình tổng hợp từ miếu/hãm và cát/hung tinh, không phải lời phán quyết.</footer>
+  <script src="/app.js"></script>
+</body>
+</html>

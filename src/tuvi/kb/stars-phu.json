@@ -1,0 +1,982 @@
+{
+  "thien-khoi": {
+    "tomTat": "Quý nhân tinh (Nam tinh, Dương Hỏa đới Kim), chủ khoa giáp, quyền tước.",
+    "tinhChat": "Cùng Thiên Việt chủ khoa giáp quyền tước; hội ở Mệnh biểu thị con trưởng (hoặc về sau chiếm phần trưởng). Gặp văn tinh là văn tài lỗi lạc; gặp Tử Phủ là văn võ kiêm toàn, có óc lãnh tụ. Riêng Thiên Khôi ở Mệnh thêm cát tinh rất quý hiển, nhất là gặp Tử Vi tại Ngọ.",
+    "khiHam": "Gặp Không Kiếp thì vô dụng, gặp Hóa Kỵ giảm thọ; gặp Hỏa Linh, Hình lắm tai ương, dễ bị sét đánh, điện giật.",
+    "trang": [
+      55
+    ]
+  },
+  "thien-viet": {
+    "tomTat": "Quý nhân tinh (Nam tinh, Âm Hỏa đới Mộc), chủ khoa giáp, quyền tước.",
+    "tinhChat": "Cùng Thiên Khôi chủ khoa giáp quyền tước, hội ở Mệnh là con trưởng. Gặp Xương Khúc, Tả Hữu, Hóa Khoa, Thái Tuế, Tấu Thư là văn tài lỗi lạc; gặp Thiên Quan, Thiên Phúc thành bộ Tứ Quý.",
+    "khiHam": "Gặp Không Kiếp vô dụng; gặp Hỏa Linh, Thiên Hình dễ bị sét đánh, điện giật, đâm chém.",
+    "boPhan": "Gặp sát tinh trong người nhiều tật bệnh khó chữa; cùng Hỏa Linh, Hình chủ tai nạn sét, điện.",
+    "trang": [
+      55,
+      78
+    ]
+  },
+  "van-xuong": {
+    "tomTat": "Văn tinh (Dương Kim đới Thổ), chủ văn chương, mỹ thuật, khoa giáp.",
+    "tinhChat": "Chủ văn chương, mỹ thuật, khoa giáp. Đóng Mệnh thường có nốt ruồi kín, mắt sáng, tai thính, có văn tài và năng khiếu âm nhạc. Văn Xương miếu địa gặp Tả Phụ thì chức chưởng rất lớn.",
+    "ngoaiHinh": "Có nốt ruồi kín, mắt sáng, tai thính.",
+    "tinhCach": "Có văn tài, năng khiếu âm nhạc; gặp Thái Tuế, Tấu Thư, Long Phượng là người nói khéo hát hay.",
+    "khiSang": "Miếu vượng gặp Tử Phủ, Khôi Việt, Tả Hữu, Tam Hóa thì sớm đỗ đạt hiển vinh.",
+    "khiHam": "Hãm địa làm nghề thủ công khéo; hãm gặp sát tinh trong người nhiều vết sẹo, nông nổi, hay lầm lẫn, dễ vướng tù tội. Nữ mệnh hãm thì dâm đãng, khổ vì tình.",
+    "mieuDia": "Miếu: Tỵ, Dậu, Sửu; Đắc: Thân, Tý, Thìn; Lợi: Hợi, Dậu",
+    "hamDia": "Dần, Ngọ, Tuất",
+    "taiCung": {
+      "Phúc Đức": "Đắc địa cùng cát tinh thì quý, hưởng phúc lâu dài."
+    },
+    "trang": [
+      55,
+      56
+    ]
+  },
+  "van-khuc": {
+    "tomTat": "Văn tinh (Dương Thủy đới Hỏa), chủ văn chương, mỹ thuật, khoa giáp.",
+    "tinhChat": "Chủ văn chương, mỹ thuật, khoa giáp. Đóng Mệnh thường có nốt ruồi kín, mắt sáng, tai thính, có văn tài và năng khiếu âm nhạc. Khúc đắc địa gặp Vũ Khúc đồng cung là tay văn võ có uy quyền; gặp Tam Hóa tất có quan chức, giàu sang.",
+    "ngoaiHinh": "Có nốt ruồi kín, mắt sáng, tai thính.",
+    "tinhCach": "Có văn tài, năng khiếu âm nhạc.",
+    "khiSang": "Miếu vượng gặp cát tinh sớm đỗ đạt; gặp Lộc Tồn là hạng có kỳ tài.",
+    "khiHam": "Hãm địa làm nghề thủ công khéo; gặp sát tinh nhiều sẹo, nông nổi, dễ tù tội.",
+    "mieuDia": "Miếu: Tỵ, Sửu, Dậu; Vượng: Hợi, Mão, Mùi; Đắc: Thân, Tý, Thìn; Bình: Dần",
+    "hamDia": "Ngọ, Tuất",
+    "trang": [
+      55,
+      56
+    ]
+  },
+  "ta-phu": {
+    "tomTat": "Trợ tinh (Bắc đẩu, Dương Thổ đới Kim), chủ sự giúp đỡ, phò tá.",
+    "tinhChat": "Mệnh có Tả Phụ hay Hữu Bật là người nhân hậu, thích giúp người khốn cùng, nhiều mưu trí; dù gặp cát hay hung tinh cũng sớm ly tông, tự tay lập nghiệp. Gặp Tử Phủ và cát tinh là quý tướng, phúc lộc vẹn toàn; gặp Khôi Việt chủ sống lâu.",
+    "tinhCach": "Nhân hậu, thích giúp đỡ, nhiều mưu trí.",
+    "khiHam": "Gặp Liêm Trinh, Kình Dương dễ tù tội; gặp Cự, Phá hãm hay sát tinh phải mang tàn tật, hạn gặp thì nhân ly tài tán.",
+    "mieuDia": "Thìn, Tuất, Sửu, Mùi",
+    "trang": [
+      57
+    ]
+  },
+  "huu-bat": {
+    "tomTat": "Trợ tinh (Bắc đẩu, Dương Thủy đới Thổ), chủ sự giúp đỡ, phò tá.",
+    "tinhChat": "Mệnh có Tả Phụ hay Hữu Bật là người nhân hậu, thích giúp người khốn cùng, nhiều mưu trí; dù gặp cát hay hung tinh cũng sớm ly tông, tự tay lập nghiệp. Hữu Bật gặp Thiên Tướng được hưởng phúc, nhưng ở Mão thì không toại ý.",
+    "tinhCach": "Nhân hậu, thích giúp đỡ, nhiều mưu trí.",
+    "khiHam": "Gặp Liêm, Kình dễ tù tội; gặp chính tinh hãm hay sát tinh mang tàn tật.",
+    "mieuDia": "Thìn, Tuất, Sửu, Mùi",
+    "trang": [
+      57
+    ]
+  },
+  "loc-ton": {
+    "tomTat": "Tài tinh (Bắc đẩu, Dương Thổ đới Thủy), chủ quyền tước, tài lộc, phúc thọ.",
+    "tinhChat": "Chủ quyền tước, tài lộc, phúc thọ; trừ được tính dâm đãng của Đào Hồng. Ở Mệnh cần Khoa, Quyền hay cát tinh hội mới đẹp, không thì vẫn dư ăn đủ tiêu nhưng lắm lúc bôn ba. Lộc Tồn luôn bị Kình Đà giáp.",
+    "khiHam": "Gặp sao xấu là hạng biển lận, sớm lìa gia đình, khắc một trong hai song thân; chính chiếu có Phá Quân thì tiền tài thiếu thốn.",
+    "taiCung": {
+      "Tài Bạch": "Có của ngầm.",
+      "Điền Trạch": "Có của ngầm."
+    },
+    "trang": [
+      58,
+      76
+    ]
+  },
+  "thien-ma": {
+    "tomTat": "Sao thuộc Hỏa, chủ sự tháo vát, nhanh nhẹn, thay cũ đổi mới.",
+    "tinhChat": "Ảnh hưởng nhiều đến công danh, tài lộc. Mã đóng Mệnh gọi là Dịch Mã, chỉ người tài năng mẫn tiệp. Gặp Lộc là Lộc Mã giao trì, gặp Hỏa Linh là Chiến mã, gặp Tử Phủ ở Dần Thân là Phù dư mã; gặp Hình là Phù thi mã, gặp Đà là Chiết túc mã, gặp Tuyệt là Cùng đồ mã, gặp Tuần Triệt là Tử mã.",
+    "tuongTrung": "Con ngựa.",
+    "mieuDia": "Tỵ, Dần",
+    "hamDia": "Thân, Hợi kém hơn (ngựa đi trong sương mù)",
+    "taiCung": {
+      "Phu Thê": "Không gặp Đà La là số được phong tặng, hưởng sung sướng."
+    },
+    "trang": [
+      59
+    ]
+  },
+  "hoa-loc": {
+    "tomTat": "Hóa tinh (Mộc đới Thổ), chủ tài lộc vinh vượng.",
+    "tinhChat": "Tại Mệnh là người nhiều râu, tính thẳng, sành ăn, tài lộc vinh vượng. Ở Dần Mão giàu bền vững; ở Tý Ngọ văn chương quán thế. Ở Tứ mộ giảm quá nửa phú quý, trừ khi gặp Tham Vũ.",
+    "ngoaiHinh": "Nhiều râu.",
+    "tinhCach": "Tính thẳng, sành ăn.",
+    "mieuDia": "Tý, Ngọ, Mão, Dậu",
+    "taiCung": {
+      "Phúc Đức": "Thần giữ của.",
+      "Tài Bạch": "Thần giữ của.",
+      "Điền Trạch": "Thần giữ của.",
+      "Tật Ách": "Đóng Giải ách thì có tốt cũng chẳng ra gì."
+    },
+    "trang": [
+      60,
+      62
+    ]
+  },
+  "hoa-quyen": {
+    "tomTat": "Hóa tinh (Thổ), tính hùng mạnh, oai vệ, chủ quyền hành.",
+    "tinhChat": "Gặp sao tốt thì tăng tốt; gặp sao xấu làm xấu thêm, đâm ra kiêu căng tự đắc. Gặp Tử Phủ uy quyền hiển hách; gặp Cự, Vũ xuất tướng nhập tướng; gặp Lộc chắc chắn phú quý.",
+    "tinhCach": "Thích quyền hành, oai vệ; gặp sao xấu thì kiêu căng, gặp sát tinh hay liều lĩnh.",
+    "khiHam": "Gặp sát tinh làm gì cũng thất bại, buồn phiền về con cái; gặp Tuần Triệt công danh thành ít bại nhiều.",
+    "mieuDia": "Thìn, Tuất, Sửu, Mùi",
+    "trang": [
+      60
+    ]
+  },
+  "hoa-khoa": {
+    "tomTat": "Hóa tinh (Kim), chủ công danh, thi cử, giải trừ tai ương bệnh tật.",
+    "tinhChat": "Thi cử gặp Khoa dễ đậu, ốm đau gặp Khoa chóng khỏi, tai nạn gặp Khoa dễ thoát; Sát Phá Tham Liêm hay sát tinh gặp Khoa có thể giải trừ tai nạn. Gặp Xương Khúc Khôi Việt thành bộ văn tinh; gặp Quyền Lộc thành bộ quý tinh.",
+    "khiHam": "Bị nhiều hung tinh, sát tinh xâm phạm thì công danh chẳng thành, tiền của khó khăn.",
+    "mieuDia": "Dần, Thân, Tỵ, Hợi",
+    "trang": [
+      61
+    ]
+  },
+  "hoa-ky": {
+    "tomTat": "Hóa tinh (Thủy), tính thâm trầm, độc ác, ghen ghét, tranh cạnh.",
+    "tinhChat": "Đi với cát tinh hóa cát, đi với hung tinh lại hóa hung. Ở Tài, Điền lại là sao giữ vững tiền của. Ở Tứ mộ gặp Nhật hay Nguyệt thì như mây ngũ sắc chầu quanh, Nhật Nguyệt không còn hãm.",
+    "tinhCach": "Thâm trầm, ghen ghét, hay tranh cạnh.",
+    "khiSang": "Ở miếu (Hợi, Tý, Dần, Mão) hay đắc (Thìn, Tuất, Sửu, Mùi) thì đỡ lo bệnh tật tai họa; tuổi Dương Kỵ ở cung Dương, tuổi Âm Kỵ ở cung Âm mới tốt.",
+    "khiHam": "Gặp Cự Môn gây ốm đau tai nạn; gặp Kình đánh nhau thương tích; gặp Đà Hổ tai nạn xe cộ dao búa; gặp Hình Kiếp dễ bị mổ; gặp Không Kiếp dễ mất việc.",
+    "mieuDia": "Miếu: Hợi, Tý, Dần, Mão; Vượng: Thìn, Tuất, Sửu, Mùi",
+    "taiCung": {
+      "Tài Bạch": "Giữ vững tiền của.",
+      "Điền Trạch": "Giữ vững tiền của."
+    },
+    "trang": [
+      61,
+      62
+    ]
+  },
+  "long-tri": {
+    "tomTat": "Sao thuộc Thủy, cùng Phượng Các chủ hỷ sự, cưới hỏi, công danh, tài lộc.",
+    "tinhChat": "Long Phượng gặp Tả Hữu, Xương Khúc, Khôi Việt, Tấu Thư là cách Hiền thần quy tựu; gặp Diêu, Hỷ như cá gặp nước; gặp Phi Liêm như rồng thêm cánh. Cùng Phượng, Cái, Hổ thành Tứ Linh.",
+    "khiHam": "Gặp Mộc Dục dễ gặp nạn sông nước (đàn bà đáng lo khi sinh đẻ, dễ băng huyết); gặp Không Kiếp dễ chết đuối.",
+    "boPhan": "Nữ gặp Mộc Dục dễ băng huyết khi sinh.",
+    "mieuDia": "Sửu, Mùi",
+    "taiCung": {
+      "Điền Trạch": "Nhà cửa nguy nga.",
+      "Tài Bạch": "Nhà cửa nguy nga.",
+      "Mệnh": "Nhà cửa nguy nga."
+    },
+    "trang": [
+      62
+    ]
+  },
+  "phuong-cac": {
+    "tomTat": "Sao thuộc Mộc đới Thổ, cùng Long Trì chủ hỷ sự, cưới hỏi, công danh, tài lộc.",
+    "tinhChat": "Gặp Tả Hữu, Xương Khúc, Khôi Việt, Tấu Thư là Hiền thần quy tựu; gặp Thai Phụ được thăng chức; gặp Mã, Sinh, Vượng có con; gặp Hỷ Thần là Phượng múa.",
+    "khiHam": "Gặp Không Kiếp hay bị người oán trách.",
+    "mieuDia": "Sửu, Mùi",
+    "trang": [
+      62,
+      71
+    ]
+  },
+  "an-quang": {
+    "tomTat": "Quý tinh (Mộc), chủ ân nghĩa, thông minh, giải trừ tai ương.",
+    "tinhChat": "Chủ thông minh, vui vẻ, trọng ân nghĩa; cứu khổn phò nguy, giải trừ bệnh tật tai ương, chế được tính hoa nguyệt của Đào Hồng; gặp sát tinh vô hại. Đóng Sửu Mùi là đắc cách, chủ đại khoa. Gặp Thai Phụ, Phong Cáo gọi là Tứ Vinh.",
+    "tinhCach": "Thông minh, vui vẻ, trọng ân nghĩa.",
+    "mieuDia": "Sửu, Mùi",
+    "trang": [
+      63
+    ]
+  },
+  "thien-quy": {
+    "tomTat": "Quý tinh (Thủy), chủ ân nghĩa, thông minh, giải trừ tai ương.",
+    "tinhChat": "Chủ thông minh, vui vẻ, trọng ân nghĩa; cứu khổn phò nguy, giải trừ bệnh tật tai ương, chế được tính hoa nguyệt của Đào Hồng; gặp sát tinh vô hại. Đóng Sửu Mùi là đắc cách, chủ đại khoa. Gặp Thai Phụ, Phong Cáo gọi là Tứ Vinh.",
+    "tinhCach": "Thông minh, vui vẻ, trọng ân nghĩa.",
+    "mieuDia": "Sửu, Mùi",
+    "trang": [
+      63
+    ]
+  },
+  "tam-thai": {
+    "tomTat": "Sao thuộc Thủy, chủ khôn ngoan, an nhàn, phúc hậu.",
+    "tinhChat": "Hai sao chủ sự khôn ngoan, ưa an nhàn, ăn ở phúc hậu; đem lại may mắn, nhà cửa cao sang. Gặp Tả Hữu là kẻ ra vào uy nghi, kẻ hầu hạ bốn bên. Hạn gặp cùng cát tinh thì nhà cửa mở mang khang trang.",
+    "trang": [
+      63
+    ]
+  },
+  "bat-toa": {
+    "tomTat": "Sao thuộc Mộc, chủ khôn ngoan, an nhàn, phúc hậu.",
+    "tinhChat": "Hai sao chủ sự khôn ngoan, ưa an nhàn, ăn ở phúc hậu; đem lại may mắn, nhà cửa cao sang. Gặp Tả Hữu là kẻ ra vào uy nghi, kẻ hầu hạ bốn bên. Hạn gặp cùng cát tinh thì nhà cửa mở mang khang trang.",
+    "trang": [
+      63
+    ]
+  },
+  "thai-phu": {
+    "tomTat": "Văn tinh (Kim đới Thổ), chủ bằng sắc, thi cử.",
+    "tinhChat": "Ưa hình thức bề ngoài, hiếu danh, tự đắc; chủ về bằng sắc, lợi cho thi cử. Là loại văn tinh, gặp văn tinh khác gia tăng tốt đẹp. Long Phượng gặp Thai Phụ được thăng chức.",
+    "tinhCach": "Hiếu danh, ưa hình thức, tự đắc.",
+    "taiCung": {
+      "Tật Ách": "Vô dụng."
+    },
+    "trang": [
+      62,
+      63
+    ]
+  },
+  "phong-cao": {
+    "tomTat": "Văn tinh (Thổ đới Thủy), chủ bằng sắc, thi cử.",
+    "tinhChat": "Ưa hình thức bề ngoài, hiếu danh, tự đắc; chủ về bằng sắc, lợi cho thi cử. Là loại văn tinh, gặp văn tinh khác gia tăng tốt đẹp.",
+    "tinhCach": "Hiếu danh, ưa hình thức, tự đắc.",
+    "taiCung": {
+      "Tật Ách": "Vô dụng."
+    },
+    "trang": [
+      63
+    ]
+  },
+  "dao-hoa": {
+    "tomTat": "Đào hoa tinh (Mộc), chủ vui vẻ, đa tình, hỷ sự lúc trẻ.",
+    "tinhChat": "Cùng Hồng Loan ảnh hưởng cưới xin, chăn gối, thi cử, công danh. Đóng Mệnh không đẹp vì may mắn chóng đến chóng qua; chỉ xung chiếu Mệnh, Thân mới đẹp. Đào Hồng Hỷ gọi là Tam Minh. Về già hay mang buồn thương.",
+    "tinhCach": "Vui vẻ, đa tình.",
+    "khiHam": "Đóng Mệnh, Thân thường hai đời vợ chồng; gặp sát tinh (Không, Kiếp, Đà, Kình) không thọ; gặp Không Kiếp, Bệnh Phù mắc bệnh phong tình.",
+    "boPhan": "Bệnh phong tình khi gặp Không Kiếp, Bệnh Phù.",
+    "taiCung": {
+      "Quan Lộc": "Đào Hồng cư Quan lộc là số giàu sang.",
+      "Thiên Di": "Ly tông lập nghiệp.",
+      "Phu Thê": "Gặp Nguyệt Đức thì lấy vợ đẹp hoặc chồng sang."
+    },
+    "trang": [
+      64,
+      66
+    ]
+  },
+  "hong-loan": {
+    "tomTat": "Đào hoa tinh (Thủy đới Kim), chủ hỷ sự, cưới hỏi, vui vẻ đa tình.",
+    "tinhChat": "Cùng Đào Hoa chủ cưới xin, hỷ sự, công danh lúc trẻ. Hạn gặp Tả Hữu, Long Phượng, Diêu thì hoạnh phát danh tài. Gặp Thanh Long thì tai nạn bất ngờ; gặp nhiều sao mờ ám e ngại sức khỏe của mẹ, vợ hay con gái.",
+    "taiCung": {
+      "Phúc Đức": "Gọi là \"Nga mi tác án\", đem lại sự rực rỡ."
+    },
+    "trang": [
+      64
+    ]
+  },
+  "thien-hy": {
+    "tomTat": "Hỷ tinh (Thủy), chủ vui mừng, hoan hỉ.",
+    "tinhChat": "Cùng Đào Hồng thành bộ Tam Minh; gặp Long Phượng có sự vui đến, công việc hoạch đạt. Hạn gặp Thai, Thanh Long, Thiên Hỷ thì sinh con quý tử.",
+    "trang": [
+      62,
+      64,
+      69
+    ]
+  },
+  "hoa-cai": {
+    "tomTat": "Sao thuộc Kim, chủ uy nghi đẹp đẽ bề ngoài, lợi ích công danh.",
+    "tinhChat": "Tượng trưng cho cái lọng. Gặp Hóa Quyền, Tả Hữu thì rạng rỡ quyền hành; cùng Long, Phượng, Hổ thành Tứ Linh; gặp Tấu Thư đồng cung là người thanh cao.",
+    "tuongTrung": "Cái lọng.",
+    "khiHam": "Gặp Mộc Dục, Thiên Diêu trở nên dâm đãng; gặp Kình, Đà, Không, Kiếp, Phá, Tham phá tán của cha mẹ để lại.",
+    "taiCung": {
+      "Mệnh": "Ra ngoài được mọi người yêu quý.",
+      "Thiên Di": "Ra ngoài được mọi người yêu quý."
+    },
+    "trang": [
+      65
+    ]
+  },
+  "thien-quan": {
+    "tomTat": "Quý nhân tinh (Hỏa), chủ từ tâm, cứu giải.",
+    "tinhChat": "Mệnh có Quan, Phúc là người từ tâm, mộ tôn giáo tín ngưỡng, gia tăng tuổi thọ. Hạn gặp có thể cứu khốn phò nguy, giải trừ bệnh tật tai họa; gặp nhiều cát tinh thì thêm rực rỡ.",
+    "tinhCach": "Từ tâm, mộ tôn giáo.",
+    "trang": [
+      65
+    ]
+  },
+  "thien-phuc": {
+    "tomTat": "Quý nhân tinh (Thổ), chủ từ tâm, cứu giải.",
+    "tinhChat": "Mệnh có Quan, Phúc là người từ tâm, mộ tôn giáo tín ngưỡng, gia tăng tuổi thọ. Hạn gặp có thể cứu khốn phò nguy, giải trừ bệnh tật tai họa; gặp nhiều cát tinh thì thêm rực rỡ.",
+    "tinhCach": "Từ tâm, mộ tôn giáo.",
+    "trang": [
+      65
+    ]
+  },
+  "thanh-long": {
+    "tomTat": "Sao thuộc Thủy, chủ vui vẻ, cưới hỏi, công danh, sinh nở; giải tai nạn thông thường.",
+    "tinhChat": "Ở Mệnh không gặp sát tinh là người có tài biến hóa công việc. Ở Tứ mộ (nhất là Thìn) gặp Hóa Kỵ là rồng xanh ẩn trong mây ngũ sắc, đem uy quyền và may mắn; gặp Lưu Hà như rồng lộn trên sông, lợi thi cử; gặp Lực Sĩ thêm uy quyền.",
+    "khiHam": "Gặp Bạch Hổ ở Dần, Tuất có Địa Kiếp dễ chết vì ác thú hay tai nạn; Mệnh gặp Đà, Kỵ, Không, Kiếp, Khốc, Hư là người hèn nhát.",
+    "tuongTrung": "Rồng xanh.",
+    "trang": [
+      65,
+      66,
+      70
+    ]
+  },
+  "thien-giai": {
+    "tomTat": "Sao thuộc Hỏa, chủ cứu nguy, giải trừ tai nạn, bệnh tật, gia tăng phúc thọ.",
+    "taiCung": {
+      "Điền Trạch": "Không được giàu có lớn.",
+      "Tài Bạch": "Không được giàu có lớn."
+    },
+    "trang": [
+      66
+    ]
+  },
+  "dia-giai": {
+    "tomTat": "Sao thuộc Thổ, chủ giải trừ những tai nạn nhỏ.",
+    "taiCung": {
+      "Điền Trạch": "Không được giàu có lớn.",
+      "Tài Bạch": "Không được giàu có lớn."
+    },
+    "trang": [
+      66
+    ]
+  },
+  "giai-than": {
+    "tomTat": "Sao thuộc Mộc, chủ giải trừ (cả tốt lẫn xấu).",
+    "tinhChat": "Đại tiểu hạn có nhiều cát tinh mà gặp Giải Thần thì giảm hưng vượng ít nhiều; gặp sát tinh thì giảm vài phần hung. Gặp thêm Thiên Đức, Nguyệt Đức, Thiên Quan, Thiên Phúc thì trừ hung tinh rất mạnh.",
+    "trang": [
+      66
+    ]
+  },
+  "thien-duc": {
+    "tomTat": "Phúc tinh (Hỏa), đoan trang phúc hậu, giải bệnh tật tai nạn nhỏ.",
+    "tinhChat": "Phúc tinh thuộc Hỏa, tính đoan trang phúc hậu; giải trừ bệnh tật nhỏ, tai nạn thường; chế ngự được tính hoa nguyệt của Đào Hồng. Hội Long Đức, Phúc Đức thành bộ Tứ Đức.",
+    "trang": [
+      66
+    ]
+  },
+  "nguyet-duc": {
+    "tomTat": "Phúc tinh (Hỏa), đoan trang phúc hậu, giải bệnh tật tai nạn nhỏ.",
+    "tinhChat": "Phúc tinh thuộc Hỏa, tính đoan trang phúc hậu; giải trừ bệnh tật nhỏ, tai nạn thường; chế ngự được tính hoa nguyệt của Đào Hồng. Hội Long Đức, Phúc Đức thành bộ Tứ Đức.",
+    "taiCung": {
+      "Phu Thê": "Có Nguyệt Đức, Đào Hoa thì lấy vợ đẹp hoặc chồng sang."
+    },
+    "trang": [
+      66
+    ]
+  },
+  "long-duc": {
+    "tomTat": "Sao thuộc Thủy (vòng Thái Tuế), nhân hậu, giải nạn nhỏ.",
+    "tinhChat": "Tính nhân hậu, đoan chính; gặp cát tinh tăng tốt, gặp hung tinh tăng xấu; tự nó chế bớt tai ách nhỏ, ốm đau. Hội Thiên Đức, Nguyệt Đức thành bộ Tứ Đức, ngăn tính dâm đãng của Đào Hồng.",
+    "trang": [
+      66,
+      73
+    ]
+  },
+  "phuc-duc": {
+    "tomTat": "Sao thuộc Thổ (vòng Thái Tuế), nhân hậu, giải nạn nhỏ.",
+    "tinhChat": "Tính nhân hậu, đoan chính; gặp cát tinh tăng tốt, gặp hung tinh tăng xấu; tự nó chế bớt tai ách nhỏ, ốm đau. Hội Thiên Đức, Nguyệt Đức thành bộ Tứ Đức, ngăn tính dâm đãng của Đào Hồng.",
+    "trang": [
+      66,
+      73
+    ]
+  },
+  "thien-tho": {
+    "tomTat": "Sao thuộc Thổ, nhân hậu hòa nhã, gia tăng phúc thọ.",
+    "tinhCach": "Nhân hậu, hòa nhã.",
+    "taiCung": {
+      "Mệnh": "Tốt, thêm tuổi thọ.",
+      "Phúc Đức": "Tốt, thêm tuổi thọ.",
+      "Tật Ách": "Tốt, thêm tuổi thọ."
+    },
+    "trang": [
+      66
+    ]
+  },
+  "thien-tai": {
+    "tomTat": "Sao thuộc Thổ, cản bớt cả tốt lẫn xấu của sao đồng cung.",
+    "tinhChat": "Gặp sao xấu thì cản bớt xấu, gặp sao tốt cũng cản bớt tốt. Đồng cung Nhật Nguyệt sáng thì che mất ánh sáng; nhưng cùng Nhật Nguyệt đóng Sửu Mùi thì làm Nhật Nguyệt rực rỡ.",
+    "trang": [
+      67
+    ]
+  },
+  "thien-kho": {
+    "tomTat": "Sao thuộc Thổ, chủ về tiền bạc, giữ của.",
+    "tinhChat": "Đóng Tài, Điền, Mệnh là người giữ của; người sinh năm Giáp, Kỷ gặp Thiên Khố có của phong lưu.",
+    "taiCung": {
+      "Mệnh": "Giữ của.",
+      "Tài Bạch": "Giữ của.",
+      "Điền Trạch": "Giữ của."
+    },
+    "trang": [
+      67
+    ]
+  },
+  "thien-tru": {
+    "tomTat": "Sao thuộc Thổ, chủ ăn uống, tài lộc.",
+    "tinhChat": "Đóng Mệnh là người thích ăn thịt. Gặp cát tinh gia tăng tài lộc, nhất là gặp Lộc Tồn thì vượng.",
+    "trang": [
+      67
+    ]
+  },
+  "quoc-an": {
+    "tomTat": "Sao thuộc Thổ, chủ thi cử công danh, bảo vệ quyền tước chức vị.",
+    "tinhChat": "Đi cùng Tướng Quân, Thiên Hình có uy quyền, được kính nể. Gặp Tuần Triệt thì ấn tín sứt mẻ, công danh không bền.",
+    "tuongTrung": "Ấn tín.",
+    "trang": [
+      67
+    ]
+  },
+  "duong-phu": {
+    "tomTat": "Sao thuộc Mộc, tính uy nghi, lợi công danh và việc mua tậu nhà đất.",
+    "tinhChat": "Gặp Tướng Quân, Tấu Thư, Long Phượng, Quan Phù là thầy tu, thầy cúng có danh. Gặp Bạch Hổ đồng cung dễ bị bắt bớ.",
+    "taiCung": {
+      "Điền Trạch": "Nhà cửa khang trang."
+    },
+    "trang": [
+      67
+    ]
+  },
+  "trang-sinh": {
+    "tomTat": "Sao thuộc Thủy, chủ sinh khí, phúc thọ, bền vững.",
+    "tinhChat": "Đóng Mệnh, Phúc thì tăng thọ lộc. Ở Hợi là tối hãm (gặp nhiều cát tinh gọi là Tuyệt xứ phùng sinh), ở Hợi gặp Thiên Mã thì thăng trầm vô độ. Ở Dần, Thân, Tỵ gặp Mã đồng cung thì mọi việc thành tựu dễ dàng.",
+    "hamDia": "Hợi",
+    "taiCung": {
+      "Mệnh": "Tăng thọ lộc.",
+      "Phúc Đức": "Tăng thọ lộc.",
+      "Tật Ách": "Gặp thêm sao xấu thì đau lâu khỏi."
+    },
+    "trang": [
+      68
+    ]
+  },
+  "moc-duc": {
+    "tomTat": "Sao thuộc Thủy, tính ưa chải chuốt, làm dáng, thích thay đổi, dâm dật.",
+    "tinhChat": "Hay nhầm lẫn. Gặp Đào Hồng, Diêu, Cái đam mê sắc dục có thể thành tai họa, tật bệnh; gặp Long Trì dễ mang họa sông nước. Ở Mệnh gặp sao xấu chỉ làm thợ bạc, thợ rèn có tài; ở Mệnh vô chính diệu thì học hành dở.",
+    "tinhCach": "Ưa chải chuốt, làm dáng, thích thay đổi.",
+    "trang": [
+      68
+    ]
+  },
+  "quan-doi": {
+    "tomTat": "Sao thuộc Kim, tính ham mê công danh, chức vị, quyền hành.",
+    "khiHam": "Gặp sát tinh, bại tinh như sợi dây thắt cổ, bế tắc, phiền lụy có thể đưa đến tự tử; gặp Thái Tuế, Không, Kiếp chỉ đi làm lính hầu.",
+    "trang": [
+      68
+    ]
+  },
+  "lam-quan": {
+    "tomTat": "Sao thuộc Kim, tính nói năng kiêu kỳ, ưa khoe khoang.",
+    "tinhChat": "Gặp cát tinh thì phát đạt vui vẻ; gặp sao mờ ám chủ ngăn trở, rắc rối công việc.",
+    "tinhCach": "Kiêu kỳ, khoe khoang, thích lấy điệu bộ.",
+    "trang": [
+      68
+    ]
+  },
+  "de-vuong": {
+    "tomTat": "Sao thuộc Kim, tính uy nghi, tăng phúc thọ, giải tai ách, lợi tài lộc công danh.",
+    "tinhChat": "Cung Mệnh có Đế Vượng gặp Tử Vi gọi là Lưỡng Đế, là người có tài lãnh đạo.",
+    "trang": [
+      68
+    ]
+  },
+  "suy": {
+    "tomTat": "Sao thuộc Thủy, tính yếu đuối, chỉ sự suy kém, đồi bại.",
+    "taiCung": {
+      "Phúc Đức": "Kỵ nhất, họ hàng sa sút ly tán."
+    },
+    "trang": [
+      69
+    ]
+  },
+  "benh": {
+    "tomTat": "Sao thuộc Hỏa, chỉ sự đau yếu, buồn bã, hay nhầm lẫn.",
+    "boPhan": "Đau yếu thường xuyên khi ở Tật Ách, thêm Bệnh Phù càng lắm bệnh.",
+    "taiCung": {
+      "Tật Ách": "Đau ốm thường xuyên; gặp Bệnh Phù càng thêm lắm bệnh."
+    },
+    "trang": [
+      69
+    ]
+  },
+  "tu": {
+    "tomTat": "Sao thuộc Thủy, tính thâm trầm kín đáo, hay sầu cảm, chủ tang thương.",
+    "taiCung": {
+      "Điền Trạch": "Tằn tiện, chịu dành của chôn giấu.",
+      "Tài Bạch": "Tằn tiện, chịu dành của chôn giấu.",
+      "Phúc Đức": "Gặp sát tinh, trong họ có người chết trận hoặc chết đường."
+    },
+    "trang": [
+      69
+    ]
+  },
+  "mo": {
+    "tomTat": "Sao thuộc Thổ, tính đần độn, chủ sự nhầm lẫn, chôn cất.",
+    "tinhChat": "Mộ đóng Tứ mộ gặp Hóa Quyền mà cung Phúc ở đó là nhà đại phúc đức, bốn đời vinh hiển.",
+    "trang": [
+      69
+    ]
+  },
+  "tuyet": {
+    "tomTat": "Sao thuộc Thổ, chủ bại hoại, tiêu tán, bế tắc.",
+    "tinhChat": "Mệnh tại Hợi mà Tuyệt gặp Hỏa Tinh là người hiên ngang. Mã gặp Tuyệt là Cùng đồ mã; Song Hao gặp Tuyệt thì khôn ngoan man trá, hoặc phá sản.",
+    "trang": [
+      69,
+      79
+    ]
+  },
+  "thai": {
+    "tomTat": "Sao thuộc Thổ, tính mê muội, lầm lạc; chủ sinh đẻ, thụ thai.",
+    "tinhChat": "Ở Tử Tức gặp quý tinh sinh nhiều con, gặp sát tinh đẻ nhiều nuôi ít. Gặp Tuần Triệt ở Mệnh hay Tật Ách thì khó nuôi; gặp Kình, Đà, Linh, Hỏa thành đần độn. Ở Mệnh gặp Khôi Việt, Hồng Loan là bậc văn chương.",
+    "taiCung": {
+      "Tử Tức": "Gặp quý tinh nhiều con; gặp sát tinh đẻ non, đẻ khó, nuôi ít.",
+      "Phu Thê": "Gặp Đào, Diêu dễ bị vợ cắm sừng."
+    },
+    "trang": [
+      69
+    ]
+  },
+  "duong": {
+    "tomTat": "Sao thuộc Thổ, tính chăm chỉ cẩn thận, chủ nuôi nấng, phò trì.",
+    "tinhChat": "Ở Mệnh có cát tinh thì ra ngoài được quý mến, làm nghề chăn nuôi phát đạt. Ở cung Thân cư thì đông con.",
+    "taiCung": {
+      "Tử Tức": "Có con nuôi.",
+      "Mệnh": "Nhiều người muốn nhận làm con nuôi.",
+      "Phúc Đức": "Nhiều người muốn nhận làm con nuôi.",
+      "Tật Ách": "Gặp nhiều sao mờ ám thì hay đau yếu.",
+      "Huynh Đệ": "Có anh em nuôi."
+    },
+    "trang": [
+      70
+    ]
+  },
+  "bac-si": {
+    "tomTat": "Sao thuộc Thủy, tính vui vẻ thanh nhàn.",
+    "tinhChat": "Đóng Mệnh biểu dương sự ung dung no ấm nhưng giữ của không bền.",
+    "taiCung": {
+      "Phúc Đức": "Gặp Kiếp, Không, Cô, Quả thì sống cô đơn, họ hàng ít ỏi."
+    },
+    "trang": [
+      70
+    ]
+  },
+  "luc-si": {
+    "tomTat": "Sao thuộc Hỏa, chủ uy lực, binh quyền; khỏe mạnh lanh lẹ, thích ăn uống.",
+    "tinhChat": "Gặp Kình Dương cùng ở Mệnh là người dũng mãnh. Hội cát tinh tăng đẹp, hội hung tinh tăng xấu. Thanh Long gặp Lực Sĩ thêm uy quyền.",
+    "trang": [
+      70,
+      76
+    ]
+  },
+  "tuong-quan": {
+    "tomTat": "Sao thuộc Mộc, chủ binh quyền; can trường, hiên ngang, thích cầm đầu.",
+    "tinhChat": "Gặp Thiên Tướng đồng cung đắc địa là Lưỡng Tướng, uy quyền hiển hách. Gặp Thiên Hình, Quốc Ấn, Thiên Mã, Thiên Khốc, Phục Binh là người tài kiêm văn võ. Gặp Tuần Triệt như tướng cụt đầu, tổn công danh, dễ tai nạn xe cộ, đao kiếm. Nữ Mệnh có Tướng Quân hay ghen tuông, lấn át chồng.",
+    "tinhCach": "Can trường, hiên ngang, kiêu căng.",
+    "trang": [
+      70
+    ]
+  },
+  "tau-thu": {
+    "tomTat": "Sao thuộc Kim, tính vui vẻ khôn khéo, ưa nói vừa lòng người; lợi văn chương.",
+    "tinhChat": "Gặp Bạch Hổ đồng cung là người văn tài, ăn nói đanh thép (cọp đội hòm sắc). Nữ mệnh gặp Hồng Loan ăn nói rất có duyên.",
+    "trang": [
+      71,
+      80
+    ]
+  },
+  "phi-liem": {
+    "tomTat": "Sao thuộc Hỏa, tính vui vẻ nhanh nhẹn; không lợi sinh nở.",
+    "tinhChat": "Gặp cát tinh thêm đẹp, gặp hung tinh thêm xấu. Gặp Bạch Hổ là cọp mọc cánh, gặp Long Phượng là rồng lên cao; gặp Thiên Việt, Hỏa Linh, Thiên Hình dễ gặp tai họa đâm chém bắn giết.",
+    "taiCung": {
+      "Tử Tức": "Giảm số con.",
+      "Huynh Đệ": "Giảm số anh em."
+    },
+    "trang": [
+      71
+    ]
+  },
+  "hy-than": {
+    "tomTat": "Sao thuộc Hỏa, vui tươi, đem may mắn cho cưới hỏi.",
+    "tinhChat": "Gặp Phượng Các là \"Phượng múa\", lợi thi cử, công danh, sinh nở.",
+    "trang": [
+      71
+    ]
+  },
+  "benh-phu": {
+    "tomTat": "Sao thuộc Thổ đới Mộc, chủ đau yếu, buồn rầu, bệnh tật.",
+    "ngoaiHinh": "Đóng Mệnh thì người suy nhược, da xanh xao.",
+    "boPhan": "Gặp Thiên Hình, Hóa Kỵ ở Tật Ách dễ mắc bệnh phong tình; gặp Đào Hồng Diêu ốm đau vì dâm dục.",
+    "trang": [
+      71
+    ]
+  },
+  "phuc-binh": {
+    "tomTat": "Sao thuộc Hỏa, chủ việc liên quan quân sự.",
+    "tinhChat": "Gặp nhiều sao tốt có tính phò trợ, gặp sao xấu biến gian tà. Hội Thiên Hình, Tướng Quân rất lợi về quân sự, đem lại uy quyền.",
+    "trang": [
+      71
+    ]
+  },
+  "quan-phu-bs": {
+    "tomTat": "Quan Phủ (vòng Bác Sĩ), thuộc Hỏa, tính a tòng.",
+    "tinhChat": "Gặp sao tốt phò tá thêm tốt; gặp sao xấu làm xấu thêm, gây rắc rối phiền nhiễu, ngăn trở mọi việc.",
+    "trang": [
+      71
+    ]
+  },
+  "dai-hao": {
+    "tomTat": "Sao thuộc Hỏa (bộ Lục Bại), chủ hao tán, tiêu xài.",
+    "tinhChat": "Song Hao đóng Mệnh người nhỏ nhắn, tiêu hóa hay đau, không kiên chí, thích ăn ngon mặc đẹp, mê cờ bạc chơi bời. Đắc địa ở Mão Dậu (cách Chúng thủy triều Đông, tiền vào như nước ra như nước) tốt hơn Dần Thân; hạn gặp phải thay đổi công việc hay chỗ ở, đau ốm chóng khỏi.",
+    "ngoaiHinh": "Người nhỏ nhắn.",
+    "boPhan": "Bộ tiêu hóa.",
+    "mieuDia": "Dần, Thân, Mão, Dậu",
+    "hamDia": "Tý, Ngọ, Tỵ, Hợi",
+    "trang": [
+      79
+    ]
+  },
+  "tieu-hao": {
+    "tomTat": "Sao thuộc Hỏa (bộ Lục Bại), chủ hao tán, tiêu xài.",
+    "tinhChat": "Luận chung với Đại Hao (Song Hao): ham chơi, vung phí; gặp Phá Quân túng thiếu, gặp Tuyệt phá sản, gặp sát tinh mắc tai nạn dao súng, gặp Hỏa Linh dễ nghiện.",
+    "ngoaiHinh": "Người nhỏ nhắn.",
+    "boPhan": "Bộ tiêu hóa.",
+    "mieuDia": "Dần, Thân, Mão, Dậu",
+    "hamDia": "Tý, Ngọ, Tỵ, Hợi",
+    "trang": [
+      79
+    ]
+  },
+  "thai-tue": {
+    "tomTat": "Sao thuộc Hỏa, tính lạnh lùng, khinh người, hay xét đoán, giỏi lý luận.",
+    "tinhChat": "Gặp nhiều sao tốt thì nói năng đanh thép hùng hồn, đem uy quyền phú quý; hội Xương Khúc Khôi Việt lợi thi cử. Mệnh có Thái Tuế gặp Hoa Cái ăn nói kiêu kỳ. Hội Hóa Kỵ, Đà La thì trắc trở, thị phi, kiện cáo, tang thương, bệnh tật.",
+    "tinhCach": "Lạnh lùng, khinh người, giỏi lý luận.",
+    "trang": [
+      72
+    ]
+  },
+  "thieu-duong": {
+    "tomTat": "Sao thuộc Hỏa, mặt trời thứ hai; thông minh, hòa nhã, nhân hậu, giải tai họa nhỏ.",
+    "tinhChat": "Gặp Thái Dương đắc địa tăng sáng sủa, mọi việc hưng vượng; gặp Hóa Khoa đồng cung hay xung chiếu gia tăng phúc thọ, cứu giải tai ách.",
+    "trang": [
+      72
+    ]
+  },
+  "thieu-am": {
+    "tomTat": "Sao thuộc Thủy, mặt trăng thứ hai; thông minh, hòa nhã, nhân hậu, giải tai họa nhỏ.",
+    "tinhChat": "Gặp Thái Âm đắc địa tăng uy lực, mọi sự hanh thông; gặp Hóa Khoa đồng cung hay xung chiếu gia tăng phúc thọ.",
+    "trang": [
+      72
+    ]
+  },
+  "tang-mon": {
+    "tomTat": "Sao thuộc Mộc (bộ Lục Bại), chủ tang tóc, tai ương.",
+    "tinhChat": "Luôn xung chiếu Bạch Hổ, luận chung Tang Hổ. Mệnh có Tang Hổ là người can trường, hơi bướng; sinh ra đã chịu tang tóc, không nuôi được súc vật. Đắc địa là bậc thao lược, thích chính trị, giỏi lý luận, xét đoán. Gặp Điếu Khách, Thiên Hình gây tai nạn xe cộ hay đại tang.",
+    "boPhan": "Bệnh máu huyết, xương cốt, tim phổi; gặp Hỏa Linh Mã dễ mắc lao, bị bỏng.",
+    "mieuDia": "Dần, Thân, Mão, Dậu",
+    "taiCung": {
+      "Điền Trạch": "Dễ bị hỏa hoạn (trừ khi ở Tuất thì bền vững).",
+      "Tài Bạch": "Dễ bị hỏa hoạn (trừ khi ở Tuất)."
+    },
+    "trang": [
+      72,
+      80
+    ]
+  },
+  "bach-ho": {
+    "tomTat": "Sao thuộc Kim (bộ Lục Bại), chủ tang tóc, tai ương.",
+    "tinhChat": "Luôn xung chiếu Tang Môn, luận chung Tang Hổ. Đắc địa là bậc thao lược; gặp Kình hay Hình xung chiếu có chí khí lớn. Gặp Tấu Thư là cọp đội hòm sắc, gặp Phi Liêm là cọp mọc cánh; gặp Tham Lang, Thất Sát, Khốc Diêu, Hình Kiếp chủ tai nạn.",
+    "boPhan": "Bệnh máu huyết, xương cốt, tim phổi.",
+    "tuongTrung": "Con cọp.",
+    "mieuDia": "Dần, Thân, Mão, Dậu",
+    "trang": [
+      72,
+      80
+    ]
+  },
+  "quan-phu": {
+    "tomTat": "Quan Phù (vòng Thái Tuế), thuộc Hỏa, tính lý luận, phò trợ; chủ kiện tụng.",
+    "tinhChat": "Gặp cát tinh hỗ trợ thêm đẹp, gặp hung sát tăng xấu, chủ kiện tụng tai tiếng. Hợp Xương Khúc, Tuế lợi việc pháp luật; hội Liêm, Tang, Hổ tổn quyền thế, tù tội; hội Tuế, Kỵ, Đà đưa đến cửa quan.",
+    "trang": [
+      72
+    ]
+  },
+  "tu-phu": {
+    "tomTat": "Sao thuộc Hỏa, tính tối tăm buồn thảm, chủ chết chóc tang thương.",
+    "tinhChat": "Tạo nên rắc rối công việc.",
+    "trang": [
+      72
+    ]
+  },
+  "truc-phu": {
+    "tomTat": "Sao thuộc Hỏa, tính tối tăm buồn thảm, chủ chết chóc tang thương.",
+    "tinhChat": "Tạo nên rắc rối công việc.",
+    "trang": [
+      72
+    ]
+  },
+  "tue-pha": {
+    "tomTat": "Sao thuộc Hỏa, tính ngang ngạnh, phá tán.",
+    "boPhan": "Mệnh hay Thân có Tuế Phá thì đau ốm, hư răng.",
+    "trang": [
+      73
+    ]
+  },
+  "dieu-khach": {
+    "tomTat": "Sao thuộc Hỏa, tính khoe khoang, khinh người, ba hoa; chủ tai ách ốm đau.",
+    "tinhChat": "Gặp Thiên Mã, Thiên Khốc mọi sự hanh thông (ngựa hay có người cỡi giỏi). Gặp Tang Môn, Thiên Hình hoặc Thái Tuế hay ra tai nạn xe cộ, té ngã, ốm đau bất thình lình.",
+    "tinhCach": "Khoe khoang, ba hoa.",
+    "trang": [
+      73
+    ]
+  },
+  "van-tinh": {
+    "tomTat": "Sao thuộc Hỏa, chủ văn học, bằng sắc, lợi thi cử công danh.",
+    "tinhChat": "Hạn gặp Văn Tinh có Hóa Khoa thì thi tất đỗ, công danh hưng vượng.",
+    "trang": [
+      73
+    ]
+  },
+  "tuan": {
+    "tomTat": "Tuần Không (Hỏa), chủ dương, tác động trấn áp: giảm lực cả sao tốt lẫn sao xấu.",
+    "tinhChat": "Đóng giữa hai cung âm dương, ảnh hưởng mạnh ở cung dương hơn cung âm. Đắc địa ở Dần, Mão (đem lại hoạnh phát). Tuần Triệt ở Ngọ, Mùi tạo sự khoan hòa, nhân hậu. Người ngoài 32 tuổi chịu ảnh hưởng Tuần Triệt gốc rất yếu, phải xét Tuần Triệt lưu niên.",
+    "mieuDia": "Dần, Mão",
+    "trang": [
+      73,
+      74
+    ]
+  },
+  "triet": {
+    "tomTat": "Triệt Lộ Không Vong (Kim), chủ âm, tác động trấn áp: giảm lực cả sao tốt lẫn xấu.",
+    "tinhChat": "Tác động mạnh ở cung âm hơn cung dương. Đắc địa ở Thân, Dậu gọi là Triệt đáo Kim cung, giúp sao ở đó đẹp, không trấn áp, đem lại hưng vượng. Tuần Triệt đồng cung (trừ Ngọ Mùi) thì thuở bé lao đao, tính hoang phí.",
+    "mieuDia": "Thân, Dậu",
+    "trang": [
+      73,
+      74
+    ]
+  },
+  "kinh-duong": {
+    "tomTat": "Dương Nhẫn (Bắc đẩu, Âm Kim đới Hỏa), sát tinh thuộc bộ Tứ sát; cương cường, dũng mãnh.",
+    "tinhChat": "Đắc địa là người cương cường, dũng mãnh, quả quyết, nhiều cơ mưu, thích mạo hiểm nhưng tự đắc, kiêu căng, dễ gây kẻ thù ngầm. Ở các cung khác thì hung bạo, liều lĩnh, bướng bỉnh, gian trá.",
+    "ngoaiHinh": "Độc thủ Mệnh: người cao, lộ hầu, mặt dài, mắt lồi.",
+    "khiSang": "Gặp Tử hay Phủ đồng cung là đại kinh thương; nữ ở Tứ mộ giàu, vượng phu ích tử, đoan trang.",
+    "khiHam": "Ở Tý, Ngọ, Mão, Dậu không yểu cũng tàn tật; gặp hung tinh khó tránh tai nạn đường sá, sa trường (Tuần Triệt cứu một phần).",
+    "mieuDia": "Thìn, Tuất, Sửu, Mùi",
+    "hamDia": "Tý, Ngọ, Mão, Dậu",
+    "trang": [
+      75,
+      76
+    ]
+  },
+  "da-la": {
+    "tomTat": "Sát tinh (Bắc đẩu, Âm Kim đới Hỏa), thuộc bộ Tứ sát; thâm trầm, nhiều mưu mô.",
+    "tinhChat": "Đắc địa ở Tứ mộ là người can đảm uy dũng nhưng thâm trầm, lắm thủ đoạn. Gặp Thiên Mã là người khôn ngoan nhưng biến trá.",
+    "ngoaiHinh": "Độc thủ Mệnh: người hơi gầy, cao, da ngăm, lông tóc tốt, răng xấu.",
+    "khiHam": "Hãm ở Tứ sinh gặp hung sát tinh không yểu tất tàn tật; gặp Linh Hỏa, Không Kiếp, Kỵ Hình thì chung thân cùng khốn, tật nguyền, tù tội.",
+    "mieuDia": "Thìn, Tuất, Sửu, Mùi",
+    "hamDia": "Dần, Thân, Tỵ, Hợi",
+    "trang": [
+      76,
+      77
+    ]
+  },
+  "hoa-tinh": {
+    "tomTat": "Sát tinh (Nam đẩu, Âm Hỏa), thuộc bộ Tứ sát; nóng nảy, ương bướng.",
+    "tinhChat": "Đắc địa ở Mệnh là người có chí khí, sức khỏe dai bền, ít tai nạn; hợp tuổi Dần, Mão, Tỵ, Ngọ. Gặp Khoa Quyền giỏi văn võ.",
+    "ngoaiHinh": "Độc thủ Mệnh: người thô, tóc hoe vàng, chân tay có tì vết.",
+    "tinhCach": "Nóng nảy, ương bướng.",
+    "khiHam": "Hãm là người nham hiểm, gian tà, liều lĩnh, mắc bệnh máu huyết, thần kinh, dễ sa đọa nghiện ngập.",
+    "boPhan": "Máu huyết, thần kinh; gặp Mộc Dục bị bỏng nước sôi.",
+    "mieuDia": "Miếu: Dần, Ngọ, Tuất; Đắc: Tỵ, Dậu, Sửu; Lợi: Hợi, Mão, Mùi",
+    "hamDia": "Thân, Tý, Thìn",
+    "taiCung": {
+      "Điền Trạch": "Gặp Tang Môn mà không có sao Thủy chế thì dễ cháy nhà.",
+      "Tài Bạch": "Tán tài."
+    },
+    "trang": [
+      77,
+      78
+    ]
+  },
+  "linh-tinh": {
+    "tomTat": "Sát tinh (Nam đẩu, Kim đới Hỏa), thuộc bộ Tứ sát; tính chất gần như Hỏa Tinh.",
+    "tinhChat": "Đóng Mệnh là người hà tiện, so đo chi tiêu. Đắc địa gặp Tham Lang đắc địa thì hiển đạt võ công; gặp Tử, Phủ, Tả, Hữu, Xương, Khúc không giàu cũng quý hiển.",
+    "tinhCach": "Hà tiện, so đo.",
+    "khiHam": "Gặp Thất Sát hãm khó sống lâu; Linh hãm gặp Phá hãm phá tan cửa nhà.",
+    "mieuDia": "Dần, Tuất, Thìn, Tỵ, Mùi",
+    "hamDia": "Tỵ, Dậu, Sửu, Hợi (sách ghi chồng chéo)",
+    "taiCung": {
+      "Tử Tức": "Khó nuôi con, giảm sinh đẻ.",
+      "Tài Bạch": "Đắc địa thì tiền của bền vững."
+    },
+    "trang": [
+      78
+    ]
+  },
+  "thien-khoc": {
+    "tomTat": "Sao thuộc Thủy (bộ Lục Bại), chủ buồn tẻ, khóc lóc.",
+    "tinhChat": "Tính buồn tẻ, hay tư lự, hoang mang. Ở Tý Ngọ (miếu) thì lời nói đanh thép có oai, chí lớn, nhiều nghị lực; dưới 30 tuổi nghèo túng, từ 30 trở ra phong lưu. Hãm ở Thìn Tuất hay vương tai nạn, giảm thọ.",
+    "boPhan": "Mắt có quầng, thận đau; gặp Thiên Cơ dễ mắc bệnh lao.",
+    "mieuDia": "Miếu: Tý, Ngọ; Lợi: Mão, Dậu, Sửu, Mùi",
+    "hamDia": "Thìn, Tuất",
+    "trang": [
+      81
+    ]
+  },
+  "thien-hu": {
+    "tomTat": "Sao thuộc Thủy (bộ Lục Bại), chủ buồn tẻ, hư hao.",
+    "tinhChat": "Tính buồn tẻ, hay tư lự, hoang mang. Ở Tý Ngọ (miếu) thì lời nói đanh thép có oai, chí lớn, nhiều nghị lực; dưới 30 tuổi nghèo túng, từ 30 trở ra phong lưu. Hãm ở Thìn Tuất hay vương tai nạn, giảm thọ. Hư đắc địa gặp Lộc đồng cung là người có tài, nổi danh; hãm địa là người bất chính, ăn nói sai ngoa.",
+    "boPhan": "Mắt quầng, thận đau; tọa Mệnh thì răng hư.",
+    "mieuDia": "Miếu: Tý, Ngọ; Lợi: Mão, Dậu, Sửu, Mùi",
+    "hamDia": "Thìn, Tuất",
+    "trang": [
+      81
+    ]
+  },
+  "thien-hinh": {
+    "tomTat": "Sao thuộc Hỏa, là lưỡi kiếm: dũng mãnh, sát phạt, chủ quân cơ, mổ xẻ, đâm chém.",
+    "tinhChat": "Mệnh ở Dần gặp Thiên Hình là cách Cọp ngậm kiếm, tài điều binh khiển tướng; ở Thân, Mão, Dậu cũng đắc cách. Gặp Tướng Quân, Quốc Ấn, Phục Binh thành bộ uy dũng; gặp Lộc, Diêu có tài mổ xẻ.",
+    "tuongTrung": "Lưỡi kiếm.",
+    "khiHam": "Hãm gặp Thiên Khốc mang tật; hãm gặp sát tinh gây tai họa khủng khiếp. Đắc cách gặp Tuần Triệt như kiếm báu dùng không ra gì.",
+    "mieuDia": "Dần, Thân, Mão, Dậu",
+    "trang": [
+      81,
+      82
+    ]
+  },
+  "thien-khong": {
+    "tomTat": "Sao thuộc Hỏa, tính gian hùng, phá tán, quỷ quyệt.",
+    "tinhChat": "Mệnh có Thiên Không hội Đào Hoa là người đa mưu nhưng xảo trá; gặp Hồng Loan thì tìm nơi vắng vẻ ở ẩn hay đi tu. Mệnh Thiên Tướng đắc địa gặp Thiên Không có uy quyền, phát võ tướng. Hạn ốm đau gặp Thiên Không chóng khỏi, nhưng có Tuần Triệt thì vô dụng.",
+    "trang": [
+      82
+    ]
+  },
+  "dia-khong": {
+    "tomTat": "Sát tinh thuộc Hỏa, chủ phá tán, trắc trở.",
+    "tinhChat": "Độc thủ Mệnh là người ăn nói thô bạo, thân hình thô kệch. Đắc địa ở Dần Thân cần quý tinh mới hiển đạt, không bền; đắc địa ở Tỵ Hợi thì trầm tĩnh, cơ mưu, can đảm, sớm đoạt công danh, cần Tướng, Mã, Khoa mới phát bền, phát mạnh ở thời loạn. Hãm địa ở Mệnh, Thân là người quỷ quyệt, ích kỷ.",
+    "ngoaiHinh": "Thân hình thô kệch.",
+    "boPhan": "Bệnh phổi, hen; bệnh ngoài da như ung nhọt, lở loét, mẩn ngứa.",
+    "mieuDia": "Tỵ, Hợi, Dần, Thân",
+    "taiCung": {
+      "Quan Lộc": "Hãm thì khó đạt công danh."
+    },
+    "trang": [
+      82,
+      83,
+      84
+    ]
+  },
+  "dia-kiep": {
+    "tomTat": "Sát tinh thuộc Hỏa, chủ phá tán, kiếp nạn.",
+    "tinhChat": "Độc thủ Mệnh là người ăn nói thô bạo, thân hình thô kệch. Đắc địa ở Dần Thân cần quý tinh mới hiển đạt, không bền; đắc địa ở Tỵ Hợi thì trầm tĩnh, cơ mưu, can đảm, sớm đoạt công danh, cần Tướng, Mã, Khoa mới phát bền, phát mạnh ở thời loạn. Hãm địa ở Mệnh, Thân là người quỷ quyệt, ích kỷ. Địa Kiếp độc thủ Mệnh là người phi nhân thị kỷ.",
+    "ngoaiHinh": "Thân hình thô kệch.",
+    "boPhan": "Bệnh phổi, hen; bệnh ngoài da như ung nhọt, lở loét, mẩn ngứa.",
+    "mieuDia": "Tỵ, Hợi, Dần, Thân",
+    "taiCung": {
+      "Quan Lộc": "Hãm thì khó đạt công danh."
+    },
+    "trang": [
+      82,
+      83,
+      84
+    ]
+  },
+  "kiep-sat": {
+    "tomTat": "Sao thuộc Hỏa, đặc tính giống Địa Kiếp: thích sát phạt, gây tai họa.",
+    "tinhChat": "Đóng Mệnh là người hay làm điều bất chính; có ác tinh hội thì gây nghèo nàn, đau yếu. Gặp sao tốt giảm tốt, gặp sao xấu tăng xấu.",
+    "trang": [
+      84
+    ]
+  },
+  "thien-rieu": {
+    "tomTat": "Thiên Diêu (Thủy), tính huyền ảo, nghi hoặc, chủ tửu sắc tình dục.",
+    "tinhChat": "Đắc địa như sen mọc trong bùn, tuy đam mê tửu sắc nhưng không nhơ nhuốc; gặp Tướng, Đồng, Quyền, Khoa, Lộc thì thông minh học giỏi; gặp Tràng Sinh, Đế Vượng là phong tao mặc khách; gặp Long Phượng hưng vượng tài lợi.",
+    "khiHam": "Hãm địa không có Thiên Hình, Tử Vi cứu là người dâm đãng, không thọ; gặp Đào Hồng lẳng lơ; gặp Xương Khúc dâm dật.",
+    "boPhan": "Đóng Mệnh hay bị đau răng.",
+    "mieuDia": "Dần, Mão, Dậu, Tuất",
+    "trang": [
+      84
+    ]
+  },
+  "thien-y": {
+    "tomTat": "Sao thuộc Thủy, cứu giải bệnh tật; tinh khiết, cẩn thận.",
+    "tinhChat": "Đóng Mệnh hội Tả Hữu, Thiên Quan, Thiên Phúc và Thiên Hình là lương y nổi danh.",
+    "trang": [
+      85
+    ]
+  },
+  "co-than": {
+    "tomTat": "Sao thuộc Mộc đới Thổ, chủ cô độc.",
+    "tinhChat": "Tính cô độc, lạnh lẽo, âm thầm, khó tính, hơi khắc nghiệt, không thích giao du, sống nội tâm, có thú chơi riêng.",
+    "tinhCach": "Cô độc, khó tính, sống nội tâm.",
+    "taiCung": {
+      "Mệnh": "Giữ của bền.",
+      "Tài Bạch": "Giữ của bền.",
+      "Phu Thê": "Trắc trở cưới hỏi, ái ân vợ chồng."
+    },
+    "trang": [
+      85
+    ]
+  },
+  "qua-tu": {
+    "tomTat": "Sao thuộc Mộc đới Thổ, chủ cô độc.",
+    "tinhChat": "Tính cô độc, lạnh lẽo, âm thầm, khó tính, hơi khắc nghiệt, không thích giao du, sống nội tâm, có thú chơi riêng.",
+    "tinhCach": "Cô độc, khó tính, sống nội tâm.",
+    "taiCung": {
+      "Mệnh": "Giữ của bền.",
+      "Tài Bạch": "Giữ của bền.",
+      "Phu Thê": "Trắc trở cưới hỏi, ái ân vợ chồng."
+    },
+    "trang": [
+      85
+    ]
+  },
+  "dau-quan": {
+    "tomTat": "Nguyệt Tướng (Hỏa), tính khắc nghiệt, nghiêm nghị, bảo thủ.",
+    "tinhChat": "Gặp Lộc Tồn thành cái đấu đong thóc, có tài sản. Gặp ác tinh tại Mệnh là người gian giảo quỷ quyệt.",
+    "taiCung": {
+      "Điền Trạch": "Giữ của bền.",
+      "Tài Bạch": "Giữ của bền.",
+      "Quan Lộc": "Gặp cát tinh như Tử Phủ thì hưởng phú quý.",
+      "Tử Tức": "Hiếm con (\"Đến già khó được tay bồng con thơ\")."
+    },
+    "trang": [
+      85
+    ]
+  },
+  "pha-toai": {
+    "tomTat": "Sao thuộc Hỏa đới Kim, tính táo bạo, hay phá ngang, hao tán, gây trở ngại.",
+    "tinhChat": "Mệnh có Phá Toái gặp Lưu Hà là người dũng mãnh về võ nghiệp; không có Lưu Hà thì chủ tán tài. Gặp Khoa Quyền nên danh phận.",
+    "boPhan": "Gặp Kình Đà, Phá Quân, Hóa Kỵ ở Mệnh/Tật Ách thì có tật; gặp Diêu, Vũ Khúc nói ngọng; thêm Thiên Việt, Hóa Kỵ thì câm; gặp Hỏa Linh Hình chết về ác tật.",
+    "taiCung": {
+      "Tật Ách": "Ít ốm đau."
+    },
+    "trang": [
+      86
+    ]
+  },
+  "luu-ha": {
+    "tomTat": "Sao thuộc Thủy, tính thâm trầm, độc ác, gian hiểm, ưa sát phạt.",
+    "tinhChat": "Mệnh có Lưu Hà không có quý cát tinh mà gặp sát tinh (Song Hao, Kiếp Sát, Thiên Hình, Thất Sát hãm) thì đàn ông chết đường sá, đàn bà dễ chết khi lâm bồn. Gặp Cự Kỵ dễ nạn sông nước; gặp Thanh Long là rồng gặp nước, hanh thông.",
+    "trang": [
+      86
+    ]
+  },
+  "luu-tu": {
+    "tomTat": "Sao thuộc Hỏa, tính giam hãm, gò bó, âu sầu; đóng cung nào hại cung đó.",
+    "tinhChat": "Đại tiểu hạn gặp Lưu Tù có hung tinh hội tất mắc vòng lao lý.",
+    "taiCung": {
+      "Nô Bộc": "Chủ cô độc, không thích ngao du chơi bời."
+    },
+    "trang": [
+      86
+    ]
+  },
+  "thien-thuong": {
+    "tomTat": "Sao thuộc Thổ, chủ buồn thảm, ngăn trở, bệnh tật tai ương.",
+    "tinhChat": "Tính buồn thảm, ngăn trở mọi việc, gây bệnh tật và tai ương. Giao hội Kiếp, Không mà đại hạn xấu thì tác họa kinh khủng (Nhan Hồi chết yểu vì cách này). Gặp Tang Môn đem lại biến đổi hay tang tóc.",
+    "trang": [
+      87
+    ]
+  },
+  "thien-su": {
+    "tomTat": "Sao thuộc Thủy, chủ buồn thảm, ngăn trở, bệnh tật tai ương.",
+    "tinhChat": "Tính buồn thảm, ngăn trở mọi việc, gây bệnh tật và tai ương. Giao hội Kiếp, Không mà đại hạn xấu thì tác họa kinh khủng (Nhan Hồi chết yểu vì cách này). Gặp Tang Môn và Thiên Cơ thì bị ngã hay bị người đánh.",
+    "trang": [
+      87
+    ]
+  },
+  "thien-la": {
+    "tomTat": "Thiên La (cung Thìn), lưới trời vây tỏa.",
+    "tinhChat": "La ở Thìn, Võng ở Tuất: lưới trời đất vây tỏa. Đại tiểu hạn gặp La Võng mà gặp sát tinh thì bị bắt bớ giam cầm, phá sản hoặc chết, nhất là Thái Tuế lưu niên đến hai cung ấy.",
+    "trang": [
+      87
+    ]
+  },
+  "dia-vong": {
+    "tomTat": "Địa Võng (cung Tuất), lưới đất vây tỏa.",
+    "tinhChat": "La ở Thìn, Võng ở Tuất: lưới trời đất vây tỏa. Đại tiểu hạn gặp La Võng mà gặp sát tinh thì bị bắt bớ giam cầm, phá sản hoặc chết, nhất là Thái Tuế lưu niên đến hai cung ấy.",
+    "trang": [
+      87
+    ]
+  }
+}

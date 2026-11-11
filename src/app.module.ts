@@ -1,12 +1,9 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from '@/database';
 import { ApiModule } from '@/api';
-import { VectorStoreModule } from '@/vectorstore-db/vector-store.module';
-import { AiModule } from '@/ai/ai.module';
 
+// Tạm thời chỉ chạy phần Tử Vi (lá số + luận giải). Database / VectorStore / AI
+// được tách khỏi app và loại khỏi build (xem tsconfig.build.json).
 @Module({
-  imports: [DatabaseModule, ApiModule, VectorStoreModule, AiModule],
-  controllers: [],
-  providers: [],
+  imports: [ApiModule],
 })
-export class AppModule { }
+export class AppModule {}
