@@ -331,16 +331,89 @@
       <div class="months">${nx.thang.map((t) => `<div class="month" data-month="${t.chi}" style="border-top:4px solid ${color(t.diem)}"><b>Tháng ${t.thang}</b>${esc(CHI[t.chi])} · ${esc(t.ten)}<br><span class="meta">${esc(t.xepLoai)}</span></div>`).join('')}</div>`;
   }
 
+  const TK_NGAN = { 'tinh-cach': 'Tính cách', 'gia-dao': 'Gia đạo', 'phuc-duc': 'Phúc đức', 'tinh-duyen': 'Tình duyên', 'con-cai': 'Con cái', 'su-nghiep': 'Sự nghiệp', 'tai-loc': 'Tài lộc', 'suc-khoe': 'Sức khỏe', 'quan-he': 'Xã hội' };
+  const TIN = { 'chac-chan': ['Chắc chắn', 'tin-cc'], cao: ['Rõ nét', 'tin-cao'], vua: ['Tham khảo', 'tin-vua'] };
+  const c100 = (d) => (d >= 70 ? 'var(--cat)' : d >= 50 ? 'var(--gold)' : d >= 40 ? 'var(--trung)' : 'var(--hung)');
+
+  function radar(chuDe) {
+    const n = chuDe.length, R = 92, cx = 150, cy = 128;
+    const pt = (i, r) => { const g = -Math.PI / 2 + (i * 2 * Math.PI) / n; return [cx + r * Math.cos(g), cy + r * Math.sin(g)]; };
+    const ring = (f) => chuDe.map((_, i) => pt(i, R * f).join(',')).join(' ');
+    const poly = chuDe.map((c, i) => pt(i, (R * c.diem) / 100).join(',')).join(' ');
+    return `<svg class="radar" viewBox="0 0 300 260" role="img" aria-label="Biểu đồ 9 phương diện">
+      ${[0.25, 0.5, 0.75, 1].map((f) => `<polygon points="${ring(f)}" class="r-ring"/>`).join('')}
+      ${chuDe.map((_, i) => `<line x1="${cx}" y1="${cy}" x2="${pt(i, R)[0]}" y2="${pt(i, R)[1]}" class="r-axis"/>`).join('')}
+      <polygon points="${poly}" class="r-area"/>
+      ${chuDe.map((c, i) => { const [x, y] = pt(i, (R * c.diem) / 100); return `<circle cx="${x}" cy="${y}" r="3.5" fill="${c100(c.diem)}"/>`; }).join('')}
+      ${chuDe.map((c, i) => { const [x, y] = pt(i, R + 18); const anc = Math.abs(x - cx) < 8 ? 'middle' : x > cx ? 'start' : 'end';
+        return `<a href="#tk-${c.key}"><text x="${x}" y="${y + 4}" text-anchor="${anc}" class="r-lbl">${esc(TK_NGAN[c.key] || c.tieuDe)} <tspan class="r-num" fill="${c100(c.diem)}">${c.diem}</tspan></text></a>`; }).join('')}
+    </svg>`;
+  }
+
+  function duongDoiSvg(dd) {
+    const pts = dd.diem.filter((d) => d.tuTuoi <= 92);
+    const W = 640, H = 190, L = 34, Rr = 12, T = 16, B = 34;
+    const x = (i) => L + (i * (W - L - Rr)) / Math.max(1, pts.length - 1);
+    const y = (v) => T + ((100 - v) * (H - T - B)) / 100;
+    const line = pts.map((d, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(d.diem).toFixed(1)}`).join(' ');
+    const area = `${line} L${x(pts.length - 1)},${y(0)} L${x(0)},${y(0)} Z`;
+    return `<svg class="lifeline" viewBox="0 0 ${W} ${H}" role="img" aria-label="Đường đời theo đại hạn">
+      <defs><linearGradient id="llg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="var(--gold)" stop-opacity=".35"/><stop offset="1" stop-color="var(--gold)" stop-opacity="0"/></linearGradient></defs>
+      ${[25, 50, 75].map((v) => `<line x1="${L}" x2="${W - Rr}" y1="${y(v)}" y2="${y(v)}" class="ll-grid"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end" class="ll-ax">${v}</text>`).join('')}
+      <path d="${area}" fill="url(#llg)"/>
+      <path d="${line}" class="ll-line"/>
+      ${pts.map((d, i) => `<g class="ll-pt" data-dh="${d.chi}" tabindex="0"><title>${d.tuTuoi}–${d.denTuoi} tuổi (${d.tuNam}–${d.denNam}) · ${esc(d.ten)} · ${d.diem}/100</title>
+        ${d.dangChay ? `<line x1="${x(i)}" x2="${x(i)}" y1="${T}" y2="${H - B}" class="ll-now"/><text x="${x(i)}" y="${T - 4}" text-anchor="middle" class="ll-nowt">hiện tại</text>` : ''}
+        <circle cx="${x(i)}" cy="${y(d.diem)}" r="${d.dangChay ? 6 : 4.5}" fill="${c100(d.diem)}" stroke="#fff" stroke-width="1.5"/>
+        <text x="${x(i)}" y="${H - B + 16}" text-anchor="middle" class="ll-ax">${d.tuTuoi}</text></g>`).join('')}
+      <text x="${W - Rr}" y="${H - 4}" text-anchor="end" class="ll-ax">tuổi bắt đầu đại hạn</text>
+    </svg>`;
+  }
+
+  function evChip(b, k) {
+    return `<span class="ev ${b.danhGia}" data-key="${esc(k)}" data-hits='${esc(JSON.stringify(b.hits))}' data-cung='${JSON.stringify(b.cung)}' title="Bấm để tô sáng trên lá số">${esc(b.ten)}</span>`;
+  }
+
   function renderTongKet() {
     const a = state.data.analysis;
-    return `<h3 class="section-title">Tổng kết luận giải</h3>
-      <p class="lead">Tổng hợp từ bản chất các sao, sự tương tác giữa chúng và các cung liên quan — đi từ gia đình, tính cách, số mệnh đến tình duyên, sự nghiệp, tài lộc, sức khỏe.</p>
-      ${a.tongKet.map((t) => `<div class="card ${t.danhGia} clickable" data-key="tk:${t.key}" data-hits='[]' data-cung='${JSON.stringify(t.cung.map((c) => c.chi))}'>
-        <h4>${esc(t.tieuDe)} ${vBadge(t.danhGia)}</h4>
-        ${t.cung.map((c) => `<p><span class="score" style="display:inline-flex">${scoreBar(c.diem)}</span> ${esc(c.tomTat)}</p>`).join('')}
-        ${t.diemNoi.length ? `<ul>${t.diemNoi.map((d) => `<li>${esc(d)}</li>`).join('')}</ul>` : '<p class="meta">Chưa có câu phú đặc thù cho chủ đề này — đánh giá dựa trên độ sáng của cung.</p>'}
-        ${t.luat.length > t.diemNoi.length ? `<p class="meta">+ ${t.luat.length - t.diemNoi.length} kết luận khác ở tab Cách cục & bộ sao.</p>` : ''}
-      </div>`).join('')}
+    const tk = a.tongKet;
+    const cd = tk.chanDung;
+    const tbDiem = Math.round(tk.chuDe.reduce((x, c) => x + c.diem, 0) / tk.chuDe.length);
+    return `<div class="tk-hero">
+        <div class="tk-hero-l">
+          <div class="tk-kicker">Chân dung lá số</div>
+          <h3 class="tk-title">${esc(cd.tieuDe)}</h3>
+          ${cd.doanVan.map((p) => `<p>${esc(p)}</p>`).join('')}
+          ${cd.tuKhoa.length ? `<div class="tk-tags">${cd.tuKhoa.map((t) => `<span>${esc(t)}</span>`).join('')}</div>` : ''}
+        </div>
+        <div class="tk-hero-r">${radar(tk.chuDe)}<div class="tk-avg">Trung bình <b style="color:${c100(tbDiem)}">${tbDiem}</b>/100</div></div>
+      </div>
+      <nav class="tk-toc">${tk.chuDe.map((c) => `<a href="#tk-${c.key}" class="${c.danhGia}"><span>${c.icon}</span>${esc(TK_NGAN[c.key])}<b>${c.diem}</b></a>`).join('')}</nav>
+
+      <h3 class="section-title">Đường đời qua các đại hạn</h3>
+      <div class="card">${duongDoiSvg(tk.duongDoi)}
+        <div class="tk-phases">${tk.duongDoi.giaiDoan.map((g) => `<div class="tk-phase ${g.danhGia}"><b>${esc(g.ten)}</b><span>${esc(g.noiDung)}</span></div>`).join('')}</div>
+        <p class="tk-peak cat">▲ ${esc(tk.duongDoi.dinh)}</p>
+        <p class="tk-peak hung">▼ ${esc(tk.duongDoi.trung)}</p>
+        <p class="meta">Bấm vào một điểm trên đường để xem cung đại hạn đó trên lá số.</p>
+      </div>
+
+      <h3 class="section-title">Luận theo từng phương diện</h3>
+      ${tk.chuDe.map((c) => `<article class="tk-topic ${c.danhGia}" id="tk-${c.key}">
+        <header data-key="tk:${c.key}" data-hits='[]' data-cung='${JSON.stringify(c.cung.map((x) => x.chi))}' class="clickable">
+          <span class="tk-icon">${c.icon}</span>
+          <div class="tk-h"><div class="tk-kicker">${esc(c.tieuDe)} · ${c.cung.map((x) => esc(x.ten)).join(', ')}</div><h4>${esc(c.ketLuanChinh)}</h4></div>
+          <div class="tk-ring" style="--p:${c.diem};--c:${c100(c.diem)}"><b>${c.diem}</b><small>${esc(c.muc)}</small></div>
+        </header>
+        ${c.doanVan.map((p, i) => `<p class="${i === c.doanVan.length - 1 ? 'tk-sum' : ''}">${esc(p)}</p>`).join('')}
+        ${c.ketLuan.length ? `<div class="tk-kl-t">Kết luận rút ra</div><ul class="tk-kl">${c.ketLuan.map((k, i) => `<li class="${k.danhGia}">
+            <span class="tin ${TIN[k.doTinCay][1]}">${TIN[k.doTinCay][0]}</span>
+            <span class="tk-kl-c">${esc(k.cau)}${k.trang ? ` <span class="meta">tr.${k.trang}</span>` : ''}</span>
+            <span class="tk-ev">${k.bangChung.map((b) => evChip(b, `tk:${c.key}:${i}`)).join('')}</span></li>`).join('')}</ul>` : ''}
+        <div class="tk-advice"><b>Lời khuyên:</b> ${esc(c.loiKhuyen)}</div>
+      </article>`).join('')}
+      <p class="meta">Mức độ “Chắc chắn”: kết luận cùng chiều với đánh giá chung của phương diện và được nhiều dấu hiệu độc lập (sao, cung, cách cục) xác nhận, hoặc là câu phú mức mạnh nhất trong sách. Điểm 0–100 là thước đo tham khảo do chương trình tính, không có trong sách.</p>
+
       <h3 class="section-title">Năm ${a.namXem.luu.namXem}</h3>
       ${a.namXem.muc.slice(0, 2).map(mucCard).join('')}
       ${a.namXem.luat.slice(0, 5).map(ruleCard).join('')}`;
@@ -371,6 +444,8 @@
     if (dg) { state.dgFilter = dg.dataset.dg || null; renderContent(); return; }
     const cd = e.target.closest('[data-cd]');
     if (cd) { state.chuDeFilter = cd.dataset.cd || null; renderContent(); return; }
+    const toc = e.target.closest('a[href^="#tk-"]');
+    if (toc) { e.preventDefault(); document.getElementById(toc.getAttribute('href').slice(1))?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     const dh = e.target.closest('[data-dh]');
     if (dh) { state.sel = +dh.dataset.dh; state.hits = []; state.hitCung = []; render(); return; }
     const mo = e.target.closest('[data-month]');

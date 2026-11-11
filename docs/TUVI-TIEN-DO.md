@@ -48,9 +48,21 @@ Cập nhật: 2026-11-11. Chi tiết kỹ thuật, cách chạy: xem [`TUVI.md`]
 - **Sửa lỗi crash phần Tổng kết.** Lá số Thân cư Mệnh (khoảng 1/6 số lá số) không có mục "Thân" riêng nên API trả lỗi 500.
 - **Thêm `scripts/fuzz.ts`.** Script chạy 8.000 bộ ngày sinh (năm 1900–2099, cả dương lịch và âm lịch). Sau khi sửa: 0 lỗi, không có `undefined` hay `NaN` trong kết quả.
 
+### Viết lại phần Tổng kết (`src/tuvi/tongket.ts`)
+- **Chân dung lá số.** Đoạn văn khái quát gồm mạng, cục, chính tinh thủ Mệnh và tính cách, cách cục đắc/phạm, phương diện mạnh/yếu, đại hạn đỉnh và trũng. Có từ khoá.
+- **Biểu đồ radar 9 phương diện:** tính cách, gia đạo, phúc đức, tình duyên, con cái, sự nghiệp, tài lộc, sức khỏe, xã hội.
+- **Đường đời.** Biểu đồ điểm của 12 đại hạn, đánh dấu hạn hiện tại; nhận định tiền/trung/hậu vận; chỉ ra hạn rực rỡ nhất và khó nhất (chỉ xét 18–75 tuổi).
+- **Luận từng phương diện:**
+  - Câu kết luận chính, có ghi kèm khi đắc cách mạnh.
+  - Các đoạn văn: chính tinh theo từng lĩnh vực (sáng/hãm), cát tinh và sát tinh tọa/chiếu, Tuần Triệt, cách cục theo sách, rồi tổng hợp.
+  - Danh sách "Kết luận rút ra" xếp theo độ tin cậy (*Chắc chắn* / *Rõ nét* / *Tham khảo*); mỗi kết luận có chip bằng chứng, bấm vào sẽ tô sáng sao trên lá số.
+  - Lời khuyên cuối mỗi phương diện.
+- **Văn mô tả 14 chính tinh** cho 5 lĩnh vực (tính cách, sự nghiệp, tài lộc, phối ngẫu, sức khỏe) và khoảng 40 phụ tinh. Viết dựa trên phần chư tinh của sách. Lưu ý: những đoạn này là văn tổng hợp, không trích nguyên văn.
+
 ## Chưa làm / còn hạn chế
 - **Trang cũ `/tuvi/laso` vẫn dùng engine cũ có lỗi.** Giao diện mới ở `/`. Nên bỏ trang cũ hoặc trỏ nó sang engine mới.
-- **Không có lời luận văn xuôi liền mạch như chuyên gia.** Hiện kết quả ghép từ các câu phú và luật khớp. Phần tổng hợp bằng AI đã tạm bỏ theo yêu cầu.
+- **Tổng kết đã viết thành văn,** nhưng sinh theo khuôn câu nên chưa uyển chuyển như thầy viết tay. Phần tổng hợp bằng AI vẫn đang tạm bỏ.
+- **"Độ tin cậy" là quy tắc của chương trình,** không có trong sách: kết luận cùng chiều với đánh giá chung và có từ 3 dấu hiệu xác nhận, hoặc là câu phú mức mạnh nhất.
 - **Điểm cung là thước đo heuristic tự đặt,** không có trong sách.
 - **Một số câu phú quá mơ hồ chưa được mã hoá.** Chưa tổng hợp danh sách các câu bị bỏ.
 - **Sách tự mâu thuẫn ở vài chỗ; engine chọn theo bài thơ an sao:**

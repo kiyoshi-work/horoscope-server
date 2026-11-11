@@ -15,6 +15,7 @@ import { CHI, Hanh, QuanHe, TEN_CUNG, dich, giap, muaSinh, nhiHop, quanHe, tamHo
 import { CATALOG, KB, StarInfo } from './kb';
 import { LuuNien, tinhLuuNien } from './han';
 import { Hit, RuleMatch, apLuatGoc, apLuatHan } from './rules';
+import { tongKetLuan } from './tongket';
 
 export type DanhGia = 'cat' | 'hung' | 'trung';
 export interface Muc {
@@ -531,52 +532,6 @@ function namXemView(chart: Chart, kb: KB, namXem: number): NamXemView {
   return { luu, diemTieuHan: d, xepLoai: xepLoai(d), muc, luat, thang };
 }
 
-// ───────────────────────────────────────────── Tổng kết theo chủ đề
-const CHU_DE: [string, string, string[]][] = [
-  ['gia-dao', 'Gia đình, cha mẹ, anh em', ['Phụ Mẫu', 'Huynh Đệ', 'Điền Trạch']],
-  ['tinh-cach', 'Tính cách, hình tướng', ['Mệnh', 'Thân']],
-  ['phuc-duc', 'Số mệnh, phúc đức, thọ yểu', ['Phúc Đức', 'Mệnh', 'Thân']],
-  ['tinh-duyen', 'Tình duyên, hôn nhân', ['Phu Thê']],
-  ['con-cai', 'Con cái', ['Tử Tức']],
-  ['su-nghiep', 'Sự nghiệp, công danh, học vấn', ['Quan Lộc', 'Mệnh', 'Thiên Di']],
-  ['tai-loc', 'Tài lộc, nhà cửa', ['Tài Bạch', 'Điền Trạch']],
-  ['suc-khoe', 'Sức khỏe, tai họa', ['Tật Ách']],
-  ['quan-he', 'Xã hội, bạn bè, xuất ngoại', ['Nô Bộc', 'Thiên Di']],
-];
-const CHU_DE_GOP: Record<string, string> = { 'ngoai-hinh': 'tinh-cach', 'tho-yeu': 'phuc-duc', 'hoc-van': 'su-nghiep', 'nha-cua': 'tai-loc', 'tai-hoa': 'suc-khoe', 'xuat-hanh': 'quan-he' };
-
-export interface ChuDeView {
-  key: string; tieuDe: string; cung: { ten: string; chi: number; diem: number; xepLoai: string; tomTat: string }[];
-  danhGia: DanhGia; diem: number; diemNoi: string[]; luat: MatchView[];
-}
-function tongKet(chart: Chart, matches: RuleMatch[], cungViews: CungView[]): ChuDeView[] {
-  return CHU_DE.map(([key, tieuDe, cungTen]) => {
-    // Thân cư Mệnh/Phúc… thì không có mục "Thân" riêng → bỏ qua, và không lặp cùng một cung
-    const cung = cungTen
-      .map((t) => cungViews.find((c) => c.ten === t) || cungViews.find((c) => c.ten.startsWith(t)))
-      .filter((c, i, a) => c && a.findIndex((x) => x && x.chi === c.chi && x.ten === c.ten) === i);
-    const chiSet = new Set(cung.map((c) => c.chi));
-    const luat = matches
-      .filter((m) => (m.rule.chuDe || []).some((c) => (CHU_DE_GOP[c] || c) === key) && (chiSet.has(m.chi) || arr(m.rule.cung).some((t) => cungTen.includes(t))))
-      .map((m) => toView(m, chart))
-      .sort((a, b) => b.mucDo - a.mucDo);
-    const seen = new Set<string>();
-    const uniq = luat.filter((l) => !seen.has(l.id) && seen.add(l.id));
-    const diem = Math.round((cung.reduce((a, c) => a + c.diem, 0) / cung.length) * 10) / 10;
-    const cat = uniq.filter((l) => l.danhGia === 'cat').reduce((a, l) => a + l.mucDo, 0);
-    const hung = uniq.filter((l) => l.danhGia === 'hung').reduce((a, l) => a + l.mucDo, 0);
-    const score = diem + (cat - hung) * 0.5;
-    return {
-      key, tieuDe, diem,
-      cung: cung.map((c) => ({ ten: c.ten, chi: c.chi, diem: c.diem, xepLoai: c.xepLoai, tomTat: c.tomTat })),
-      danhGia: (score >= 2.5 ? 'cat' : score <= -1.5 ? 'hung' : 'trung') as DanhGia,
-      diemNoi: uniq.slice(0, 6).map((l) => l.ketLuan),
-      luat: uniq,
-    };
-  });
-}
-
-// ───────────────────────────────────────────── Tổng hợp
 export function luanGiai(chart: Chart, kb: KB, namXem: number) {
   const matches = apLuatGoc(chart, kb);
   const tb = chart.thienBan;
@@ -595,13 +550,14 @@ export function luanGiai(chart: Chart, kb: KB, namXem: number) {
     .map((m) => toView(m, chart))
     .sort((a, b) => b.mucDo - a.mucDo);
   const tuoi = namXem - tb.amLich.nam + 1;
+  const daiHan = daiHanList(chart, kb, tuoi);
   return {
     tongQuan: tongQuan(chart, kb),
     cachCuc,
     cung: cungViews,
-    daiHan: daiHanList(chart, kb, tuoi),
+    daiHan,
     namXem: namXemView(chart, kb, namXem),
-    tongKet: tongKet(chart, matches, cungViews),
+    tongKet: tongKetLuan(chart, kb, matches, cungViews, daiHan),
     thongKe: { soLuat: kb.rules.length, soSaoCoGiaiNghia: Object.keys(kb.stars).length, soLuatKhop: matches.length },
   };
 }
