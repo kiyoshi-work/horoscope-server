@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xem hợp hôn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+<body class="hh">
+  <header class="topbar hh-top">
+    <div class="brand">
+      <span class="seal">合</span>
+      <div>
+        <h1>Xem hợp hôn</h1>
+        <p>Đối chiếu hai lá số Tử Vi · <a href="/">← Lập một lá số</a></p>
+      </div>
+    </div>
+    <form id="form" class="hh-form" autocomplete="off">
+      <fieldset class="hh-person nam">
+        <legend>♂ Nam</legend>
+        <input name="a_ten" placeholder="Họ tên" class="hh-ten" />
+        <span class="dmy"><input name="a_ngay" type="number" min="1" max="31" required placeholder="dd" /><input name="a_thang" type="number" min="1" max="12" required placeholder="mm" /><input name="a_nam" type="number" min="1900" max="2100" required placeholder="yyyy" /></span>
+        <select name="a_gio" class="gio"></select>
+        <select name="a_lich"><option value="duong">Dương lịch</option><option value="am">Âm lịch</option></select>
+        <label class="nh" title="Chỉ khi nhập âm lịch"><input type="checkbox" name="a_thangNhuan" /> nhuận</label>
+      </fieldset>
+      <fieldset class="hh-person nu">
+        <legend>♀ Nữ</legend>
+        <input name="b_ten" placeholder="Họ tên" class="hh-ten" />
+        <span class="dmy"><input name="b_ngay" type="number" min="1" max="31" required placeholder="dd" /><input name="b_thang" type="number" min="1" max="12" required placeholder="mm" /><input name="b_nam" type="number" min="1900" max="2100" required placeholder="yyyy" /></span>
+        <select name="b_gio" class="gio"></select>
+        <select name="b_lich"><option value="duong">Dương lịch</option><option value="am">Âm lịch</option></select>
+        <label class="nh" title="Chỉ khi nhập âm lịch"><input type="checkbox" name="b_thangNhuan" /> nhuận</label>
+      </fieldset>
+      <div class="hh-go">
+        <label>Năm xem<input name="namXem" type="number" min="1900" max="2200" /></label>
+        <button type="submit" class="btn-primary">Xem hợp hôn</button>
+      </div>
+    </form>
+  </header>
+
+  <main class="layout hh-layout">
+    <section class="chart-wrap">
+      <div class="hh-switch" id="switch" role="tablist">
+        <button data-ben="nam" class="on">♂ Lá số <b id="tenNam">Nam</b></button>
+        <button data-ben="nu">♀ Lá số <b id="tenNu">Nữ</b></button>
+      </div>
+      <div id="chart" class="chart" aria-label="Lá số"></div>
+      <div class="legend">
+        <span>Dấu của người kia trên lá số này:</span>
+        <span class="mk cat">Tuổi</span><span class="mk cat">Mệnh</span><span class="mk hoa cat">Lộc</span><span class="mk hoa hung">Kỵ</span>
+        <span class="sep"></span>
+        <label class="toggle"><input type="checkbox" id="showChong" checked /> Chồng lá số</label>
+      </div>
+      <p class="hint">Bấm vào chip bằng chứng ở bên phải: lá số tự chuyển sang người liên quan và tô sáng sao, cung. Viền xanh là cung Mệnh, viền hồng là cung Phu Thê.</p>
+    </section>
+
+    <section class="panel">
+      <nav class="tabs" id="tabs">
+        <button data-tab="tong" class="active"><b>1</b> Tổng quan</button>
+        <button data-tab="lop"><b>2</b> Đối chiếu</button>
+        <button data-tab="bosung"><b>3</b> Bổ sung</button>
+        <button data-tab="vande"><b>4</b> Nếu thành</button>
+        <button data-tab="nam"><b>5</b> Năm cưới</button>
+      </nav>
+      <div id="content" class="content"><div class="empty">Nhập ngày giờ sinh của hai người và bấm <b>Xem hợp hôn</b>.</div></div>
+    </section>
+  </main>
+  <footer class="foot">Phần đối chiếu hai lá số <b>không có</b> trong sách <i>Tử Vi Chính Biện</i>. Nó dựa trên thực hành phổ biến (tuổi, chồng lá số, Thái Tuế nhập quái), và mỗi mục đều ghi nguồn: <span class="src sach">Sách</span> <span class="src thuc-hanh">Thực hành</span> <span class="src tong-hop">Tổng hợp</span>. Điểm số chỉ để tham khảo, không phải lời phán quyết về một mối quan hệ.</footer>
+  <script src="/hophon.js"></script>
+</body>
+</html>

@@ -59,6 +59,20 @@ Cập nhật: 2026-11-11. Chi tiết kỹ thuật, cách chạy: xem [`TUVI.md`]
   - Lời khuyên cuối mỗi phương diện.
 - **Văn mô tả 14 chính tinh** cho 5 lĩnh vực (tính cách, sự nghiệp, tài lộc, phối ngẫu, sức khỏe) và khoảng 40 phụ tinh. Viết dựa trên phần chư tinh của sách. Lưu ý: những đoạn này là văn tổng hợp, không trích nguyên văn.
 
+### Phiên 2026-11-12: Xem hợp hôn
+- **Engine `src/tuvi/hophon.ts`.** Đối chiếu hai lá số theo 5 lớp có trọng số, mỗi kết luận kèm nguồn và chip bằng chứng. Thêm danh sách vấn đề nếu thành và lịch năm cưới 10 năm.
+- **API** `GET /api/tuvi/hophon` với tham số `a_*` cho nam, `b_*` cho nữ.
+- **Trang `/hophon.html`:**
+  - Chuyển qua lại giữa hai lá số. Dấu của người kia (Tuổi, Mệnh, Lộc/Quyền/Khoa/Kỵ, Lộc Tồn/Kình/Đà) vẽ thẳng lên lá số.
+  - Vòng điểm tổng và thanh điểm 5 lớp.
+  - Radar 9 phương diện của hai người chồng lên nhau. Hai đường đời theo năm, có dải tô màu đoạn cùng trũng và cùng thịnh.
+  - Lưới năm cưới.
+- **Test:** `hophon.spec.ts`, cộng fuzz 400 cặp không lỗi.
+- **Hạn chế:**
+  - Phương pháp đối chiếu là thực hành ngoài sách; nguồn tham khảo trên mạng rời rạc, chưa có sách chuyên về hợp hôn tử vi để đối chiếu.
+  - Trọng số các lớp và điểm từng tín hiệu là heuristic tự đặt.
+  - Chưa xét Tự Hóa và phi hóa theo can cung (Tứ Hóa phái đầy đủ), chưa xét cung phi Bát Trạch.
+
 ## Chưa làm / còn hạn chế
 - **Trang cũ `/tuvi/laso` vẫn dùng engine cũ có lỗi.** Giao diện mới ở `/`. Nên bỏ trang cũ hoặc trỏ nó sang engine mới.
 - **Tổng kết đã viết thành văn,** nhưng sinh theo khuôn câu nên chưa uyển chuyển như thầy viết tay. Phần tổng hợp bằng AI vẫn đang tạm bỏ.

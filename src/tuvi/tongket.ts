@@ -14,7 +14,7 @@ import type { CungView, DaiHanView, DanhGia } from './analysis';
 
 type Linh = 'tc' | 'sn' | 'tl' | 'pt' | 'sk';
 /** [khi sáng (miếu/vượng/đắc), khi hãm/bình] */
-const CT: Record<string, Record<Linh, [string, string]>> = {
+export const CT: Record<string, Record<Linh, [string, string]>> = {
   'tu-vi': {
     tc: ['đôn hậu, đường bệ, có uy, trọng danh dự và thích đứng đầu', 'tự cao, thích được tâng bốc, nhiều ý tưởng lớn nhưng thiếu người phò tá thì khó thành'],
     sn: ['có tố chất lãnh đạo, hợp vị trí quản lý, công quyền; càng có quyền càng phát', 'chí lớn nhưng thiếu thế, nên chọn môi trường ổn định và xây dựng người giúp việc'],
